@@ -1,0 +1,557 @@
+{
+  "meta": {
+    "title": "Produktdokumentasjon",
+    "name": "produktdokumentasjon"
+  },
+  "computed": {
+    "ceValgfri": {
+      "type": "or",
+      "clauses": [
+        { "field": "produktType", "operator": "eq", "value": "radonmembran" }
+      ]
+    }
+  },
+  "schema": [
+    {
+      "id": "tingTilGjenbruk",
+      "type": "Page",
+      "show": { "field": "neverShow", "operator": "eq", "value": 123 },
+      "children": [
+        {
+          "id": "egenskapProduktdokumentasjon",
+          "type": "Branch",
+          "branches": [
+            {
+              "test": { "field": "produktType", "operator": "required" },
+              "children": [
+                {
+                  "id": "viktigsteEgenskaper",
+                  "property": "viktigsteEgenskaper",
+                  "type": "Radio",
+                  "show": { "field": "produktType", "operator": "eq", "value": "radonmembran"},
+                  "heading": "Er radonmembranens viktigste egenskaper beskrevet i produktdokumentasjonen?",
+                  "options": [
+                    {
+                      "id": "viktigsteEgenskaper.ja",
+                      "type": "Answer",
+                      "heading": "Ja",
+                      "value": true
+                    },
+                    {
+                      "id": "viktigsteEgenskaper.nei",
+                      "type": "Answer",
+                      "heading": "Nei",
+                      "value": false
+                    }
+                  ]
+                },
+                {
+                  "id": "viktigsteEgenskaper",
+                  "property": "viktigsteEgenskaper",
+                  "type": "Radio",
+                  "show": { "field": "produktType", "operator": "eq", "value": "vindu"},
+                  "heading": "Er vinduets viktigste egenskaper beskrevet i produktdokumentasjonen?",
+                  "options": [
+                    {
+                      "id": "viktigsteEgenskaper.ja",
+                      "type": "Answer",
+                      "heading": "Ja",
+                      "value": true
+                    },
+                    {
+                      "id": "viktigsteEgenskaper.nei",
+                      "type": "Answer",
+                      "heading": "Nei",
+                      "value": false
+                    }
+                  ]
+                },
+                {
+                  "id": "viktigsteEgenskaper.error",
+                  "type": "Error",
+                  "show": { "field": "viktigsteEgenskaper", "operator": "eq", "value": false },
+                  "children": [
+                    {
+                      "id": "viktigsteEgenskaper.error.msg",
+                      "type": "Text",
+                      "warning": true,
+                      "heading": "😿 Jammen. Hva er vitsen da?"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "egenskapYtelseserklaering",
+          "type": "Branch",
+          "branches": [
+            {
+              "test": { "field": "produktType", "operator": "required" },
+              "children": [
+                {
+                  "id": "viktigsteEgenskaperYtelseserklaering",
+                  "property": "viktigsteEgenskaperYtelseserklaering",
+                  "type": "Radio",
+                  "show": { "field": "produktType", "operator": "eq", "value": "radonmembran"},
+                  "heading": "Er radonmembranens viktigste egenskaper beskrevet i ytelseserklæringen?",
+                  "options": [
+                    {
+                      "id": "viktigsteEgenskaperYtelseserklaering.ja",
+                      "type": "Answer",
+                      "heading": "Ja",
+                      "value": true
+                    },
+                    {
+                      "id": "viktigsteEgenskaperYtelseserklaering.nei",
+                      "type": "Answer",
+                      "heading": "Nei",
+                      "value": false
+                    }
+                  ]
+                },
+                {
+                  "id": "viktigsteEgenskaperYtelseserklaering",
+                  "property": "viktigsteEgenskaperYtelseserklaering",
+                  "type": "Radio",
+                  "show": { "field": "produktType", "operator": "eq", "value": "vindu"},
+                  "heading": "Er vinduets viktigste egenskaper beskrevet i ytelseserklæringen?",
+                  "options": [
+                    {
+                      "id": "viktigsteEgenskaperYtelseserklaering.ja",
+                      "type": "Answer",
+                      "heading": "Ja",
+                      "value": true
+                    },
+                    {
+                      "id": "viktigsteEgenskaperYtelseserklaering.nei",
+                      "type": "Answer",
+                      "heading": "Nei",
+                      "value": false
+                    }
+                  ]
+                },
+                {
+                  "id": "viktigsteEgenskaperYtelseserklaering.error",
+                  "type": "Error",
+                  "show": { "field": "viktigsteEgenskaperYtelseserklaering", "operator": "eq", "value": false },
+                  "children": [
+                    {
+                      "id": "viktigsteEgenskaperYtelseserklaering.error.msg",
+                      "type": "Text",
+                      "warning": true,
+                      "heading": "😿 Jammen. Hva er vitsen da?"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]      
+    },
+    {
+      "id": "produkt",
+      "type": "Page",
+      "heading": "Type produkt",
+      "children": [
+        {
+          "id": "produktType",
+          "property": "produktType",
+          "type": "Radio",
+          "heading": "Hva slags produkt?",
+          "options": [
+            {
+              "id": "produktType.radonmembran",
+              "type": "Answer",
+              "heading": "Radonmembran",
+              "value": "radonmembran"
+            },
+            {
+              "id": "produktType.vindu",
+              "type": "Answer",
+              "heading": "Vindu",
+              "value": "vindu"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ce",
+      "type": "Page",
+      "heading": "CE-merking",
+      "show": { "field": "produktType", "operator": "required" },
+      "children": [
+        {
+          "type": "Group",
+          "simple": true,
+          "children": [
+            {
+              "id": "valgriCeMerking",
+              "type": "Text",
+              "show": { "field": "$computed.ceValgfri", "operator": "is" },
+              "text": "<p>Noe greier om at CE-merking er innmari valgfritt osv...</p>"
+            },
+            {
+              "id": "produktCeMerket",
+              "property": "produktCeMerket",
+              "type": "Radio",
+              "heading": "Er produktet CE-merket?",
+              "options": [
+                {
+                  "id": "produktCeMerket.ja",
+                  "type": "Answer",
+                  "heading": "Ja",
+                  "value": true
+                },
+                {
+                  "id": "produktCeMerket.nei",
+                  "type": "Answer",
+                  "heading": "Nei",
+                  "value": false
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "produktdokumentasjon",
+      "type": "Page",
+      "heading": "Produktdokumentasjon",
+      "show": {
+        "type": "and",
+        "clauses": [
+          { "field": "$computed.ceValgfri", "operator": "is" },
+          { "field": "produktCeMerket", "operator": "eq", "value": false }
+        ]
+      },
+      "children": [
+        {
+          "id": "finnesDokumentasjon",
+          "property": "finnesDokumentasjon",
+          "type": "Radio",
+          "heading": "Finnes det produktdokumentasjon?",
+          "options": [
+            {
+              "id": "finnesDokumentasjon.ja",
+              "type": "Answer",
+              "heading": "Ja",
+              "value": true
+            },
+            {
+              "id": "finnesDokumentasjon.nei",
+              "type": "Answer",
+              "heading": "Nei",
+              "value": false
+            }
+          ]
+        },
+        {
+          "id": "resultatManglerDokumentasjon",
+          "type": "Result",
+          "heading": "Nein!",
+          "show": { "field": "finnesDokumentasjon", "operator": "eq", "value": false },
+          "children": [
+            {
+              "id": "resultatManglerDokumentasjon.error",
+              "type": "Error",
+              "show": { "field": "finnesDokumentasjon", "operator": "eq", "value": false },
+              "children": [
+                {
+                  "id": "resultatManglerDokumentasjon.msg",
+                  "type": "Text",
+                  "warning": true,
+                  "heading": "👮‍ Sie müssen Dokumentation haben"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "dokumentasjonOppfylt",
+          "property": "dokumentasjonOppfylt",
+          "type": "Radio",
+          "heading": "Er kravene til produktdokumentasjon oppfylt?",
+          "options": [
+            {
+              "id": "dokumentasjonOppfylt.ja",
+              "type": "Answer",
+              "heading": "Ja",
+              "value": true
+            },
+            {
+              "id": "dokumentasjonOppfylt.nei",
+              "type": "Answer",
+              "heading": "Nei",
+              "value": false
+            }
+          ]
+        },
+        {
+          "id": "dokumentasjonOppfylt.error",
+          "type": "Error",
+          "show": { "field": "dokumentasjonOppfylt", "operator": "eq", "value": false },
+          "children": [
+            {
+              "id": "dokumentasjonOppfylt.error.msg",
+              "type": "Text",
+              "warning": true,
+              "heading": "🚨 Aiai"
+            }
+          ]
+        },
+        {
+          "id": "dokumentasjonSpraak",
+          "property": "dokumentasjonSpraak",
+          "type": "Radio",
+          "heading": "Er produktdokumentasjonen på norsk, svensk eller dansk?",
+          "options": [
+            {
+              "id": "dokumentasjonSpraak.ja",
+              "type": "Answer",
+              "heading": "Ja",
+              "value": true
+            },
+            {
+              "id": "dokumentasjonSpraak.nei",
+              "type": "Answer",
+              "heading": "Nei",
+              "value": false
+            }
+          ]
+        },
+        {
+          "id": "dokumentasjonSpraak.error",
+          "type": "Error",
+          "show": { "field": "dokumentasjonSpraak", "operator": "eq", "value": false },
+          "children": [
+            {
+              "id": "dokumentasjonSpraak.error.msg",
+              "type": "Text",
+              "warning": true,
+              "heading": "🇳🇴, 🇸🇪 eller 🇩🇰 er det eneste som er godt nok"
+            }
+          ]
+        },
+        {
+          "type": "Reference",
+          "nodeId": "egenskapProduktdokumentasjon"
+        }
+      ]
+    },
+    {
+      "id": "ytelseserklæring",
+      "type": "Page",
+      "heading": "Ytelseserklæring",
+      "show": {
+        "type": "or",
+        "clauses": [
+          { "field": "$computed.ceValgfri", "operator": "eq", "value": false },
+          { "field": "produktCeMerket", "operator": "eq", "value": true }
+        ]
+      },
+      "children": [
+        {
+          "id": "ytelsesErklæringFremlagt",
+          "property": "ytelsesErklæringFremlagt",
+          "type": "Radio",
+          "heading": "Kan ansvarlig foretak legge frem ytelseserklæringen for produktet?",
+          "options": [
+            {
+              "id": "ytelsesErklæringFremlagt.ja",
+              "type": "Answer",
+              "heading": "Ja",
+              "value": true
+            },
+            {
+              "id": "ytelsesErklæringFremlagt.nei",
+              "type": "Answer",
+              "heading": "Nei",
+              "value": false
+            }
+          ]
+        },
+        {
+          "id": "ytelseserklæringIkkeLagtFrem",
+          "type": "Result",
+          "heading": "Nein!",
+          "show": { "field": "ytelsesErklæringFremlagt", "operator": "eq", "value": false },
+          "children": [
+            {
+              "id": "ytelseserklæringIkkeLagtFrem.error",
+              "type": "Error",
+              "show": { "field": "ytelsesErklæringFremlagt", "operator": "eq", "value": false },
+              "children": [
+                {
+                  "id": "ytelseserklæringIkkeLagtFrem.msg",
+                  "type": "Text",
+                  "warning": true,
+                  "heading": "✏️ Da er det bare å forte seg å skrive den, for uten kommer du ingen vei.."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "ytelseserklaeringSpraak",
+          "property": "ytelseserklaeringSpraak",
+          "type": "Radio",
+          "heading": "Er ytelseserklæringen på norsk, svensk eller dansk?",
+          "options": [
+            {
+              "id": "ytelseserklaeringSpraak.ja",
+              "type": "Answer",
+              "heading": "Ja",
+              "value": true
+            },
+            {
+              "id": "ytelseserklaeringSpraak.nei",
+              "type": "Answer",
+              "heading": "Nei",
+              "value": false
+            }
+          ]
+        },
+        {
+          "id": "ytelseserklaeringSpraak.error",
+          "type": "Error",
+          "show": { "field": "ytelseserklaeringSpraak", "operator": "eq", "value": false },
+          "children": [
+            {
+              "id": "ytelseserklaeringSpraak.error.msg",
+              "type": "Text",
+              "warning": true,
+              "heading": "🇳🇴, 🇸🇪 eller 🇩🇰 er det eneste som er godt nok"
+            }
+          ]
+        },
+        {
+          "type": "Reference",
+          "nodeId": "egenskapYtelseserklaering"
+        }
+      ]
+    },
+    {
+      "id": "prosjektering",
+      "type": "Page",
+      "heading": "Prosjektering",
+      "children": [
+        {
+          "id": "produktytelseSamsvarer",
+          "property": "produktytelseSamsvarer",
+          "type": "Radio",
+          "heading": "Er produktets ytelser i samsvar med prosjekteringen?",
+          "options": [
+            {
+              "id": "produktytelseSamsvarer.ja",
+              "type": "Answer",
+              "heading": "Ja",
+              "value": true
+            },
+            {
+              "id": "produktytelseSamsvarer.nei",
+              "type": "Answer",
+              "heading": "Nei",
+              "value": false
+            }
+          ]
+        },
+        {
+          "id": "produktytelseSamsvarer.error",
+          "type": "Error",
+          "show": { "field": "produktytelseSamsvarer", "operator": "eq", "value": false },
+          "children": [
+            {
+              "id": "produktytelseSamsvarer.error.msg",
+              "type": "Text",
+              "warning": true,
+              "heading": "Hver gang det ikke samsvarer dør en kattepus 😿"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "monteringsveiledning",
+      "type": "Page",
+      "heading": "Monteringsveiledning",
+      "children": [
+        {
+          "id": "finnesProdusentensVeiledning",
+          "property": "finnesProdusentensVeiledning",
+          "type": "Radio",
+          "heading": "Kan ansvarlig foretak legge frem produsentens monteringsveiledning?",
+          "options": [
+            {
+              "id": "finnesProdusentensVeiledning.ja",
+              "type": "Answer",
+              "heading": "Ja",
+              "value": true
+            },
+            {
+              "id": "finnesProdusentensVeiledning.nei",
+              "type": "Answer",
+              "heading": "Nei",
+              "value": false
+            }
+          ]
+        },
+        {
+          "id": "finnesProdusentensVeiledning.error",
+          "type": "Error",
+          "show": { "field": "finnesProdusentensVeiledning", "operator": "eq", "value": false },
+          "children": [
+            {
+              "id": "finnesProdusentensVeiledning.error.msg",
+              "type": "Text",
+              "warning": true,
+              "heading": "🔥 <a href=\"https://www.youtube.com/watch?v=dQw4w9WgXcQ\">Å nei</a>"
+            }
+          ]
+        },
+        {
+          "id": "monteringsveiledningSpraak",
+          "property": "monteringsveiledningSpraak",
+          "type": "Radio",
+          "heading": "Er monteringsveiledningen på norsk, svensk eller dansk?",
+          "options": [
+            {
+              "id": "monteringsveiledningSpraak.ja",
+              "type": "Answer",
+              "heading": "Ja",
+              "value": true
+            },
+            {
+              "id": "monteringsveiledningSpraak.nei",
+              "type": "Answer",
+              "heading": "Nei",
+              "value": false
+            }
+          ]
+        },
+        {
+          "id": "monteringsveiledningSpraak.error",
+          "type": "Error",
+          "show": { "field": "monteringsveiledningSpraak", "operator": "eq", "value": false },
+          "children": [
+            {
+              "id": "monteringsveiledningSpraak.error.msg",
+              "type": "Text",
+              "warning": true,
+              "heading": "🤐 <a href=\"https://www.youtube.com/watch?v=waEC-8GFTP4\">Får vel bare gjette da...</a>"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "manglerProduktdokumentasjon",
+      "type": "Result",
+      "heading": "Nå har du kommet til slutten 🙌"
+    }
+  ]
+}
