@@ -7,7 +7,13 @@
     "ceValgfri": {
       "type": "or",
       "clauses": [
-        { "field": "produktType", "operator": "eq", "value": "radonmembran" }
+        { "field": "produktType", "operator": "eq", "value": "radonmembran" },
+        { "field": "produktType", "operator": "eq", "value": "rekkverkAluStalGlass" },
+        { "field": "produktType", "operator": "eq", "value": "prefabrikertBaderomsmodul" },
+        { "field": "produktType", "operator": "eq", "value": "prefabrikerteByggmodulerTre" },
+        { "field": "produktType", "operator": "eq", "value": "prefabrikerteByggmodulerStal" },
+        { "field": "produktType", "operator": "eq", "value": "brannsikkerFugemasse" },
+        { "field": "produktType", "operator": "eq", "value": "trapp" }
       ]
     }
   },
@@ -116,7 +122,7 @@
                   "property": "viktigsteEgenskaperYtelseserklaering",
                   "type": "Radio",
                   "show": { "field": "produktType", "operator": "eq", "value": "vindu"},
-                  "heading": "Er vinduets viktigste egenskaper beskrevet i ytelseserklæringen?",
+                  "heading": "Er vinduets viktigste ytelser beskrevet i ytelseserklæringen?",
                   "options": [
                     {
                       "id": "viktigsteEgenskaperYtelseserklaering.ja",
@@ -163,10 +169,118 @@
           "heading": "Hva slags produkt?",
           "options": [
             {
+              "id": "produktType.brannsikkerFugemasse",
+              "type": "Answer",
+              "heading": "Brannsikker fugemasse",
+              "value": "brannsikkerFugemasse"
+            },
+            {
+              "id": "produktType.hulldekkeelementer",
+              "type": "Answer",
+              "heading": "Hulldekke-elementer",
+              "value": "hulldekkeelementer"
+            },
+            {
+              "id": "produktType.laminertGlass",
+              "type": "Answer",
+              "heading": "Laminert glass",
+              "value": "laminertGlass"
+            },
+            {
+              "id": "produktType.prefabrikertBaderomsmodul",
+              "type": "Answer",
+              "heading": "Prefabrikert baderomsmodul",
+              "value": "prefabrikertBaderomsmodul"
+            },
+            {
+              "id": "produktType.prefabrikertTrapp",
+              "type": "Answer",
+              "heading": "Prefabrikert trapp",
+              "value": "prefabrikertTrapp"
+            },
+            {
+              "id": "produktType.prefabrikerteByggmodulerTre",
+              "type": "Answer",
+              "heading": "Prefabrikerte byggmoduler i tre",
+              "value": "prefabrikerteByggmodulerTre"
+            },
+            {
+              "id": "produktType.prefabrikerteStalkonstruksjoner",
+              "type": "Answer",
+              "heading": "Prefabrikerte stålkonstruksjoner",
+              "value": "prefabrikerteStalkonstruksjoner"
+            },
+            {
+              "id": "produktType.prefabrikerteByggmodulerStal",
+              "type": "Answer",
+              "heading": "Prefabrikerte byggmoduler i stål",
+              "value": "prefabrikerteByggmodulerStal"
+            },
+            {
+              "id": "produktType.pahengsfasader",
+              "type": "Answer",
+              "heading": "Påhengsfasader",
+              "value": "pahengsfasader"
+            },
+            {
               "id": "produktType.radonmembran",
               "type": "Answer",
               "heading": "Radonmembran",
               "value": "radonmembran"
+            },
+            {
+              "id": "produktType.rekkverkAluStalGlass",
+              "type": "Answer",
+              "heading": "Rekkverk med aluminium- eller stålprofiler og glass",
+              "value": "rekkverkAluStalGlass"
+            },
+            {
+              "id": "produktType.ror",
+              "type": "Answer",
+              "heading": "Rør og rørdeler i betong",
+              "value": "ror"
+            },
+            {
+              "id": "produktType.sandwitchelementer",
+              "type": "Answer",
+              "heading": "Sandwitchelementer",
+              "value": "sandwitchelementer"
+            },
+            {
+              "id": "produktType.styrkesortertKonstruksjonsvirke",
+              "type": "Answer",
+              "heading": "Styrkesortert konstruksjonsvirke (med rektangulært tverrsnitt)",
+              "value": "styrkesortertKonstruksjonsvirke"
+            },
+            {
+              "id": "produktType.takbelegg",
+              "type": "Answer",
+              "heading": "Takbelegg med asfalt (asfalttakbelegg)",
+              "value": "takbelegg"
+            },
+            {
+              "id": "produktType.takstoler",
+              "type": "Answer",
+              "heading": "Takstoler",
+              "value": "takstoler"
+            },
+            {
+              "id": "produktType.fasadekledningMetall",
+              "type": "Answer",
+              "heading": "Utvendig fasadekledning i metall",
+              "value": "fasadekledningMetall"
+            },
+            {
+              "id": "produktType.veggelement",
+              "type": "Answer",
+              "heading": "Veggelementer i betong",
+              "value": "veggelement"
+            },
+            {
+              "id": "produktType.vindsperre",
+              "type": "Answer",
+              "heading": "Vindsperre på rull",
+              "value": "vindsperre"
             },
             {
               "id": "produktType.vindu",
@@ -211,6 +325,19 @@
                   "type": "Answer",
                   "heading": "Nei",
                   "value": false
+                }
+              ]
+            },
+            {
+              "id": "produktCeMerket.error",
+              "type": "Error",
+              "show": { "field": "produktCeMerket", "operator": "eq", "value": false },
+              "children": [
+                {
+                  "id": "produktCeMerket.msg",
+                  "type": "Text",
+                  "warning": true,
+                  "heading": "😔 Det hadde vært bedre om det hadde det..."
                 }
               ]
             }
@@ -476,15 +603,15 @@
       ]
     },
     {
-      "id": "monteringsveiledning",
+      "id": "bruksanvisning",
       "type": "Page",
-      "heading": "Monteringsveiledning",
+      "heading": "Bruksanvisning",
       "children": [
         {
           "id": "finnesProdusentensVeiledning",
           "property": "finnesProdusentensVeiledning",
           "type": "Radio",
-          "heading": "Kan ansvarlig foretak legge frem produsentens monteringsveiledning?",
+          "heading": "Kan ansvarlig foretak legge frem produsentens bruksanvisning?",
           "options": [
             {
               "id": "finnesProdusentensVeiledning.ja",
@@ -514,35 +641,49 @@
           ]
         },
         {
-          "id": "monteringsveiledningSpraak",
-          "property": "monteringsveiledningSpraak",
-          "type": "Radio",
-          "heading": "Er monteringsveiledningen på norsk, svensk eller dansk?",
-          "options": [
+          "type": "Branch",
+          "branches": [
             {
-              "id": "monteringsveiledningSpraak.ja",
-              "type": "Answer",
-              "heading": "Ja",
-              "value": true
-            },
-            {
-              "id": "monteringsveiledningSpraak.nei",
-              "type": "Answer",
-              "heading": "Nei",
-              "value": false
-            }
-          ]
-        },
-        {
-          "id": "monteringsveiledningSpraak.error",
-          "type": "Error",
-          "show": { "field": "monteringsveiledningSpraak", "operator": "eq", "value": false },
-          "children": [
-            {
-              "id": "monteringsveiledningSpraak.error.msg",
-              "type": "Text",
-              "warning": true,
-              "heading": "🤐 <a href=\"https://www.youtube.com/watch?v=waEC-8GFTP4\">Får vel bare gjette da...</a>"
+              "test": { "field": "finnesProdusentensVeiledning", "operator": "eq", "value": true },
+              "children": [
+                {
+                  "id": "bruksanvisningSpraak",
+                  "property": "bruksanvisningSpraak",
+                  "type": "Radio",
+                  "heading": "Er bruksanvisningen på norsk, svensk eller dansk?",
+                  "options": [
+                    {
+                      "id": "bruksanvisningSpraak.ja",
+                      "type": "Answer",
+                      "heading": "Ja",
+                      "value": true
+                    },
+                    {
+                      "id": "bruksanvisningSpraak.nei",
+                      "type": "Answer",
+                      "heading": "Nei",
+                      "value": false
+                    }
+                  ]
+                },
+                {
+                  "id": "bruksanvisningSpraak.error",
+                  "type": "Error",
+                  "show": { 
+                    "field": "bruksanvisningSpraak", 
+                    "operator": "eq", 
+                    "value": false 
+                  },
+                  "children": [
+                    {
+                      "id": "bruksanvisningSpraak.error.msg",
+                      "type": "Text",
+                      "warning": true,
+                      "heading": "🤐 <a href=\"https://www.youtube.com/watch?v=waEC-8GFTP4\">Får vel bare gjette da...</a>"
+                    }
+                  ]
+                }
+              ]
             }
           ]
         }
