@@ -172,121 +172,201 @@
               "id": "produktType.brannsikkerFugemasse",
               "type": "Answer",
               "heading": "Brannsikker fugemasse",
-              "value": "brannsikkerFugemasse"
+              "value": "brannsikkerFugemasse",
+              "image": {
+                "url": "/images/brannfugemasse.png",
+                "alt": "Brannsikker fugemasse"
+              }
             },
             {
               "id": "produktType.hulldekkeelementer",
               "type": "Answer",
               "heading": "Hulldekke-elementer",
-              "value": "hulldekkeelementer"
+              "value": "hulldekkeelementer",
+              "image": {
+                "url": "/images/hulldekkemodul_ce.png",
+                "alt": "Hulldekke-element med CE-merke"
+              }
             },
             {
               "id": "produktType.laminertGlass",
               "type": "Answer",
               "heading": "Laminert glass",
-              "value": "laminertGlass"
+              "value": "laminertGlass",
+              "image": {
+                "url": "/images/laminert_glass_ce.png",
+                "alt": "Laminert glass med CE-merke"
+              }
             },
             {
               "id": "produktType.prefabrikertBaderomsmodul",
               "type": "Answer",
               "heading": "Prefabrikert baderomsmodul",
-              "value": "prefabrikertBaderomsmodul"
+              "value": "prefabrikertBaderomsmodul",
+              "image": {
+                "url": "/images/baderomsmodul.png",
+                "alt": "Baderomsmodul"
+              }
             },
             {
               "id": "produktType.prefabrikertTrapp",
               "type": "Answer",
               "heading": "Prefabrikert trapp",
-              "value": "prefabrikertTrapp"
+              "value": "prefabrikertTrapp",
+              "image": {
+                "url": "/images/trapp.png",
+                "alt": "Trapp"
+              }
             },
             {
               "id": "produktType.prefabrikerteByggmodulerTre",
               "type": "Answer",
               "heading": "Prefabrikerte byggmoduler i tre",
-              "value": "prefabrikerteByggmodulerTre"
+              "value": "prefabrikerteByggmodulerTre",
+              "image": {
+                "url": "/images/prefabrikert_tre.png",
+                "alt": "Prefabrikert byggemodul i tre"
+              }
             },
             {
               "id": "produktType.prefabrikerteStalkonstruksjoner",
               "type": "Answer",
               "heading": "Prefabrikerte stålkonstruksjoner",
-              "value": "prefabrikerteStalkonstruksjoner"
+              "value": "prefabrikerteStalkonstruksjoner",
+              "image": {
+                "url": "/images/prefab_staalkonstruksjon_ce.png",
+                "alt": "Prefabrikert stålkonstruksjon med CE-merke"
+              }
             },
             {
               "id": "produktType.prefabrikerteByggmodulerStal",
               "type": "Answer",
               "heading": "Prefabrikerte byggmoduler i stål",
-              "value": "prefabrikerteByggmodulerStal"
+              "value": "prefabrikerteByggmodulerStal",
+              "image": {
+                "url": "/images/prefabrikert_staal.png",
+                "alt": "Prefabrikert byggemodul i stål"
+              }
             },
             {
               "id": "produktType.pahengsfasader",
               "type": "Answer",
               "heading": "Påhengsfasader",
-              "value": "pahengsfasader"
+              "value": "pahengsfasader",
+              "image": {
+                "url": "/images/paahengsfasade_ce.png",
+                "alt": "Påhengsfasade med CE-merke"
+              }
             },
             {
               "id": "produktType.radonmembran",
               "type": "Answer",
               "heading": "Radonmembran",
-              "value": "radonmembran"
+              "value": "radonmembran",
+              "image": {
+                "url": "/images/radonmembran.png",
+                "alt": "Radonmembran"
+              }
             },
             {
               "id": "produktType.rekkverkAluStalGlass",
               "type": "Answer",
               "heading": "Rekkverk med aluminium- eller stålprofiler og glass",
-              "value": "rekkverkAluStalGlass"
+              "value": "rekkverkAluStalGlass",
+              "image": {
+                "url": "/images/rekkverk.png",
+                "alt": "Rekkverk"
+              }
             },
             {
               "id": "produktType.ror",
               "type": "Answer",
               "heading": "Rør og rørdeler i betong",
-              "value": "ror"
+              "value": "ror",
+              "image": {
+                "url": "/images/fibersementroer_ce.png",
+                "alt": "Rør med CE-merke"
+              }
             },
             {
-              "id": "produktType.sandwitchelementer",
+              "id": "produktType.sandwichelementer",
               "type": "Answer",
-              "heading": "Sandwitchelementer",
-              "value": "sandwitchelementer"
+              "heading": "Sandwichelementer",
+              "value": "sandwichelementer",
+              "image": {
+                "url": "/images/sandwhichpaneler_ce.png",
+                "alt": "Sandwichelement med CE-merke"
+              }
             },
             {
               "id": "produktType.styrkesortertKonstruksjonsvirke",
               "type": "Answer",
               "heading": "Styrkesortert konstruksjonsvirke (med rektangulært tverrsnitt)",
-              "value": "styrkesortertKonstruksjonsvirke"
+              "value": "styrkesortertKonstruksjonsvirke",
+              "image": {
+                "url": "/images/konstruksjonsvirke_ce.png",
+                "alt": "Konstruksjonsvirke med CE-merke"
+              }
             },
             {
               "id": "produktType.takbelegg",
               "type": "Answer",
               "heading": "Takbelegg med asfalt (asfalttakbelegg)",
-              "value": "takbelegg"
+              "value": "takbelegg",
+              "image": {
+                "url": "/images/takbelegg_bitumen_ce.png",
+                "alt": "Takbelegg med CE-merke"
+              }
             },
             {
               "id": "produktType.takstoler",
               "type": "Answer",
               "heading": "Takstoler",
-              "value": "takstoler"
+              "value": "takstoler",
+              "image": {
+                "url": "/images/takstoler_ce.png",
+                "alt": "Takstol med CE-merke"
+              }
             },
             {
               "id": "produktType.fasadekledningMetall",
               "type": "Answer",
               "heading": "Utvendig fasadekledning i metall",
-              "value": "fasadekledningMetall"
+              "value": "fasadekledningMetall",
+              "image": {
+                "url": "/images/fasadekledning_metall_ce.png",
+                "alt": "Fasadekledning i metall med CE-merke"
+              }
             },
             {
               "id": "produktType.veggelement",
               "type": "Answer",
               "heading": "Veggelementer i betong",
-              "value": "veggelement"
+              "value": "veggelement",
+              "image": {
+                "url": "/images/veggelementer_betong_ce.png",
+                "alt": "Veggelementer i betong med CE-merke"
+              }
             },
             {
               "id": "produktType.vindsperre",
               "type": "Answer",
               "heading": "Vindsperre på rull",
-              "value": "vindsperre"
+              "value": "vindsperre",
+              "image": {
+                "url": "/images/vindsperre_ce.png",
+                "alt": "Vindsperre med CE-merke"
+              }
             },
             {
               "id": "produktType.vindu",
               "type": "Answer",
               "heading": "Vindu",
-              "value": "vindu"
+              "value": "vindu",
+              "image": {
+                "url": "/images/vindu_ce.png",
+                "alt": "Vindu med CE-merke"
+              }
             }
           ]
         }
