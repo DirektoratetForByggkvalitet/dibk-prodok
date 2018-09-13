@@ -4,8 +4,9 @@ import { connect } from 'react-redux';
 import { Primitives } from 'losen';
 import { IntroMain } from '../primitives/IntroMain';
 
-function Intro({ close, data }) {
-  if (Object.keys(data).length !== 0) {
+function Intro({ close, data: { $computed, ...data } }) {
+  console.log('yo');
+  if (Object.keys(data).length > 0) {
     close();
   }
   return (
