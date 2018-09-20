@@ -136,134 +136,7 @@
                   "id": "viktigsteEgenskaper",
                   "property": "viktigsteEgenskaper",
                   "type": "Radio",
-                  "show": { "field": "produktType", "operator": "eq", "value": "radonmembran" },
-                  "heading": "Er radonmembranens viktigste ytelser beskrevet i dokumentasjonen?",
-                  "options": [
-                    {
-                      "id": "viktigsteEgenskaper.ja",
-                      "type": "Answer",
-                      "heading": "Ja",
-                      "value": true
-                    },
-                    {
-                      "id": "viktigsteEgenskaper.nei",
-                      "type": "Answer",
-                      "heading": "Nei",
-                      "value": false
-                    }
-                  ]
-                },
-                {
-                  "id": "viktigsteEgenskaper",
-                  "property": "viktigsteEgenskaper",
-                  "type": "Radio",
-                  "show": { "field": "produktType", "operator": "eq", "value": "rekkverkAluStalGlass" },
-                  "heading": "Er rekkverkets viktigste ytelser beskrevet i dokumentasjonen?",
-                  "options": [
-                    {
-                      "id": "viktigsteEgenskaper.ja",
-                      "type": "Answer",
-                      "heading": "Ja",
-                      "value": true
-                    },
-                    {
-                      "id": "viktigsteEgenskaper.nei",
-                      "type": "Answer",
-                      "heading": "Nei",
-                      "value": false
-                    }
-                  ]
-                },
-                {
-                  "id": "viktigsteEgenskaper",
-                  "property": "viktigsteEgenskaper",
-                  "type": "Radio",
-                  "show": { "field": "produktType", "operator": "eq", "value": "prefabrikertBaderomsmodul" },
-                  "heading": "Er baderomsmodulens viktigste ytelser beskrevet i dokumentasjonen?",
-                  "options": [
-                    {
-                      "id": "viktigsteEgenskaper.ja",
-                      "type": "Answer",
-                      "heading": "Ja",
-                      "value": true
-                    },
-                    {
-                      "id": "viktigsteEgenskaper.nei",
-                      "type": "Answer",
-                      "heading": "Nei",
-                      "value": false
-                    }
-                  ]
-                },
-                {
-                  "id": "viktigsteEgenskaper",
-                  "property": "viktigsteEgenskaper",
-                  "type": "Radio",
-                  "show": { "field": "produktType", "operator": "eq", "value": "prefabrikerteByggmodulerTre" },
-                  "heading": "Er byggmodulens viktigste ytelser beskrevet i dokumentasjonen?",
-                  "options": [
-                    {
-                      "id": "viktigsteEgenskaper.ja",
-                      "type": "Answer",
-                      "heading": "Ja",
-                      "value": true
-                    },
-                    {
-                      "id": "viktigsteEgenskaper.nei",
-                      "type": "Answer",
-                      "heading": "Nei",
-                      "value": false
-                    }
-                  ]
-                },
-                {
-                  "id": "viktigsteEgenskaper",
-                  "property": "viktigsteEgenskaper",
-                  "type": "Radio",
-                  "show": { "field": "produktType", "operator": "eq", "value": "prefabrikerteByggmodulerStal" },
-                  "heading": "Er byggmodulens viktigste ytelser beskrevet i dokumentasjonen?",
-                  "options": [
-                    {
-                      "id": "viktigsteEgenskaper.ja",
-                      "type": "Answer",
-                      "heading": "Ja",
-                      "value": true
-                    },
-                    {
-                      "id": "viktigsteEgenskaper.nei",
-                      "type": "Answer",
-                      "heading": "Nei",
-                      "value": false
-                    }
-                  ]
-                },
-                {
-                  "id": "viktigsteEgenskaper",
-                  "property": "viktigsteEgenskaper",
-                  "type": "Radio",
-                  "show": { "field": "produktType", "operator": "eq", "value": "brannsikkerFugemasse" },
-                  "heading": "Er fugemassens viktigste ytelser beskrevet i dokumentasjonen?",
-                  "options": [
-                    {
-                      "id": "viktigsteEgenskaper.ja",
-                      "type": "Answer",
-                      "heading": "Ja",
-                      "value": true
-                    },
-                    {
-                      "id": "viktigsteEgenskaper.nei",
-                      "type": "Answer",
-                      "heading": "Nei",
-                      "value": false
-                    }
-                  ]
-                },
-                {
-                  "id": "viktigsteEgenskaper",
-                  "property": "viktigsteEgenskaper",
-                  "type": "Radio",
-                  "show": { "field": "produktType", "operator": "eq", "value": "trapp" },
-                  "heading": "Er trappens viktigste ytelser beskrevet i dokumentasjonen?",
+                  "heading": "Er egenskapene du fører tilsyn med beskrevet i dokumentasjonen?",
                   "options": [
                     {
                       "id": "viktigsteEgenskaper.ja",
@@ -307,407 +180,7 @@
                   "id": "viktigsteEgenskaperYtelseserklaering",
                   "property": "viktigsteEgenskaperYtelseserklaering",
                   "type": "Radio",
-                  "show": { "field": "produktType", "operator": "eq", "value": "brannsikkerFugemasse" },
-                  "heading": "Er fugemassens viktigste ytelser beskrevet i erklæringen?",
-                  "options": [
-                    {
-                      "id": "viktigsteEgenskaperYtelseserklaering.ja",
-                      "type": "Answer",
-                      "heading": "Ja",
-                      "value": true
-                    },
-                    {
-                      "id": "viktigsteEgenskaperYtelseserklaering.nei",
-                      "type": "Answer",
-                      "heading": "Nei",
-                      "value": false
-                    }
-                  ]
-                },
-                {
-                  "id": "viktigsteEgenskaperYtelseserklaering",
-                  "property": "viktigsteEgenskaperYtelseserklaering",
-                  "type": "Radio",
-                  "show": { "field": "produktType", "operator": "eq", "value": "hulldekkeelementer" },
-                  "heading": "Er hulldekke-elementets viktigste ytelser beskrevet i erklæringen?",
-                  "options": [
-                    {
-                      "id": "viktigsteEgenskaperYtelseserklaering.ja",
-                      "type": "Answer",
-                      "heading": "Ja",
-                      "value": true
-                    },
-                    {
-                      "id": "viktigsteEgenskaperYtelseserklaering.nei",
-                      "type": "Answer",
-                      "heading": "Nei",
-                      "value": false
-                    }
-                  ]
-                },
-                {
-                  "id": "viktigsteEgenskaperYtelseserklaering",
-                  "property": "viktigsteEgenskaperYtelseserklaering",
-                  "type": "Radio",
-                  "show": { "field": "produktType", "operator": "eq", "value": "laminertGlass" },
-                  "heading": "Er glassets viktigste ytelser beskrevet i erklæringen?",
-                  "options": [
-                    {
-                      "id": "viktigsteEgenskaperYtelseserklaering.ja",
-                      "type": "Answer",
-                      "heading": "Ja",
-                      "value": true
-                    },
-                    {
-                      "id": "viktigsteEgenskaperYtelseserklaering.nei",
-                      "type": "Answer",
-                      "heading": "Nei",
-                      "value": false
-                    }
-                  ]
-                },
-                {
-                  "id": "viktigsteEgenskaperYtelseserklaering",
-                  "property": "viktigsteEgenskaperYtelseserklaering",
-                  "type": "Radio",
-                  "show": { "field": "produktType", "operator": "eq", "value": "prefabrikertBaderomsmodul" },
-                  "heading": "Er baderomsmodulens viktigste ytelser beskrevet i erklæringen?",
-                  "options": [
-                    {
-                      "id": "viktigsteEgenskaperYtelseserklaering.ja",
-                      "type": "Answer",
-                      "heading": "Ja",
-                      "value": true
-                    },
-                    {
-                      "id": "viktigsteEgenskaperYtelseserklaering.nei",
-                      "type": "Answer",
-                      "heading": "Nei",
-                      "value": false
-                    }
-                  ]
-                },
-                {
-                  "id": "viktigsteEgenskaperYtelseserklaering",
-                  "property": "viktigsteEgenskaperYtelseserklaering",
-                  "type": "Radio",
-                  "show": { "field": "produktType", "operator": "eq", "value": "prefabrikertTrapp" },
-                  "heading": "Er trappens viktigste ytelser beskrevet i erklæringen?",
-                  "options": [
-                    {
-                      "id": "viktigsteEgenskaperYtelseserklaering.ja",
-                      "type": "Answer",
-                      "heading": "Ja",
-                      "value": true
-                    },
-                    {
-                      "id": "viktigsteEgenskaperYtelseserklaering.nei",
-                      "type": "Answer",
-                      "heading": "Nei",
-                      "value": false
-                    }
-                  ]
-                },
-                {
-                  "id": "viktigsteEgenskaperYtelseserklaering",
-                  "property": "viktigsteEgenskaperYtelseserklaering",
-                  "type": "Radio",
-                  "show": { "field": "produktType", "operator": "eq", "value": "prefabrikerteByggmodulerTre" },
-                  "heading": "Er byggmodulens viktigste ytelser beskrevet i erklæringen?",
-                  "options": [
-                    {
-                      "id": "viktigsteEgenskaperYtelseserklaering.ja",
-                      "type": "Answer",
-                      "heading": "Ja",
-                      "value": true
-                    },
-                    {
-                      "id": "viktigsteEgenskaperYtelseserklaering.nei",
-                      "type": "Answer",
-                      "heading": "Nei",
-                      "value": false
-                    }
-                  ]
-                },
-                {
-                  "id": "viktigsteEgenskaperYtelseserklaering",
-                  "property": "viktigsteEgenskaperYtelseserklaering",
-                  "type": "Radio",
-                  "show": { "field": "produktType", "operator": "eq", "value": "prefabrikerteStalkonstruksjoner" },
-                  "heading": "Er stålonstruksjonens viktigste ytelser beskrevet i erklæringen?",
-                  "options": [
-                    {
-                      "id": "viktigsteEgenskaperYtelseserklaering.ja",
-                      "type": "Answer",
-                      "heading": "Ja",
-                      "value": true
-                    },
-                    {
-                      "id": "viktigsteEgenskaperYtelseserklaering.nei",
-                      "type": "Answer",
-                      "heading": "Nei",
-                      "value": false
-                    }
-                  ]
-                },
-                {
-                  "id": "viktigsteEgenskaperYtelseserklaering",
-                  "property": "viktigsteEgenskaperYtelseserklaering",
-                  "type": "Radio",
-                  "show": { "field": "produktType", "operator": "eq", "value": "prefabrikerteByggmodulerStal" },
-                  "heading": "Er byggmodulens viktigste ytelser beskrevet i erklæringen?",
-                  "options": [
-                    {
-                      "id": "viktigsteEgenskaperYtelseserklaering.ja",
-                      "type": "Answer",
-                      "heading": "Ja",
-                      "value": true
-                    },
-                    {
-                      "id": "viktigsteEgenskaperYtelseserklaering.nei",
-                      "type": "Answer",
-                      "heading": "Nei",
-                      "value": false
-                    }
-                  ]
-                },
-                {
-                  "id": "viktigsteEgenskaperYtelseserklaering",
-                  "property": "viktigsteEgenskaperYtelseserklaering",
-                  "type": "Radio",
-                  "show": { "field": "produktType", "operator": "eq", "value": "pahengsfasader" },
-                  "heading": "Er påhengsfasadens viktigste ytelser beskrevet i erklæringen?",
-                  "options": [
-                    {
-                      "id": "viktigsteEgenskaperYtelseserklaering.ja",
-                      "type": "Answer",
-                      "heading": "Ja",
-                      "value": true
-                    },
-                    {
-                      "id": "viktigsteEgenskaperYtelseserklaering.nei",
-                      "type": "Answer",
-                      "heading": "Nei",
-                      "value": false
-                    }
-                  ]
-                },
-                {
-                  "id": "viktigsteEgenskaperYtelseserklaering",
-                  "property": "viktigsteEgenskaperYtelseserklaering",
-                  "type": "Radio",
-                  "show": { "field": "produktType", "operator": "eq", "value": "radonmembran" },
-                  "heading": "Er radonmembranens viktigste ytelser beskrevet i erklæringen?",
-                  "options": [
-                    {
-                      "id": "viktigsteEgenskaperYtelseserklaering.ja",
-                      "type": "Answer",
-                      "heading": "Ja",
-                      "value": true
-                    },
-                    {
-                      "id": "viktigsteEgenskaperYtelseserklaering.nei",
-                      "type": "Answer",
-                      "heading": "Nei",
-                      "value": false
-                    }
-                  ]
-                },
-                {
-                  "id": "viktigsteEgenskaperYtelseserklaering",
-                  "property": "viktigsteEgenskaperYtelseserklaering",
-                  "type": "Radio",
-                  "show": { "field": "produktType", "operator": "eq", "value": "rekkverkAluStalGlass" },
-                  "heading": "Er rekkverkets viktigste ytelser beskrevet i erklæringen?",
-                  "options": [
-                    {
-                      "id": "viktigsteEgenskaperYtelseserklaering.ja",
-                      "type": "Answer",
-                      "heading": "Ja",
-                      "value": true
-                    },
-                    {
-                      "id": "viktigsteEgenskaperYtelseserklaering.nei",
-                      "type": "Answer",
-                      "heading": "Nei",
-                      "value": false
-                    }
-                  ]
-                },
-                {
-                  "id": "viktigsteEgenskaperYtelseserklaering",
-                  "property": "viktigsteEgenskaperYtelseserklaering",
-                  "type": "Radio",
-                  "show": { "field": "produktType", "operator": "eq", "value": "ror" },
-                  "heading": "Er røret/rørdelens viktigste ytelser beskrevet i erklæringen?",
-                  "options": [
-                    {
-                      "id": "viktigsteEgenskaperYtelseserklaering.ja",
-                      "type": "Answer",
-                      "heading": "Ja",
-                      "value": true
-                    },
-                    {
-                      "id": "viktigsteEgenskaperYtelseserklaering.nei",
-                      "type": "Answer",
-                      "heading": "Nei",
-                      "value": false
-                    }
-                  ]
-                },
-                {
-                  "id": "viktigsteEgenskaperYtelseserklaering",
-                  "property": "viktigsteEgenskaperYtelseserklaering",
-                  "type": "Radio",
-                  "show": { "field": "produktType", "operator": "eq", "value": "sandwichelementer" },
-                  "heading": "Er sandwichelementets viktigste ytelser beskrevet i erklæringen?",
-                  "options": [
-                    {
-                      "id": "viktigsteEgenskaperYtelseserklaering.ja",
-                      "type": "Answer",
-                      "heading": "Ja",
-                      "value": true
-                    },
-                    {
-                      "id": "viktigsteEgenskaperYtelseserklaering.nei",
-                      "type": "Answer",
-                      "heading": "Nei",
-                      "value": false
-                    }
-                  ]
-                },
-                {
-                  "id": "viktigsteEgenskaperYtelseserklaering",
-                  "property": "viktigsteEgenskaperYtelseserklaering",
-                  "type": "Radio",
-                  "show": { "field": "produktType", "operator": "eq", "value": "styrkesortertKonstruksjonsvirke" },
-                  "heading": "Er konstruksjonsvirkets viktigste ytelser beskrevet i erklæringen?",
-                  "options": [
-                    {
-                      "id": "viktigsteEgenskaperYtelseserklaering.ja",
-                      "type": "Answer",
-                      "heading": "Ja",
-                      "value": true
-                    },
-                    {
-                      "id": "viktigsteEgenskaperYtelseserklaering.nei",
-                      "type": "Answer",
-                      "heading": "Nei",
-                      "value": false
-                    }
-                  ]
-                },
-                {
-                  "id": "viktigsteEgenskaperYtelseserklaering",
-                  "property": "viktigsteEgenskaperYtelseserklaering",
-                  "type": "Radio",
-                  "show": { "field": "produktType", "operator": "eq", "value": "takbelegg" },
-                  "heading": "Er takbeleggets viktigste ytelser beskrevet i erklæringen?",
-                  "options": [
-                    {
-                      "id": "viktigsteEgenskaperYtelseserklaering.ja",
-                      "type": "Answer",
-                      "heading": "Ja",
-                      "value": true
-                    },
-                    {
-                      "id": "viktigsteEgenskaperYtelseserklaering.nei",
-                      "type": "Answer",
-                      "heading": "Nei",
-                      "value": false
-                    }
-                  ]
-                },
-                {
-                  "id": "viktigsteEgenskaperYtelseserklaering",
-                  "property": "viktigsteEgenskaperYtelseserklaering",
-                  "type": "Radio",
-                  "show": { "field": "produktType", "operator": "eq", "value": "takstoler" },
-                  "heading": "Er takstolens viktigste ytelser beskrevet i erklæringen?",
-                  "options": [
-                    {
-                      "id": "viktigsteEgenskaperYtelseserklaering.ja",
-                      "type": "Answer",
-                      "heading": "Ja",
-                      "value": true
-                    },
-                    {
-                      "id": "viktigsteEgenskaperYtelseserklaering.nei",
-                      "type": "Answer",
-                      "heading": "Nei",
-                      "value": false
-                    }
-                  ]
-                },
-                {
-                  "id": "viktigsteEgenskaperYtelseserklaering",
-                  "property": "viktigsteEgenskaperYtelseserklaering",
-                  "type": "Radio",
-                  "show": { "field": "produktType", "operator": "eq", "value": "fasadekledningMetall" },
-                  "heading": "Er fasadekledningens viktigste ytelser beskrevet i erklæringen?",
-                  "options": [
-                    {
-                      "id": "viktigsteEgenskaperYtelseserklaering.ja",
-                      "type": "Answer",
-                      "heading": "Ja",
-                      "value": true
-                    },
-                    {
-                      "id": "viktigsteEgenskaperYtelseserklaering.nei",
-                      "type": "Answer",
-                      "heading": "Nei",
-                      "value": false
-                    }
-                  ]
-                },
-                {
-                  "id": "viktigsteEgenskaperYtelseserklaering",
-                  "property": "viktigsteEgenskaperYtelseserklaering",
-                  "type": "Radio",
-                  "show": { "field": "produktType", "operator": "eq", "value": "veggelement" },
-                  "heading": "Er veggelementet viktigste ytelser beskrevet i erklæringen?",
-                  "options": [
-                    {
-                      "id": "viktigsteEgenskaperYtelseserklaering.ja",
-                      "type": "Answer",
-                      "heading": "Ja",
-                      "value": true
-                    },
-                    {
-                      "id": "viktigsteEgenskaperYtelseserklaering.nei",
-                      "type": "Answer",
-                      "heading": "Nei",
-                      "value": false
-                    }
-                  ]
-                },
-                {
-                  "id": "viktigsteEgenskaperYtelseserklaering",
-                  "property": "viktigsteEgenskaperYtelseserklaering",
-                  "type": "Radio",
-                  "show": { "field": "produktType", "operator": "eq", "value": "vindsperre" },
-                  "heading": "Er vindsperrens viktigste ytelser beskrevet i erklæringen?",
-                  "options": [
-                    {
-                      "id": "viktigsteEgenskaperYtelseserklaering.ja",
-                      "type": "Answer",
-                      "heading": "Ja",
-                      "value": true
-                    },
-                    {
-                      "id": "viktigsteEgenskaperYtelseserklaering.nei",
-                      "type": "Answer",
-                      "heading": "Nei",
-                      "value": false
-                    }
-                  ]
-                },
-                {
-                  "id": "viktigsteEgenskaperYtelseserklaering",
-                  "property": "viktigsteEgenskaperYtelseserklaering",
-                  "type": "Radio",
-                  "show": { "field": "produktType", "operator": "eq", "value": "vindu" },
-                  "heading": "Er vinduets viktigste ytelser beskrevet i erklæringen?",
+                  "heading": "Er egenskapene du fører tilsyn med beskrevet i erklæringen?",
                   "options": [
                     {
                       "id": "viktigsteEgenskaperYtelseserklaering.ja",
@@ -958,9 +431,50 @@
       ]
     },
     {
+      "id": "tilsyn",
+      "type": "Page",
+      "heading": "Tilsyn",
+      "show": { "field": "produktType", "operator": "required" },
+      "children": [
+        {
+          "id": "hvaSjekkerDu",
+          "property": "hvaSjekkerDu",
+          "type": "Checkbox",
+          "heading": "Hva skal du føre tilsyn med?",
+          "optional": true,
+          "options": [
+            {
+              "id": "hvaSjekkerDu.ce",
+              "type": "Answer",
+              "heading": "CE-merking",
+              "value": "ce"
+            },
+            {
+              "id": "hvaSjekkerDu.dokumentasjon",
+              "type": "Answer",
+              "heading": "Dokumentasjon",
+              "value": "dokumentasjon"
+            },
+            {
+              "id": "hvaSjekkerDu.bruksanvisning",
+              "type": "Answer",
+              "heading": "Bruksanvisning",
+              "value": "bruksanvisning"
+            },
+            {
+              "id": "hvaSjekkerDu.prosjektering",
+              "type": "Answer",
+              "heading": "Prosjektering",
+              "value": "prosjektering"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "ce",
       "type": "Page",
-      "heading": "CE-merking",
+      "heading": "Dokumentasjon",
       "show": { "field": "produktType", "operator": "required" },
       "children": [
         {
@@ -1013,10 +527,16 @@
           "type": "Group",
           "simple": true,
           "show": {
-            "type": "or",
+            "type": "and",
             "clauses": [
-              { "field": "$computed.ceValgfri", "operator": "not" },
-              { "field": "eta", "operator": "is" }
+              { "field": "hvaSjekkerDu.ce", "operator": "eq", "value": true },
+              {
+                "type": "or",
+                "clauses": [
+                  { "field": "$computed.ceValgfri", "operator": "not" },
+                  { "field": "eta", "operator": "is" }
+                ]
+              }
             ]
           },
           "children": [
@@ -1054,266 +574,267 @@
               ]
             }
           ]
-        }
-      ]
-    },
-    {
-      "id": "produktdokumentasjon",
-      "type": "Page",
-      "heading": "Produktdokumentasjon",
-      "show": {
-        "type": "and",
-        "clauses": [
-          { "field": "$computed.ceValgfri", "operator": "is" },
-          { "field": "eta", "operator": "eq", "value": false }
-        ]
-      },
-      "children": [
-        {
-          "id": "finnesDokumentasjon",
-          "property": "finnesDokumentasjon",
-          "type": "Radio",
-          "heading": "Finnes det produktdokumentasjon?",
-          "options": [
-            {
-              "id": "finnesDokumentasjon.ja",
-              "type": "Answer",
-              "heading": "Ja",
-              "value": true
-            },
-            {
-              "id": "finnesDokumentasjon.nei",
-              "type": "Answer",
-              "heading": "Nei",
-              "value": false
-            }
-          ]
         },
         {
-          "id": "resultatManglerDokumentasjon",
-          "type": "Result",
-          "heading": "Nein!",
-          "show": { "field": "finnesDokumentasjon", "operator": "eq", "value": false },
+          "id": "produktdokumentasjon",
+          "type": "Group",
+          "simple": true,
+          "show": {
+            "type": "and",
+            "clauses": [
+              { "field": "hvaSjekkerDu.dokumentasjon", "operator": "eq", "value": true },
+              { "field": "$computed.ceValgfri", "operator": "is" },
+              { "field": "eta", "operator": "eq", "value": false }
+            ]
+          },
           "children": [
             {
-              "id": "resultatManglerDokumentasjon.error",
-              "type": "Error",
+              "id": "finnesDokumentasjon",
+              "property": "finnesDokumentasjon",
+              "type": "Radio",
+              "heading": "Finnes det produktdokumentasjon?",
+              "options": [
+                {
+                  "id": "finnesDokumentasjon.ja",
+                  "type": "Answer",
+                  "heading": "Ja",
+                  "value": true
+                },
+                {
+                  "id": "finnesDokumentasjon.nei",
+                  "type": "Answer",
+                  "heading": "Nei",
+                  "value": false
+                }
+              ]
+            },
+            {
+              "id": "resultatManglerDokumentasjon",
+              "type": "Result",
+              "heading": "Nein!",
               "show": { "field": "finnesDokumentasjon", "operator": "eq", "value": false },
               "children": [
                 {
-                  "id": "resultatManglerDokumentasjon.msg",
-                  "type": "Text",
-                  "warning": true,
-                  "heading": "👮‍ Sie müssen Dokumentation haben"
+                  "id": "resultatManglerDokumentasjon.error",
+                  "type": "Error",
+                  "show": { "field": "finnesDokumentasjon", "operator": "eq", "value": false },
+                  "children": [
+                    {
+                      "id": "resultatManglerDokumentasjon.msg",
+                      "type": "Text",
+                      "warning": true,
+                      "heading": "👮‍ Sie müssen Dokumentation haben"
+                    }
+                  ]
                 }
               ]
-            }
-          ]
-        },
-        {
-          "id": "dokumentasjonOppfylt",
-          "property": "dokumentasjonOppfylt",
-          "type": "Radio",
-          "heading": "Er kravene til produktdokumentasjon oppfylt?",
-          "options": [
-            {
-              "id": "dokumentasjonOppfylt.ja",
-              "type": "Answer",
-              "heading": "Ja",
-              "value": true
             },
             {
-              "id": "dokumentasjonOppfylt.nei",
-              "type": "Answer",
-              "heading": "Nei",
-              "value": false
-            }
-          ]
-        },
-        {
-          "id": "dokumentasjonOppfylt.error",
-          "type": "Error",
-          "show": { "field": "dokumentasjonOppfylt", "operator": "eq", "value": false },
-          "children": [
-            {
-              "id": "dokumentasjonOppfylt.error.msg",
-              "type": "Text",
-              "warning": true,
-              "heading": "🚨 Aiai"
-            }
-          ]
-        },
-        {
-          "id": "sertifisertAvTredjepart",
-          "property": "sertifisertAvTredjepart",
-          "type": "Radio",
-          "heading": "Står det i dokumentasjonen at produktet er sertifisert av tredjepartsorgan?",
-          "options": [
-            {
-              "id": "sertifisertAvTredjepart.ja",
-              "type": "Answer",
-              "heading": "Ja",
-              "value": true
+              "id": "dokumentasjonOppfylt",
+              "property": "dokumentasjonOppfylt",
+              "type": "Radio",
+              "heading": "Er kravene til produktdokumentasjon oppfylt?",
+              "options": [
+                {
+                  "id": "dokumentasjonOppfylt.ja",
+                  "type": "Answer",
+                  "heading": "Ja",
+                  "value": true
+                },
+                {
+                  "id": "dokumentasjonOppfylt.nei",
+                  "type": "Answer",
+                  "heading": "Nei",
+                  "value": false
+                }
+              ]
             },
             {
-              "id": "sertifisertAvTredjepart.nei",
-              "type": "Answer",
-              "heading": "Nei",
-              "value": false
-            }
-          ]
-        },
-        {
-          "id": "sertifisertAvTredjepart.error",
-          "type": "Error",
-          "show": { "field": "sertifisertAvTredjepart", "operator": "eq", "value": false },
-          "children": [
-            {
-              "id": "sertifisertAvTredjepart.error.msg",
-              "type": "Text",
-              "warning": true,
-              "heading": "Det er best hvis tredjepart har sertifisert det"
-            }
-          ]
-        },
-        {
-          "id": "dokumentasjonSpraak",
-          "property": "dokumentasjonSpraak",
-          "type": "Radio",
-          "heading": "Er produktdokumentasjonen på norsk, svensk eller dansk?",
-          "options": [
-            {
-              "id": "dokumentasjonSpraak.ja",
-              "type": "Answer",
-              "heading": "Ja",
-              "value": true
-            },
-            {
-              "id": "dokumentasjonSpraak.nei",
-              "type": "Answer",
-              "heading": "Nei",
-              "value": false
-            }
-          ]
-        },
-        {
-          "id": "dokumentasjonSpraak.error",
-          "type": "Error",
-          "show": { "field": "dokumentasjonSpraak", "operator": "eq", "value": false },
-          "children": [
-            {
-              "id": "dokumentasjonSpraak.error.msg",
-              "type": "Text",
-              "warning": true,
-              "heading": "🇳🇴, 🇸🇪 eller 🇩🇰 er det eneste som er godt nok"
-            }
-          ]
-        },
-        {
-          "type": "Reference",
-          "nodeId": "egenskapProduktdokumentasjon"
-        }
-      ]
-    },
-    {
-      "id": "ytelseserklæring",
-      "type": "Page",
-      "heading": "Ytelseserklæring",
-      "show": {
-        "type": "and",
-        "clauses": [
-          { "field": "produktType", "operator": "required" },
-          {
-            "type": "or",
-            "clauses": [
-              { "field": "$computed.ceValgfri", "operator": "eq", "value": false },
-              { "field": "produktCeMerket", "operator": "required" }
-            ]
-          }
-        ]
-      },
-      "children": [
-        {
-          "type": "Reference",
-          "nodeId": "ytelseserklaringIngress"
-        },
-        {
-          "id": "ytelsesErklæringFremlagt",
-          "property": "ytelsesErklæringFremlagt",
-          "type": "Radio",
-          "heading": "Kan ansvarlig foretak legge frem ytelseserklæringen for produktet?",
-          "options": [
-            {
-              "id": "ytelsesErklæringFremlagt.ja",
-              "type": "Answer",
-              "heading": "Ja",
-              "value": true
-            },
-            {
-              "id": "ytelsesErklæringFremlagt.nei",
-              "type": "Answer",
-              "heading": "Nei",
-              "value": false
-            }
-          ]
-        },
-        {
-          "id": "ytelseserklæringIkkeLagtFrem",
-          "type": "Result",
-          "heading": "Nein!",
-          "show": { "field": "ytelsesErklæringFremlagt", "operator": "eq", "value": false },
-          "children": [
-            {
-              "id": "ytelseserklæringIkkeLagtFrem.error",
+              "id": "dokumentasjonOppfylt.error",
               "type": "Error",
+              "show": { "field": "dokumentasjonOppfylt", "operator": "eq", "value": false },
+              "children": [
+                {
+                  "id": "dokumentasjonOppfylt.error.msg",
+                  "type": "Text",
+                  "warning": true,
+                  "heading": "🚨 Aiai"
+                }
+              ]
+            },
+            {
+              "id": "sertifisertAvTredjepart",
+              "property": "sertifisertAvTredjepart",
+              "type": "Radio",
+              "heading": "Står det i dokumentasjonen at produktet er sertifisert av tredjepartsorgan?",
+              "options": [
+                {
+                  "id": "sertifisertAvTredjepart.ja",
+                  "type": "Answer",
+                  "heading": "Ja",
+                  "value": true
+                },
+                {
+                  "id": "sertifisertAvTredjepart.nei",
+                  "type": "Answer",
+                  "heading": "Nei",
+                  "value": false
+                }
+              ]
+            },
+            {
+              "id": "sertifisertAvTredjepart.error",
+              "type": "Error",
+              "show": { "field": "sertifisertAvTredjepart", "operator": "eq", "value": false },
+              "children": [
+                {
+                  "id": "sertifisertAvTredjepart.error.msg",
+                  "type": "Text",
+                  "warning": true,
+                  "heading": "Det er best hvis tredjepart har sertifisert det"
+                }
+              ]
+            },
+            {
+              "id": "dokumentasjonSpraak",
+              "property": "dokumentasjonSpraak",
+              "type": "Radio",
+              "heading": "Er produktdokumentasjonen på norsk, svensk eller dansk?",
+              "options": [
+                {
+                  "id": "dokumentasjonSpraak.ja",
+                  "type": "Answer",
+                  "heading": "Ja",
+                  "value": true
+                },
+                {
+                  "id": "dokumentasjonSpraak.nei",
+                  "type": "Answer",
+                  "heading": "Nei",
+                  "value": false
+                }
+              ]
+            },
+            {
+              "id": "dokumentasjonSpraak.error",
+              "type": "Error",
+              "show": { "field": "dokumentasjonSpraak", "operator": "eq", "value": false },
+              "children": [
+                {
+                  "id": "dokumentasjonSpraak.error.msg",
+                  "type": "Text",
+                  "warning": true,
+                  "heading": "🇳🇴, 🇸🇪 eller 🇩🇰 er det eneste som er godt nok"
+                }
+              ]
+            },
+            {
+              "type": "Reference",
+              "nodeId": "egenskapProduktdokumentasjon"
+            }
+          ]
+        },
+        {
+          "id": "ytelseserklæring",
+          "type": "Group",
+          "simple": true,
+          "show": {
+            "type": "and",
+            "clauses": [
+              { "field": "produktType", "operator": "required" },
+              {
+                "type": "or",
+                "clauses": [
+                  { "field": "$computed.ceValgfri", "operator": "eq", "value": false },
+                  { "field": "produktCeMerket", "operator": "required" }
+                ]
+              }
+            ]
+          },
+          "children": [
+            {
+              "type": "Reference",
+              "nodeId": "ytelseserklaringIngress"
+            },
+            {
+              "id": "ytelsesErklæringFremlagt",
+              "property": "ytelsesErklæringFremlagt",
+              "type": "Radio",
+              "heading": "Kan ansvarlig foretak legge frem ytelseserklæringen for produktet?",
+              "options": [
+                {
+                  "id": "ytelsesErklæringFremlagt.ja",
+                  "type": "Answer",
+                  "heading": "Ja",
+                  "value": true
+                },
+                {
+                  "id": "ytelsesErklæringFremlagt.nei",
+                  "type": "Answer",
+                  "heading": "Nei",
+                  "value": false
+                }
+              ]
+            },
+            {
+              "id": "ytelseserklæringIkkeLagtFrem",
+              "type": "Result",
+              "heading": "Nein!",
               "show": { "field": "ytelsesErklæringFremlagt", "operator": "eq", "value": false },
               "children": [
                 {
-                  "id": "ytelseserklæringIkkeLagtFrem.msg",
-                  "type": "Text",
-                  "warning": true,
-                  "heading": "✏️ Da er det bare å forte seg å skrive den, for uten kommer du ingen vei.."
+                  "id": "ytelseserklæringIkkeLagtFrem.error",
+                  "type": "Error",
+                  "show": { "field": "ytelsesErklæringFremlagt", "operator": "eq", "value": false },
+                  "children": [
+                    {
+                      "id": "ytelseserklæringIkkeLagtFrem.msg",
+                      "type": "Text",
+                      "warning": true,
+                      "heading": "✏️ Da er det bare å forte seg å skrive den, for uten kommer du ingen vei.."
+                    }
+                  ]
                 }
               ]
-            }
-          ]
-        },
-        {
-          "id": "ytelseserklaeringSpraak",
-          "property": "ytelseserklaeringSpraak",
-          "type": "Radio",
-          "heading": "Er ytelseserklæringen på norsk, svensk eller dansk?",
-          "options": [
-            {
-              "id": "ytelseserklaeringSpraak.ja",
-              "type": "Answer",
-              "heading": "Ja",
-              "value": true
             },
             {
-              "id": "ytelseserklaeringSpraak.nei",
-              "type": "Answer",
-              "heading": "Nei",
-              "value": false
-            }
-          ]
-        },
-        {
-          "id": "ytelseserklaeringSpraak.error",
-          "type": "Error",
-          "show": { "field": "ytelseserklaeringSpraak", "operator": "eq", "value": false },
-          "children": [
+              "id": "ytelseserklaeringSpraak",
+              "property": "ytelseserklaeringSpraak",
+              "type": "Radio",
+              "heading": "Er ytelseserklæringen på norsk, svensk eller dansk?",
+              "options": [
+                {
+                  "id": "ytelseserklaeringSpraak.ja",
+                  "type": "Answer",
+                  "heading": "Ja",
+                  "value": true
+                },
+                {
+                  "id": "ytelseserklaeringSpraak.nei",
+                  "type": "Answer",
+                  "heading": "Nei",
+                  "value": false
+                }
+              ]
+            },
             {
-              "id": "ytelseserklaeringSpraak.error.msg",
-              "type": "Text",
-              "warning": true,
-              "heading": "🇳🇴, 🇸🇪 eller 🇩🇰 er det eneste som er godt nok"
+              "id": "ytelseserklaeringSpraak.error",
+              "type": "Error",
+              "show": { "field": "ytelseserklaeringSpraak", "operator": "eq", "value": false },
+              "children": [
+                {
+                  "id": "ytelseserklaeringSpraak.error.msg",
+                  "type": "Text",
+                  "warning": true,
+                  "heading": "🇳🇴, 🇸🇪 eller 🇩🇰 er det eneste som er godt nok"
+                }
+              ]
+            },
+            {
+              "type": "Reference",
+              "nodeId": "egenskapYtelseserklaering"
             }
           ]
-        },
-        {
-          "type": "Reference",
-          "nodeId": "egenskapYtelseserklaering"
         }
       ]
     },
@@ -1321,6 +842,7 @@
       "id": "prosjektering",
       "type": "Page",
       "heading": "Prosjektering",
+      "show": { "field": "hvaSjekkerDu.prosjektering", "operator": "eq", "value": true },
       "children": [
         {
           "id": "produktytelseSamsvarer",
@@ -1361,6 +883,7 @@
       "id": "bruksanvisning",
       "type": "Page",
       "heading": "Bruksanvisning",
+      "show": { "field": "hvaSjekkerDu.bruksanvisning", "operator": "eq", "value": true },
       "children": [
         {
           "id": "finnesProdusentensVeiledning",
@@ -1447,7 +970,8 @@
     {
       "id": "manglerProduktdokumentasjon",
       "type": "Result",
-      "heading": "Nå har du kommet til slutten 🙌"
+      "heading": "Nå har du kommet til slutten 🙌",
+      "title": "Apekatt"
     }
   ]
 }
