@@ -65,6 +65,212 @@
       "show": { "field": "neverShow", "operator": "eq", "value": 123 },
       "children": [
         {
+          "id": "produktTabell",
+          "type": "Branch",
+          "branches": [
+            {
+              "test": { "field": "produktType", "operator": "eq", "value": "brannsikkerFugemasse" },
+              "children": [
+                {
+                  "id": "brannsikkerFugemasseTabell",
+                  "type": "Text",
+                  "text": "(Tabell for brannsikker fugemasse)"
+                }
+              ]
+            },
+            {
+              "test": { "field": "produktType", "operator": "eq", "value": "hulldekkeelementer" },
+              "children": [
+                {
+                  "id": "hulldekkeelementerTabell",
+                  "type": "Text",
+                  "text": "<p>Hulldekke-elementer har visse vesentlige egenskaper, beskrevet i forrige steg. For hver av disse vesentlige egenskapene skal det angis en ytelse enten i form av en verdi, en klasse, eller et terskelnivå.</p><p>Fordi betongstandarden inneholder nasjonale parametere, er det viktig å sjekke at disse er oppfylt.</p>(Tabell for hulldekkeelementer)"
+                }
+              ]
+            },
+            {
+              "test": { "field": "produktType", "operator": "eq", "value": "laminertGlass" },
+              "children": [
+                {
+                  "id": "laminertGlassTabell",
+                  "type": "Text",
+                  "text": "<p>Alle byggevarer har vesentlige egenskaper. De viktigste egenskapene til laminert glass er beskrevet nedenfor:</p><p>Produsenten skal angi ytelser for de egenskapene som er relevante for glassets bruksområde enten i form av en verdi, en klasse, eller en terskelverdi. Produsenten skal kunne angi de ytelsene som er relevante for de tilsiktede bruksområdene.</p><p>For eksempel:<br />For laminert glass som ikke skal brukes på taket, trenger ikke produsenten å angi en ytelse, men kan skrive NPD (No Performance Determined).</p><p>For laminert glass som ikke skal brukes for å oppnå motstand mot eksplosjon, trenger ikke produsenten å angi en ytelse for denne egenskapen (No Performance Determined).</p><p>Ved tilsyn bør du fokusere på varmegjennomgang, brannegenskapene og lydisolering (der det kreves slik klassifisering i byggeprosjektet) og strålingsegenskaper (der det kreves slik klassifisering i byggeprosjektet).</p>(Tabell for laminert glass)"
+                }
+              ]
+            },
+            {
+              "test": { "field": "produktType", "operator": "eq", "value": "prefabrikertBaderomsmodul" },
+              "children": [
+                {
+                  "id": "prefabrikertBaderomsmodulTabell",
+                  "type": "Text",
+                  "text": "(Tabell for prefabrikertBaderomsmodul)"
+                }
+              ]
+            },
+            {
+              "test": { "field": "produktType", "operator": "eq", "value": "prefabrikertTrapp" },
+              "children": [
+                {
+                  "id": "prefabrikertTrappTabell",
+                  "type": "Text",
+                  "text": "(Tabell for prefabrikert trapp)"
+                }
+              ]
+            },
+            {
+              "test": { "field": "produktType", "operator": "eq", "value": "prefabrikerteByggemodulerTre" },
+              "children": [
+                {
+                  "id": "prefabrikerteByggemodulerTreTabell",
+                  "type": "Text",
+                  "text": "(Tabell for prefabrikerte byggemoduler i tre)"
+                }
+              ]
+            },
+            {
+              "test": { "field": "produktType", "operator": "eq", "value": "prefabrikerteStalkonstruksjoner" },
+              "children": [
+                {
+                  "id": "prefabrikerteStalkonstruksjonerTabell",
+                  "type": "Text",
+                  "text": "(Tabell for prefabrikerte stålkonstruksjoner)"
+                }
+              ]
+            },
+            {
+              "test": { "field": "produktType", "operator": "eq", "value": "prefabrikerteByggemodulerStal" },
+              "children": [
+                {
+                  "id": "prefabrikerteByggemodulerStalTabell",
+                  "type": "Text",
+                  "text": "(Tabell for prefabrikerte byggemoduler i stål)"
+                }
+              ]
+            },
+            {
+              "test": { "field": "produktType", "operator": "eq", "value": "pahengsfasader" },
+              "children": [
+                {
+                  "id": "pahengsfasaderTabell",
+                  "type": "Text",
+                  "text": "(Tabell for påhengsfasader)"
+                }
+              ]
+            },
+            {
+              "test": { "field": "produktType", "operator": "eq", "value": "radonmembran" },
+              "children": [
+                {
+                  "id": "radonmembranTabell",
+                  "type": "Text",
+                  "text": "(Tabell for radonmembran)"
+                }
+              ]
+            },
+            {
+              "test": { "field": "produktType", "operator": "eq", "value": "rekkverkAluStalGlass" },
+              "children": [
+                {
+                  "id": "rekkverkAluStalGlassTabell",
+                  "type": "Text",
+                  "text": "(Tabell for rekkverk)"
+                }
+              ]
+            },
+            {
+              "test": { "field": "produktType", "operator": "eq", "value": "ror" },
+              "children": [
+                {
+                  "id": "rorTabell",
+                  "type": "Text",
+                  "text": "(Tabell for rør)"
+                }
+              ]
+            },
+            {
+              "test": { "field": "produktType", "operator": "eq", "value": "sandwichelementer" },
+              "children": [
+                {
+                  "id": "sandwichelementerTabell",
+                  "type": "Text",
+                  "text": "(Tabell for sandwichelementer)"
+                }
+              ]
+            },
+            {
+              "test": { "field": "produktType", "operator": "eq", "value": "styrkesortertKonstruksjonsvirke" },
+              "children": [
+                {
+                  "id": "styrkesortertKonstruksjonsvirkeTabell",
+                  "type": "Text",
+                  "text": "(Tabell for styrkesortert konstruksjonsvirke)"
+                }
+              ]
+            },
+            {
+              "test": { "field": "produktType", "operator": "eq", "value": "takbelegg" },
+              "children": [
+                {
+                  "id": "takbeleggTabell",
+                  "type": "Text",
+                  "text": "(Tabell for takbelegg)"
+                }
+              ]
+            },
+            {
+              "test": { "field": "produktType", "operator": "eq", "value": "takstoler" },
+              "children": [
+                {
+                  "id": "takstolerTabell",
+                  "type": "Text",
+                  "text": "(Tabell for takstoler)"
+                }
+              ]
+            },
+            {
+              "test": { "field": "produktType", "operator": "eq", "value": "fasadekledningMetall" },
+              "children": [
+                {
+                  "id": "fasadekledningMetallTabell",
+                  "type": "Text",
+                  "text": "(Tabell for fasadekledning i metall)"
+                }
+              ]
+            },
+            {
+              "test": { "field": "produktType", "operator": "eq", "value": "veggelement" },
+              "children": [
+                {
+                  "id": "veggelementTabell",
+                  "type": "Text",
+                  "text": "(Tabell for veggelement)"
+                }
+              ]
+            },
+            {
+              "test": { "field": "produktType", "operator": "eq", "value": "vindsperre" },
+              "children": [
+                {
+                  "id": "vindsperreTabell",
+                  "type": "Text",
+                  "text": "(Tabell for vindsperre)"
+                }
+              ]
+            },
+            {
+              "test": { "field": "produktType", "operator": "eq", "value": "vindu" },
+              "children": [
+                {
+                  "id": "vinduTabell",
+                  "type": "Text",
+                  "text": "(Tabell for vindu)"
+                }
+              ]
+            }
+          ]
+        },
+        {
           "id": "ytelseserklaringIngress",
           "type": "Branch",
           "branches": [
@@ -74,8 +280,8 @@
                 {
                   "id": "ytelseserklaringIngress.ikkeCeMerket",
                   "type": "Text",
-                  "heading": "Generell ingress",
-                  "text": "om ytelsesmerking for produkter som ikke er CE-merket"
+                  "heading": "Ytelseserklæring",
+                  "text": "<p>Ytelseserklæring er et dokument laget og undertegnet av produsenten. PRODUKTNAVN skal være CE-merket. I tillegg skal leverandøren levere en ytelseserklæring som inneholder:</p><ul><li>vinduets identifikasjonskode</li><li>navn og adresse til leverandøren</li><li>henvisning til den harmoniserte produktstandarden EN 14351-1</li><li>henvisning til system 3 for vurdering og verifikasjon av byggevarers egenskaper</li><li>identifikasjonsnummer og adresse til det tekniske kontrollorganet som har testet vinduet</li><li>vinduets egenskaper og ytelser</li><li>produsentens signatur, med sted og dato</li></ul><p><a href=\"#\">Her</a> kan du se eksempel på en ytelseserklæring. Den kan leveres enten i papirformat sammen med produktet eller være tilgjengelig på leverandørens nettside.</p>"
                 }
               ]
             },
@@ -85,8 +291,8 @@
                 {
                   "id": "ytelseserklaringIngress.system1",
                   "type": "Text",
-                  "heading": "System 1",
-                  "text": "om ytelsesmerking for produkter som er i system 1"
+                  "heading": "Ytelseserklæring",
+                  "text": "<p>Ytelseserklæring er et dokument laget og undertegnet av produsenten. PRODUKTNAVN skal være CE-merket. I tillegg skal leverandøren levere en ytelseserklæring som inneholder:</p><ul><li>vinduets identifikasjonskode</li><li>navn og adresse til leverandøren</li><li>henvisning til den harmoniserte produktstandarden EN 14351-1</li><li>henvisning til system 3 for vurdering og verifikasjon av byggevarers egenskaper</li><li>identifikasjonsnummer og adresse til det tekniske kontrollorganet som har testet vinduet</li><li>vinduets egenskaper og ytelser</li><li>produsentens signatur, med sted og dato</li></ul><p><a href=\"#\">Her</a> kan du se eksempel på en ytelseserklæring. Den kan leveres enten i papirformat sammen med produktet eller være tilgjengelig på leverandørens nettside.</p>"
                 }
               ]
             },
@@ -96,8 +302,8 @@
                 {
                   "id": "ytelseserklaringIngress.system2Plus",
                   "type": "Text",
-                  "heading": "System 2+",
-                  "text": "om ytelsesmerking for produkter som er i system 2+"
+                  "heading": "Ytelseserklæring",
+                  "text": "<p>Ytelseserklæring er et dokument laget og undertegnet av produsenten. PRODUKTNAVN skal være CE-merket. I tillegg skal leverandøren levere en ytelseserklæring som inneholder:</p><ul><li>vinduets identifikasjonskode</li><li>navn og adresse til leverandøren</li><li>henvisning til den harmoniserte produktstandarden EN 14351-1</li><li>henvisning til system 3 for vurdering og verifikasjon av byggevarers egenskaper</li><li>identifikasjonsnummer og adresse til det tekniske kontrollorganet som har testet vinduet</li><li>vinduets egenskaper og ytelser</li><li>produsentens signatur, med sted og dato</li></ul><p><a href=\"#\">Her</a> kan du se eksempel på en ytelseserklæring. Den kan leveres enten i papirformat sammen med produktet eller være tilgjengelig på leverandørens nettside.</p>"
                 }
               ]
             },
@@ -107,8 +313,8 @@
                 {
                   "id": "ytelseserklaringIngress.system3",
                   "type": "Text",
-                  "heading": "System 3",
-                  "text": "om ytelsesmerking for produkter som er i system 3"
+                  "heading": "Ytelseserklæring",
+                  "text": "<p>Ytelseserklæring er et dokument laget og undertegnet av produsenten. PRODUKTNAVN skal være CE-merket. I tillegg skal leverandøren levere en ytelseserklæring som inneholder:</p><ul><li>vinduets identifikasjonskode</li><li>navn og adresse til leverandøren</li><li>henvisning til den harmoniserte produktstandarden EN 14351-1</li><li>henvisning til system 3 for vurdering og verifikasjon av byggevarers egenskaper</li><li>identifikasjonsnummer og adresse til det tekniske kontrollorganet som har testet vinduet</li><li>vinduets egenskaper og ytelser</li><li>produsentens signatur, med sted og dato</li></ul><p><a href=\"#\">Her</a> kan du se eksempel på en ytelseserklæring. Den kan leveres enten i papirformat sammen med produktet eller være tilgjengelig på leverandørens nettside.</p>"
                 }
               ]
             },
@@ -118,8 +324,8 @@
                 {
                   "id": "ytelseserklaringIngress.system4",
                   "type": "Text",
-                  "heading": "System 4",
-                  "text": "om ytelsesmerking for produkter som er i system 4"
+                  "heading": "Ytelseserklæring",
+                  "text": "<p>Ytelseserklæring er et dokument laget og undertegnet av produsenten. PRODUKTNAVN skal være CE-merket. I tillegg skal leverandøren levere en ytelseserklæring som inneholder:</p><ul><li>vinduets identifikasjonskode</li><li>navn og adresse til leverandøren</li><li>henvisning til den harmoniserte produktstandarden EN 14351-1</li><li>henvisning til system 3 for vurdering og verifikasjon av byggevarers egenskaper</li><li>identifikasjonsnummer og adresse til det tekniske kontrollorganet som har testet vinduet</li><li>vinduets egenskaper og ytelser</li><li>produsentens signatur, med sted og dato</li></ul><p><a href=\"#\">Her</a> kan du se eksempel på en ytelseserklæring. Den kan leveres enten i papirformat sammen med produktet eller være tilgjengelig på leverandørens nettside.</p>"
                 }
               ]
             }
@@ -130,7 +336,23 @@
           "type": "Branch",
           "branches": [
             {
-              "test": { "field": "produktType", "operator": "required" },
+              "test": {
+                "type": "and",
+                "clauses": [
+                  {
+                    "type": "and",
+                    "clauses": [
+                      { "field": "produktCeMerket", "operator": "not" },
+                      { "field": "eta", "operator": "not" },
+                      { "field": "finnesDokumentasjon", "operator": "eq", "value": true }
+                    ]
+                  },
+                  { 
+                    "field": "produktType", 
+                    "operator": "required" 
+                  }
+                ]
+              },
               "children": [
                 {
                   "id": "viktigsteEgenskaper",
@@ -174,7 +396,20 @@
           "type": "Branch",
           "branches": [
             {
-              "test": { "field": "produktType", "operator": "required" },
+              "test": {
+                "type": "and",
+                "clauses": [
+                  { "field": "produktType", "operator": "required" },
+                  {
+                    "type": "or",
+                    "clauses": [
+                      { "field": "produktCeMerket", "operator": "eq", "value": true },
+                      { "field": "eta", "operator": "eq", "value": true },
+                      { "field": "ytelseserklæringFremlagt", "operator": "eq", "value": true }
+                    ]
+                  }
+                ]
+              },
               "children": [
                 {
                   "id": "viktigsteEgenskaperYtelseserklaering",
@@ -205,7 +440,7 @@
                       "id": "viktigsteEgenskaperYtelseserklaering.error.msg",
                       "type": "Text",
                       "warning": true,
-                      "heading": "😿 Jammen. Hva er vitsen da?"
+                      "text": "Ytelseserklæringen må beskrive relevante egenskaper. Kan de ikke levere denne må dere vurdere oppfølging basert på hvor alvorlig bruddet er. <a href=\"#\">Se mulig reaksjoner her.</a>"
                     }
                   ]
                 }
@@ -218,13 +453,15 @@
     {
       "id": "produkt",
       "type": "Page",
-      "heading": "Type produkt",
+      "heading": "Produkt",
       "children": [
         {
           "id": "produktType",
           "property": "produktType",
           "type": "Radio",
-          "heading": "Hva slags produkt?",
+          "grid": true,
+          "heading": "Hvilket produkt skal du føre tilsyn med?",
+          "text": "<p></p>",
           "options": [
             {
               "id": "produktType.brannsikkerFugemasse",
@@ -329,7 +566,7 @@
             {
               "id": "produktType.rekkverkAluStalGlass",
               "type": "Answer",
-              "heading": "Rekkverk med aluminium- eller stålprofiler og glass",
+              "heading": "Rekkverk",
               "value": "rekkverkAluStalGlass",
               "image": {
                 "url": "/images/rekkverk.png",
@@ -359,7 +596,7 @@
             {
               "id": "produktType.styrkesortertKonstruksjonsvirke",
               "type": "Answer",
-              "heading": "Styrkesortert konstruksjonsvirke (med rektangulært tverrsnitt)",
+              "heading": "Styrkesortert konstruksjonsvirke",
               "value": "styrkesortertKonstruksjonsvirke",
               "image": {
                 "url": "/images/konstruksjonsvirke_ce.png",
@@ -369,7 +606,7 @@
             {
               "id": "produktType.takbelegg",
               "type": "Answer",
-              "heading": "Takbelegg med asfalt (asfalttakbelegg)",
+              "heading": "Takbelegg med asfalt",
               "value": "takbelegg",
               "image": {
                 "url": "/images/takbelegg_bitumen_ce.png",
@@ -433,7 +670,7 @@
     {
       "id": "ce",
       "type": "Page",
-      "heading": "CE-merking",
+      "heading": "Dokumentasjon",
       "show": { "field": "produktType", "operator": "required" },
       "children": [
         {
@@ -450,7 +687,8 @@
               "id": "eta",
               "property": "eta",
               "type": "Radio",
-              "heading": "Kan foretaket levere en ETA som grunnlag for ytelseserklæring?",
+              "heading": "Finnes det en ETA?",
+              "text": "<p>Produsenter med produkter som har valgfri CE-merking kan skaffe en europeisk teknisk bedømmelse (ETA, som står for European Technical Assessment).</p>",
               "show": { "field": "$computed.ceValgfri", "operator": "is" },
               "options": [
                 {
@@ -498,6 +736,7 @@
               "property": "produktCeMerket",
               "type": "Radio",
               "heading": "Er produktet CE-merket?",
+              "text": "<p>Du kan finne både CE-merkede og ikke CE-merkede produkter på markedet. Noen produkter må ha dette merket, men for enkelte produkter er det frivillig. Produktet du har valgt krever CE-merking. Du kan se eksempel på godkjent merking på bildet. Det skal være festet på produktet. Der det ikke er mulig må det være festet på emballasjen.</p>",
               "options": [
                 {
                   "id": "produktCeMerket.ja",
@@ -522,52 +761,48 @@
                   "id": "produktCeMerket.msg",
                   "type": "Text",
                   "warning": true,
-                  "heading": "😔 Det hadde vært bedre om det hadde det..."
+                  "heading": "Produktet må ha CE-merke",
+                  "text": "Finnes ikke merket, må dere vurdere oppfølging basert på hvor alvorlig bruddet er og hvorvidt det finnes god produktdokumentasjon. <a href=\"#\">Se mulig reaksjoner her.</a>"
                 }
               ]
             }
           ]
-        }
-      ]
-    },
-    {
-      "id": "produktdokumentasjon",
-      "type": "Page",
-      "heading": "Produktdokumentasjon",
-      "show": {
-        "type": "and",
-        "clauses": [
-          { "field": "$computed.ceValgfri", "operator": "is" },
-          { "field": "eta", "operator": "eq", "value": false }
-        ]
-      },
-      "children": [
-        {
-          "id": "finnesDokumentasjon",
-          "property": "finnesDokumentasjon",
-          "type": "Radio",
-          "heading": "Finnes det produktdokumentasjon?",
-          "options": [
-            {
-              "id": "finnesDokumentasjon.ja",
-              "type": "Answer",
-              "heading": "Ja",
-              "value": true
-            },
-            {
-              "id": "finnesDokumentasjon.nei",
-              "type": "Answer",
-              "heading": "Nei",
-              "value": false
-            }
-          ]
         },
         {
-          "id": "resultatManglerDokumentasjon",
-          "type": "Result",
-          "heading": "Nein!",
-          "show": { "field": "finnesDokumentasjon", "operator": "eq", "value": false },
+          "id": "produktdokumentasjon",
+          "type": "Group",
+          "simple": false,
+          "heading": "Produktdokumentasjon",
+          "text": "<p>Ingress?</p>",
+          "show": {
+            "type": "and",
+            "clauses": [
+              { "field": "$computed.ceValgfri", "operator": "is" },
+              { "field": "eta", "operator": "eq", "value": false }
+            ]
+          },
           "children": [
+            {
+              "id": "finnesDokumentasjon",
+              "property": "finnesDokumentasjon",
+              "type": "Radio",
+              "heading": "Finnes det produktdokumentasjon?",
+              "text": "<p>Dette kan for eksempel være SINTEF sin tekniske godkjenning eller annen bedriftsnøytral informasjon som følger med produktet.</p>",
+              "options": [
+                {
+                  "id": "finnesDokumentasjon.ja",
+                  "type": "Answer",
+                  "heading": "Ja",
+                  "value": true
+                },
+                {
+                  "id": "finnesDokumentasjon.nei",
+                  "type": "Answer",
+                  "heading": "Nei",
+                  "value": false
+                }
+              ]
+            },
             {
               "id": "resultatManglerDokumentasjon.error",
               "type": "Error",
@@ -577,216 +812,248 @@
                   "id": "resultatManglerDokumentasjon.msg",
                   "type": "Text",
                   "warning": true,
-                  "heading": "👮‍ Sie müssen Dokumentation haben"
+                  "text": "Kan ikke produsent leverere produktdokumentasjon, må dere vurdere oppfølging basert på hvor alvorlig avviket er."
                 }
               ]
-            }
-          ]
-        },
-        {
-          "id": "dokumentasjonOppfylt",
-          "property": "dokumentasjonOppfylt",
-          "type": "Radio",
-          "heading": "Er kravene til produktdokumentasjon oppfylt?",
-          "options": [
-            {
-              "id": "dokumentasjonOppfylt.ja",
-              "type": "Answer",
-              "heading": "Ja",
-              "value": true
             },
             {
-              "id": "dokumentasjonOppfylt.nei",
-              "type": "Answer",
-              "heading": "Nei",
-              "value": false
-            }
-          ]
-        },
-        {
-          "id": "dokumentasjonOppfylt.error",
-          "type": "Error",
-          "show": { "field": "dokumentasjonOppfylt", "operator": "eq", "value": false },
-          "children": [
-            {
-              "id": "dokumentasjonOppfylt.error.msg",
-              "type": "Text",
-              "warning": true,
-              "heading": "🚨 Aiai"
-            }
-          ]
-        },
-        {
-          "id": "sertifisertAvTredjepart",
-          "property": "sertifisertAvTredjepart",
-          "type": "Radio",
-          "heading": "Står det i dokumentasjonen at produktet er sertifisert av tredjepartsorgan?",
-          "options": [
-            {
-              "id": "sertifisertAvTredjepart.ja",
-              "type": "Answer",
-              "heading": "Ja",
-              "value": true
-            },
-            {
-              "id": "sertifisertAvTredjepart.nei",
-              "type": "Answer",
-              "heading": "Nei",
-              "value": false
-            }
-          ]
-        },
-        {
-          "id": "sertifisertAvTredjepart.error",
-          "type": "Error",
-          "show": { "field": "sertifisertAvTredjepart", "operator": "eq", "value": false },
-          "children": [
-            {
-              "id": "sertifisertAvTredjepart.error.msg",
-              "type": "Text",
-              "warning": true,
-              "heading": "Det er best hvis tredjepart har sertifisert det"
-            }
-          ]
-        },
-        {
-          "id": "dokumentasjonSpraak",
-          "property": "dokumentasjonSpraak",
-          "type": "Radio",
-          "heading": "Er produktdokumentasjonen på norsk, svensk eller dansk?",
-          "options": [
-            {
-              "id": "dokumentasjonSpraak.ja",
-              "type": "Answer",
-              "heading": "Ja",
-              "value": true
-            },
-            {
-              "id": "dokumentasjonSpraak.nei",
-              "type": "Answer",
-              "heading": "Nei",
-              "value": false
-            }
-          ]
-        },
-        {
-          "id": "dokumentasjonSpraak.error",
-          "type": "Error",
-          "show": { "field": "dokumentasjonSpraak", "operator": "eq", "value": false },
-          "children": [
-            {
-              "id": "dokumentasjonSpraak.error.msg",
-              "type": "Text",
-              "warning": true,
-              "heading": "🇳🇴, 🇸🇪 eller 🇩🇰 er det eneste som er godt nok"
-            }
-          ]
-        },
-        {
-          "type": "Reference",
-          "nodeId": "egenskapProduktdokumentasjon"
-        }
-      ]
-    },
-    {
-      "id": "ytelseserklæring",
-      "type": "Page",
-      "heading": "Ytelseserklæring",
-      "show": {
-        "type": "and",
-        "clauses": [
-          { "field": "produktType", "operator": "required" },
-          {
-            "type": "or",
-            "clauses": [
-              { "field": "$computed.ceValgfri", "operator": "eq", "value": false },
-              { "field": "produktCeMerket", "operator": "required" }
-            ]
-          }
-        ]
-      },
-      "children": [
-        {
-          "type": "Reference",
-          "nodeId": "ytelseserklaringIngress"
-        },
-        {
-          "id": "ytelsesErklæringFremlagt",
-          "property": "ytelsesErklæringFremlagt",
-          "type": "Radio",
-          "heading": "Kan ansvarlig foretak legge frem ytelseserklæringen for produktet?",
-          "options": [
-            {
-              "id": "ytelsesErklæringFremlagt.ja",
-              "type": "Answer",
-              "heading": "Ja",
-              "value": true
-            },
-            {
-              "id": "ytelsesErklæringFremlagt.nei",
-              "type": "Answer",
-              "heading": "Nei",
-              "value": false
-            }
-          ]
-        },
-        {
-          "id": "ytelseserklæringIkkeLagtFrem",
-          "type": "Result",
-          "heading": "Nein!",
-          "show": { "field": "ytelsesErklæringFremlagt", "operator": "eq", "value": false },
-          "children": [
-            {
-              "id": "ytelseserklæringIkkeLagtFrem.error",
-              "type": "Error",
-              "show": { "field": "ytelsesErklæringFremlagt", "operator": "eq", "value": false },
+              "id": "resultatManglerDokumentasjon",
+              "type": "Result",
+              "heading": "Nein!",
+              "show": { "field": "finnesDokumentasjon", "operator": "eq", "value": false },
               "children": [
                 {
-                  "id": "ytelseserklæringIkkeLagtFrem.msg",
+                  "id": "resultatManglerDokumentasjon.error",
+                  "type": "Error",
+                  "show": { "field": "finnesDokumentasjon", "operator": "eq", "value": false },
+                  "children": [
+                    {
+                      "id": "resultatManglerDokumentasjon.msg",
+                      "type": "Text",
+                      "warning": true,
+                      "text": "Kan ikke produsenten levere produktinformasjon, må dere vurdere oppfølging basert på hvor alvorlig bruddet er. <a href=\"#\">Se mulig reaksjoner her.</a>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "dokumentasjonOppfylt",
+              "property": "dokumentasjonOppfylt",
+              "type": "Radio",
+              "heading": "Er kravene til produktdokumentasjon oppfylt?",
+              "text": "<p>Kravet er at det må finnes grundig produktinformasjon når produktet ikke er CE-merket. Informasjonen må inneholde:</p><ul><li>dette</li><li>og dette</li></ul>",
+              "options": [
+                {
+                  "id": "dokumentasjonOppfylt.ja",
+                  "type": "Answer",
+                  "heading": "Ja",
+                  "value": true
+                },
+                {
+                  "id": "dokumentasjonOppfylt.nei",
+                  "type": "Answer",
+                  "heading": "Nei",
+                  "value": false
+                }
+              ]
+            },
+            {
+              "id": "dokumentasjonOppfylt.error",
+              "type": "Error",
+              "show": { "field": "dokumentasjonOppfylt", "operator": "eq", "value": false },
+              "children": [
+                {
+                  "id": "dokumentasjonOppfylt.error.msg",
                   "type": "Text",
                   "warning": true,
-                  "heading": "✏️ Da er det bare å forte seg å skrive den, for uten kommer du ingen vei.."
+                  "text": "Denne produktinformasjonen burde følge med produktet. Når produktet ikke er CE-merket må det være god produktinformasjon som oppfyller kravene."
+                }
+              ]
+            },
+            {
+              "id": "sertifisertAvTredjepart",
+              "property": "sertifisertAvTredjepart",
+              "type": "Radio",
+              "heading": "Er produktet sertifisert av tredjepartsorgan?",
+              "text": "<p>Fører du tilsyn med et produkt, skal det finnes et produktsertifikat. Fører du tilsyn med en modul, skal det være et sertifikat på at det er foretatt produksjonskontroll. Tredjepartsorganet som utfører sertifiseringen kan enten være et akkreditert sertifiseringsorgan, eller et teknisk kontroll- eller bedømmelsesorgan som holder til i EØS-området. Ansvarlig foretak eller eksterne rådgivere er ikke myndig tredjepartsorgan til å utføre denne sertifiseringen eller kompensere for den manglende dokumentasjonen.</p>",
+              "options": [
+                {
+                  "id": "sertifisertAvTredjepart.ja",
+                  "type": "Answer",
+                  "heading": "Ja",
+                  "value": true
+                },
+                {
+                  "id": "sertifisertAvTredjepart.nei",
+                  "type": "Answer",
+                  "heading": "Nei",
+                  "value": false
+                }
+              ]
+            },
+            {
+              "id": "sertifisertAvTredjepart.error",
+              "type": "Error",
+              "show": { "field": "sertifisertAvTredjepart", "operator": "eq", "value": false },
+              "children": [
+                {
+                  "id": "sertifisertAvTredjepart.error.msg",
+                  "type": "Text",
+                  "warning": true,
+                  "heading": "Produktet må være sertifisert",
+                  "text": "Er ikke produktet sertifisert må dere vurdere oppfølging basert på hvor alvorlig bruddet er. <a href\"#\">Se mulig reaksjoner her.</a>"
+                }
+              ]
+            },
+            {
+              "id": "resultatSertifisertAvTredjepart",
+              "type": "Result",
+              "heading": "Nein!",
+              "show": { "field": "sertifisertAvTredjepart", "operator": "eq", "value": false },
+              "children": [
+                {
+                  "id": "sertifisertAvTredjepart.error",
+                  "type": "Error",
+                  "show": { "field": "sertifisertAvTredjepart", "operator": "eq", "value": false },
+                  "children": [
+                    {
+                      "id": "sertifisertAvTredjepart.error.msg",
+                      "type": "Text",
+                      "warning": true,
+                      "heading": "Produktet må være sertifisert",
+                      "text": "Er ikke produktet sertifisert må dere vurdere oppfølging basert på hvor alvorlig bruddet er. <a href\"#\">Se mulig reaksjoner her.</a>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "dokumentasjonSpraak",
+              "property": "dokumentasjonSpraak",
+              "type": "Radio",
+              "heading": "Er produktdokumentasjonen på norsk, svensk eller dansk?",
+              "options": [
+                {
+                  "id": "dokumentasjonSpraak.ja",
+                  "type": "Answer",
+                  "heading": "Ja",
+                  "value": true
+                },
+                {
+                  "id": "dokumentasjonSpraak.nei",
+                  "type": "Answer",
+                  "heading": "Nei",
+                  "value": false
+                }
+              ]
+            },
+            {
+              "id": "dokumentasjonSpraak.error",
+              "type": "Error",
+              "show": { "field": "dokumentasjonSpraak", "operator": "eq", "value": false },
+              "children": [
+                {
+                  "id": "dokumentasjonSpraak.error.msg",
+                  "type": "Text",
+                  "warning": true,
+                  "text": "Er produktdokumentasjonen skrevet på et språk du ikke forstår, kan du kreve å få den oversatt."
                 }
               ]
             }
           ]
         },
         {
-          "id": "ytelseserklaeringSpraak",
-          "property": "ytelseserklaeringSpraak",
-          "type": "Radio",
-          "heading": "Er ytelseserklæringen på norsk, svensk eller dansk?",
-          "options": [
-            {
-              "id": "ytelseserklaeringSpraak.ja",
-              "type": "Answer",
-              "heading": "Ja",
-              "value": true
-            },
-            {
-              "id": "ytelseserklaeringSpraak.nei",
-              "type": "Answer",
-              "heading": "Nei",
-              "value": false
-            }
-          ]
-        },
-        {
-          "id": "ytelseserklaeringSpraak.error",
-          "type": "Error",
-          "show": { "field": "ytelseserklaeringSpraak", "operator": "eq", "value": false },
+          "id": "ytelseserklæring",
+          "type": "Group",
+          "simple": false,
+          "show": {
+            "type": "and",
+            "clauses": [
+              { "field": "produktType", "operator": "required" },
+              {
+                "type": "or",
+                "clauses": [
+                  { "field": "$computed.ceValgfri", "operator": "eq", "value": false },
+                  { "field": "produktCeMerket", "operator": "required" }
+                ]
+              }
+            ]
+          },
           "children": [
             {
-              "id": "ytelseserklaeringSpraak.error.msg",
-              "type": "Text",
-              "warning": true,
-              "heading": "🇳🇴, 🇸🇪 eller 🇩🇰 er det eneste som er godt nok"
+              "type": "Reference",
+              "nodeId": "ytelseserklaringIngress"
+            },
+            {
+              "id": "ytelseserklæringFremlagt",
+              "property": "ytelseserklæringFremlagt",
+              "type": "Radio",
+              "heading": "Finnes det en ytelseserklæring for produktet?",
+              "options": [
+                {
+                  "id": "ytelseserklæringFremlagt.ja",
+                  "type": "Answer",
+                  "heading": "Ja",
+                  "value": true
+                },
+                {
+                  "id": "ytelseserklæringFremlagt.nei",
+                  "type": "Answer",
+                  "heading": "Nei",
+                  "value": false
+                }
+              ]
+            },
+            {
+              "id": "ytelseserklæringFremlagt.error",
+              "type": "Error",
+              "show": { "field": "ytelseserklæringFremlagt", "operator": "eq", "value": false },
+              "children": [
+                {
+                  "id": "ytelseserklæringFremlagt.error.msg",
+                  "type": "Text",
+                  "warning": true,
+                  "heading": "Produktet må ha en ytelseserklæring",
+                  "text": "Kan ikke produsenten levere den, må dere vurdere oppfølging basert på hvor alvorlig bruddet er. Se mulig reaksjoner her."
+                }
+              ]
+            },
+            {
+              "id": "ytelseserklaeringSpraak",
+              "property": "ytelseserklaeringSpraak",
+              "type": "Radio",
+              "heading": "Er ytelseserklæringen på norsk, svensk eller dansk?",
+              "show": { "field": "ytelseserklæringFremlagt", "operator": "eq", "value": true },
+              "options": [
+                {
+                  "id": "ytelseserklaeringSpraak.ja",
+                  "type": "Answer",
+                  "heading": "Ja",
+                  "value": true
+                },
+                {
+                  "id": "ytelseserklaeringSpraak.nei",
+                  "type": "Answer",
+                  "heading": "Nei",
+                  "value": false
+                }
+              ]
+            },
+            {
+              "id": "ytelseserklaeringSpraak.error",
+              "type": "Error",
+              "show": { "field": "ytelseserklaeringSpraak", "operator": "eq", "value": false },
+              "children": [
+                {
+                  "id": "ytelseserklaeringSpraak.error.msg",
+                  "type": "Text",
+                  "warning": true,
+                  "text": "Er ytelseserklæringen skrevet på et språk du ikke forstår, kan du kreve å få den oversatt."
+                }
+              ]
             }
           ]
-        },
-        {
-          "type": "Reference",
-          "nodeId": "egenskapYtelseserklaering"
         }
       ]
     },
@@ -794,12 +1061,27 @@
       "id": "prosjektering",
       "type": "Page",
       "heading": "Prosjektering",
+      "lead": "<p>Ansvarlig foretak må legge frem dokumentasjon på de viktigste ytelsene til produktet og vise at de oppfyller kravene til prosjektet.</p>",
+      "hide": { "field": "ytelseserklæringFremlagt", "operator": "eq", "value": false },
       "children": [
+        {
+          "type": "Reference",
+          "nodeId": "produktTabell"
+        },
+        {
+          "type": "Reference",
+          "nodeId": "egenskapYtelseserklaering"
+        },
+        {
+          "type": "Reference",
+          "nodeId": "egenskapProduktdokumentasjon"
+        },
         {
           "id": "produktytelseSamsvarer",
           "property": "produktytelseSamsvarer",
           "type": "Radio",
           "heading": "Er produktets ytelser i samsvar med prosjekteringen?",
+          "text": "<p>Finn fram prosjekteringsgrunnlaget. Sjekk at produktets ytelser stemmer overens med det som er prosjektert. For eksempel at det er angitt samme brannmotstand.</p>",
           "options": [
             {
               "id": "produktytelseSamsvarer.ja",
@@ -824,7 +1106,7 @@
               "id": "produktytelseSamsvarer.error.msg",
               "type": "Text",
               "warning": true,
-              "heading": "Hver gang det ikke samsvarer dør en kattepus 😿"
+              "text": "Da må ansvarlig foretak forklare hvordan avviket ble håndtert. Kommunen kan vurdere å fatte vedtak om uavhengig kontroll."
             }
           ]
         }
@@ -839,7 +1121,8 @@
           "id": "finnesProdusentensVeiledning",
           "property": "finnesProdusentensVeiledning",
           "type": "Radio",
-          "heading": "Kan ansvarlig foretak legge frem produsentens bruksanvisning?",
+          "heading": "Finnes det en bruksanvisning?",
+          "text": "<p>Bruksanvisning må legges frem og inkludere monteringsanvisninger for sammensatte byggevarer og sikkerhetsinformasjon om farlige stoffer.</p>",
           "options": [
             {
               "id": "finnesProdusentensVeiledning.ja",
@@ -864,7 +1147,8 @@
               "id": "finnesProdusentensVeiledning.error.msg",
               "type": "Text",
               "warning": true,
-              "heading": "🔥 <a href=\"https://www.youtube.com/watch?v=dQw4w9WgXcQ\">Å nei</a>"
+              "heading": "Produktet må ha bruksanvisning",
+              "text": "Kan ikke produsent forklare hvordan produktet skal brukes, må dere vurdere oppfølging basert på hvor alvorlig bruddet er."
             }
           ]
         },
@@ -907,7 +1191,7 @@
                       "id": "bruksanvisningSpraak.error.msg",
                       "type": "Text",
                       "warning": true,
-                      "heading": "🤐 <a href=\"https://www.youtube.com/watch?v=waEC-8GFTP4\">Får vel bare gjette da...</a>"
+                      "text": "Er bruksanvisningen skrevet på et språk du ikke forstår, kan du kreve å få den oversatt."
                     }
                   ]
                 }
