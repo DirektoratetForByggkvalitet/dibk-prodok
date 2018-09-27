@@ -263,8 +263,79 @@
               "children": [
                 {
                   "id": "ytelseserklaringTabell.vindu",
-                  "type": "Text",
-                  "text": "<p>For hver av vinduets egenskaper skal det angis en ytelse enten i form av verdi, klasse eller terskelverdi.</p><p>Dersom lydisolering og motstand mot vindlast ikke er relevant for prosjektet, kan ytelsen uttrykkes som NPD (No Performance Determined). Ved tilsyn bør dere fokusere på U-verdien, lufttetthet og vanntetthet.</p>(Tabell for vindu)"
+                  "text": "<p>For hver av vinduets egenskaper skal det angis en ytelse enten i form av verdi, klasse eller terskelverdi.</p><p>Dersom lydisolering og motstand mot vindlast ikke er relevant for prosjektet, kan ytelsen uttrykkes som NPD (No Performance Determined). Ved tilsyn bør dere fokusere på U-verdien, lufttetthet og vanntetthet.</p>",
+                  "type": "Table",
+                  "simple": true,
+                  "cells": [
+                    [
+                      {
+                        "id": "vinduTabell.heading",
+                        "type": "Heading",
+                        "colSpan": 2,
+                        "text": "Produktegenskaper"
+                      }
+                    ],
+                    [
+                      {
+                        "id": "vinduTabell.cell.1",
+                        "type": "Cell",
+                        "text": "<strong>Varmegjennomgangskoeffisient (U-verdi)</strong><br /><p>Dette beskriver vinduets varmeisolerende evne.</p>"
+                      },
+                      {
+                        "id": "vinduTabell.cell.2",
+                        "type": "Cell",
+                        "text": "<em><strong>Måles i W/(m²K) og uttrykkes med en verdi</strong><br />eks: 1,1 W/(m<sup>2</sup>K)</em>"
+                      }
+                    ],
+                    [
+                      {
+                        "id": "vinduTabell.cell.3",
+                        "type": "Cell",
+                        "text": "<strong>Lufttetthet</strong>"
+                      },
+                      {
+                        "id": "vinduTabell.cell.4",
+                        "type": "Cell",
+                        "text": "<em><strong>Måler trykket (Pa) og angis med en klasse</strong><br />eks: A1 (150)</em>"
+                      }
+                    ],
+                    [
+                      {
+                        "id": "vinduTabell.cell.5",
+                        "type": "Cell",
+                        "text": "<strong>Vanntetthet</strong>"
+                      },
+                      {
+                        "id": "vinduTabell.cell.6",
+                        "type": "Cell",
+                        "text": "<em><strong>Måler trykket og angis i form av klasser</strong><br />eks: RA (150)</em>"
+                      }
+                    ],
+                    [
+                      {
+                        "id": "vinduTabell.cell.7",
+                        "type": "Cell",
+                        "text": "<strong>Lydisolering</strong>"
+                      },
+                      {
+                        "id": "vinduTabell.cell.8",
+                        "type": "Cell",
+                        "text": "<em><strong>Måles i dB, men en verdi</strong><br />eks: 47 (-2;5)dB</em>"
+                      }
+                    ],
+                    [
+                      {
+                        "id": "vinduTabell.cell.9",
+                        "type": "Cell",
+                        "text": "<strong>Motstand mot vindlast</strong>"
+                      },
+                      {
+                        "id": "vinduTabell.cell.10",
+                        "type": "Cell",
+                        "text": "<em><strong>Angis i form av en klasse</strong><br />eks: B4</em>"
+                      }
+                    ]
+                  ]
                 }
               ]
             }
