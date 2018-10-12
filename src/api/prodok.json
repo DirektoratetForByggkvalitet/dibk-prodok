@@ -13,7 +13,7 @@
         { "field": "produktType", "operator": "eq", "value": "prefabrikerteByggmodulerTre" },
         { "field": "produktType", "operator": "eq", "value": "prefabrikerteByggmodulerStal" },
         { "field": "produktType", "operator": "eq", "value": "brannsikkerFugemasse" },
-        { "field": "produktType", "operator": "eq", "value": "trapp" }
+        { "field": "produktType", "operator": "eq", "value": "prefabrikertTrapp" }
       ]
     },
     "iSystem1": {
@@ -123,8 +123,79 @@
               "children": [
                 {
                   "id": "ytelseserklaringTabell.prefabrikerteByggmodulerTre",
-                  "type": "Text",
-                  "text": "<p>Både ytelseserklæringen og ETA-en skal inneholde en beskrivelse av modulens egenskaper.</p> (Tabell)"
+                  "text": "<p>Både ytelseserklæringen og ETA-en skal inneholde en beskrivelse av modulens egenskaper.</p><p>For sammensatte produkter, slik som prefabrikerte byggmoduler i tre, vil beskrivelsen omfatte en form for prosjektering, ettersom produktets ytelser må vurderes i forhold til modulens og de ulike komponentenes dimensjoner.</p>",
+                  "type": "Table",
+                  "simple": true,
+                  "cells": [
+                    [
+                      {
+                        "id": "byggmodulTreTabell.heading",
+                        "type": "Heading",
+                        "colSpan": 2,
+                        "text": "Produktegenskaper"
+                      }
+                    ],
+                    [
+                      {
+                        "id": "byggmodulTreTabell.cell.1",
+                        "type": "Cell",
+                        "text": "<strong>Mekaniske egenskaper</strong><br /><p>Bæreevne til vegg, etasjeskille og tak</p>"
+                      },
+                      {
+                        "id": "byggmodulTreTabell.cell.2",
+                        "type": "Cell",
+                        "text": "<em><strong>Angis i kN/m</strong></em>"
+                      }
+                    ],
+                    [
+                      {
+                        "id": "byggmodulTreTabell.cell.3",
+                        "type": "Cell",
+                        "text": "<strong>Brannegenskaper</strong><br /><p>Brannpåvirkning til de ulike egenskapene, brannmotstand og ytre brannegenskaper</p>"
+                      },
+                      {
+                        "id": "byggmodulTreTabell.cell.4",
+                        "type": "Cell",
+                        "text": "<em><strong>Angis i branntekniske klasser</strong></em>"
+                      }
+                    ],
+                    [
+                      {
+                        "id": "byggmodulTreTabell.cell.5",
+                        "type": "Cell",
+                        "text": "<strong>Helse, hygiene og miljø</strong><br /><ul><li>Fuktsikring som vanntetthet til utvendige komponenter (vegg, tak og fundemanter)</li><li>Vanntetthet til innvendige flater (vegg, tak, gulv)</li><li>Vanndampmotstand til komponenter (vegg, tak, gulv)</li></ul>"
+                      },
+                      {
+                        "id": "byggmodulTreTabell.cell.6",
+                        "type": "Cell",
+                        "text": "<em><strong>Angis i klasse for relevant komponent</strong><br />eks: RA</em>"
+                      }
+                    ],
+                    [
+                      {
+                        "id": "byggmodulTreTabell.cell.7",
+                        "type": "Cell",
+                        "text": "<strong>Lydisolering</strong>"
+                      },
+                      {
+                        "id": "byggmodulTreTabell.cell.8",
+                        "type": "Cell",
+                        "text": "<em><strong>Måles i dB, men en verdi</strong><br />eks: 47 (-2;5)dB</em>"
+                      }
+                    ],
+                    [
+                      {
+                        "id": "byggmodulTreTabell.cell.9",
+                        "type": "Cell",
+                        "text": "<strong>Motstand mot vindlast</strong>"
+                      },
+                      {
+                        "id": "byggmodulTreTabell.cell.10",
+                        "type": "Cell",
+                        "text": "<em><strong>Angis i form av en klasse</strong><br />eks: B4</em>"
+                      }
+                    ]
+                  ]
                 }
               ]
             },
@@ -380,8 +451,31 @@
               "children": [
                 {
                   "id": "ytelseserklaringTabell.prefabrikerteByggmodulerTre",
-                  "type": "Text",
-                  "text": "<p>Både ytelseserklæringen og ETA-en skal inneholde en beskrivelse av modulens egenskaper.</p> (Tabell) prodok"
+                  "text": "<p>Både ytelseserklæringen og ETA-en skal inneholde en beskrivelse av modulens egenskaper.</p>",
+                  "type": "Table",
+                  "simple": true,
+                  "cells": [
+                    [
+                      {
+                        "id": "byggmodulTreTabell.heading",
+                        "type": "Heading",
+                        "colSpan": 2,
+                        "text": "Produktegenskaper"
+                      }
+                    ],
+                    [
+                      {
+                        "id": "byggmodulTreTabell.cell.1",
+                        "type": "Cell",
+                        "text": "<strong>Egenskap</strong><br /><p>Beskrivelse</p>"
+                      },
+                      {
+                        "id": "byggmodulTreTabell.cell.2",
+                        "type": "Cell",
+                        "text": "<em><strong>Måleenhet</strong><br />eks: eksempel</em>"
+                      }
+                    ]
+                  ]
                 }
               ]
             },
@@ -427,7 +521,7 @@
                 {
                   "id": "ytelseserklaringIngress.ytelseserklaringIngress.brannsikkerFugemasse",
                   "type": "Text",
-                  "heading": "Ytelseserklæring",
+                  "heading": "Finnes det ytelseserklæring?",
                   "text": "<p>Ytelseserklæring er et dokument laget og undertegnet av produsenten. Produsenten skal levere en ytelseserklæring som inneholder:</p><ul><li>vinduets identifikasjonskode</li><li>navn og adresse til produsenten</li><li>henvisning til den harmoniserte produktstandarden EN 14351-1</li><li>henvisning til system 3 for vurdering og verifikasjon av byggevarers egenskaper</li><li>identifikasjonsnummer og adresse til det tekniske kontrollorganet som har testet vinduet</li><li>vinduets egenskaper og ytelser</li><li>produsentens signatur, med sted og dato</li></ul><p><a href=\"#\">Her</a> kan du se eksempel på en ytelseserklæring. Den kan leveres enten i papirformat sammen med produktet eller være tilgjengelig på produsentens nettside.</p>"
                 }
               ]
@@ -438,7 +532,7 @@
                 {
                   "id": "ytelseserklaringIngress.hulldekkeelementer",
                   "type": "Text",
-                  "heading": "Ytelseserklæring",
+                  "heading": "Finnes det ytelseserklæring?",
                   "text": "<p>Ytelseserklæring er et dokument laget og undertegnet av produsenten. Produsenten skal levere en ytelseserklæring som inneholder:</p><ul><li>vinduets identifikasjonskode</li><li>navn og adresse til produsenten</li><li>henvisning til den harmoniserte produktstandarden EN 14351-1</li><li>henvisning til system 3 for vurdering og verifikasjon av byggevarers egenskaper</li><li>identifikasjonsnummer og adresse til det tekniske kontrollorganet som har testet vinduet</li><li>vinduets egenskaper og ytelser</li><li>produsentens signatur, med sted og dato</li></ul><p><a href=\"#\">Her</a> kan du se eksempel på en ytelseserklæring. Den kan leveres enten i papirformat sammen med produktet eller være tilgjengelig på produsentens nettside.</p>"
                 }
               ]
@@ -449,7 +543,7 @@
                 {
                   "id": "ytelseserklaringIngress.laminertGlass",
                   "type": "Text",
-                  "heading": "Ytelseserklæring",
+                  "heading": "Finnes det ytelseserklæring?",
                   "text": "<p>Ytelseserklæring er et dokument laget og undertegnet av produsenten. Produsenten skal levere en ytelseserklæring som inneholder:</p><ul><li>vinduets identifikasjonskode</li><li>navn og adresse til produsenten</li><li>henvisning til den harmoniserte produktstandarden EN 14351-1</li><li>henvisning til system 3 for vurdering og verifikasjon av byggevarers egenskaper</li><li>identifikasjonsnummer og adresse til det tekniske kontrollorganet som har testet vinduet</li><li>vinduets egenskaper og ytelser</li><li>produsentens signatur, med sted og dato</li></ul><p><a href=\"#\">Her</a> kan du se eksempel på en ytelseserklæring. Den kan leveres enten i papirformat sammen med produktet eller være tilgjengelig på produsentens nettside.</p>"
                 }
               ]
@@ -460,7 +554,7 @@
                 {
                   "id": "ytelseserklaringIngress.prefabrikertBaderomsmodul",
                   "type": "Text",
-                  "heading": "Ytelseserklæring",
+                  "heading": "Finnes det ytelseserklæring?",
                   "text": "<p>Ytelseserklæring er et dokument laget og undertegnet av produsenten. Produsenten skal levere en ytelseserklæring som inneholder:</p><ul><li>vinduets identifikasjonskode</li><li>navn og adresse til produsenten</li><li>henvisning til den harmoniserte produktstandarden EN 14351-1</li><li>henvisning til system 3 for vurdering og verifikasjon av byggevarers egenskaper</li><li>identifikasjonsnummer og adresse til det tekniske kontrollorganet som har testet vinduet</li><li>vinduets egenskaper og ytelser</li><li>produsentens signatur, med sted og dato</li></ul><p><a href=\"#\">Her</a> kan du se eksempel på en ytelseserklæring. Den kan leveres enten i papirformat sammen med produktet eller være tilgjengelig på produsentens nettside.</p>"
                 }
               ]
@@ -471,7 +565,7 @@
                 {
                   "id": "ytelseserklaringIngress.prefabrikertTrapp",
                   "type": "Text",
-                  "heading": "Ytelseserklæring",
+                  "heading": "Finnes det ytelseserklæring?",
                   "text": "<p>Ytelseserklæring er et dokument laget og undertegnet av produsenten. Produsenten skal levere en ytelseserklæring som inneholder:</p><ul><li>vinduets identifikasjonskode</li><li>navn og adresse til produsenten</li><li>henvisning til den harmoniserte produktstandarden EN 14351-1</li><li>henvisning til system 3 for vurdering og verifikasjon av byggevarers egenskaper</li><li>identifikasjonsnummer og adresse til det tekniske kontrollorganet som har testet vinduet</li><li>vinduets egenskaper og ytelser</li><li>produsentens signatur, med sted og dato</li></ul><p><a href=\"#\">Her</a> kan du se eksempel på en ytelseserklæring. Den kan leveres enten i papirformat sammen med produktet eller være tilgjengelig på produsentens nettside.</p>"
                 }
               ]
@@ -482,7 +576,7 @@
                 {
                   "id": "ytelseserklaringIngress.prefabrikerteByggmodulerITre",
                   "type": "Text",
-                  "heading": "Ytelseserklæring",
+                  "heading": "Finnes det ytelseserklæring?",
                   "text": "<p>Ytelseserklæring er et dokument laget og undertegnet av produsenten. Produsenten skal levere en ytelseserklæring som inneholder:</p><ul><li>modulens identifikasjonskode</li><li>produsentens navn, adresse, signatur, sted og dato</li><li>henvisning til referansenummer til ETA-en</li><li>henvisning til system 1 for vurdering og verifikasjon av byggemodulens egenskaper</li><li>informasjon om tredjepartsorganet (identifikasjonsnummer og adresse) som har utført produktsertifisering</li><li>byggemodulens egenskaper</li></ul><p><a href=\"#\">Her</a> kan du se eksempel på en ytelseserklæring. Den kan leveres enten i papirformat sammen med produktet eller være tilgjengelig på produsentens nettside.</p>"
                 }
               ]
@@ -493,7 +587,7 @@
                 {
                   "id": "ytelseserklaringIngress.prefabrikerteStalkonstruksjoner",
                   "type": "Text",
-                  "heading": "Ytelseserklæring",
+                  "heading": "Finnes det ytelseserklæring?",
                   "text": "<p>Ytelseserklæring er et dokument laget og undertegnet av produsenten. Produsenten skal levere en ytelseserklæring som inneholder:</p><ul><li>vinduets identifikasjonskode</li><li>navn og adresse til produsenten</li><li>henvisning til den harmoniserte produktstandarden EN 14351-1</li><li>henvisning til system 3 for vurdering og verifikasjon av byggevarers egenskaper</li><li>identifikasjonsnummer og adresse til det tekniske kontrollorganet som har testet vinduet</li><li>vinduets egenskaper og ytelser</li><li>produsentens signatur, med sted og dato</li></ul><p><a href=\"#\">Her</a> kan du se eksempel på en ytelseserklæring. Den kan leveres enten i papirformat sammen med produktet eller være tilgjengelig på produsentens nettside.</p>"
                 }
               ]
@@ -504,7 +598,7 @@
                 {
                   "id": "ytelseserklaringIngress.prefabrikerteByggemodulerStal",
                   "type": "Text",
-                  "heading": "Ytelseserklæring",
+                  "heading": "Finnes det ytelseserklæring?",
                   "text": "<p>Ytelseserklæring er et dokument laget og undertegnet av produsenten. Produsenten skal levere en ytelseserklæring som inneholder:</p><ul><li>vinduets identifikasjonskode</li><li>navn og adresse til produsenten</li><li>henvisning til den harmoniserte produktstandarden EN 14351-1</li><li>henvisning til system 3 for vurdering og verifikasjon av byggevarers egenskaper</li><li>identifikasjonsnummer og adresse til det tekniske kontrollorganet som har testet vinduet</li><li>vinduets egenskaper og ytelser</li><li>produsentens signatur, med sted og dato</li></ul><p><a href=\"#\">Her</a> kan du se eksempel på en ytelseserklæring. Den kan leveres enten i papirformat sammen med produktet eller være tilgjengelig på produsentens nettside.</p>"
                 }
               ]
@@ -515,7 +609,7 @@
                 {
                   "id": "ytelseserklaringIngress.pahengsfasader",
                   "type": "Text",
-                  "heading": "Ytelseserklæring",
+                  "heading": "Finnes det ytelseserklæring?",
                   "text": "<p>Ytelseserklæring er et dokument laget og undertegnet av produsenten. Produsenten skal levere en ytelseserklæring som inneholder:</p><ul><li>vinduets identifikasjonskode</li><li>navn og adresse til produsenten</li><li>henvisning til den harmoniserte produktstandarden EN 14351-1</li><li>henvisning til system 3 for vurdering og verifikasjon av byggevarers egenskaper</li><li>identifikasjonsnummer og adresse til det tekniske kontrollorganet som har testet vinduet</li><li>vinduets egenskaper og ytelser</li><li>produsentens signatur, med sted og dato</li></ul><p><a href=\"#\">Her</a> kan du se eksempel på en ytelseserklæring. Den kan leveres enten i papirformat sammen med produktet eller være tilgjengelig på produsentens nettside.</p>"
                 }
               ]
@@ -526,7 +620,7 @@
                 {
                   "id": "ytelseserklaringIngress.radonmembran",
                   "type": "Text",
-                  "heading": "Ytelseserklæring",
+                  "heading": "Finnes det ytelseserklæring?",
                   "text": "<p>Ytelseserklæring er et dokument laget og undertegnet av produsenten. Produsenten skal levere en ytelseserklæring som inneholder:</p><ul><li>vinduets identifikasjonskode</li><li>navn og adresse til produsenten</li><li>henvisning til den harmoniserte produktstandarden EN 14351-1</li><li>henvisning til system 3 for vurdering og verifikasjon av byggevarers egenskaper</li><li>identifikasjonsnummer og adresse til det tekniske kontrollorganet som har testet vinduet</li><li>vinduets egenskaper og ytelser</li><li>produsentens signatur, med sted og dato</li></ul><p><a href=\"#\">Her</a> kan du se eksempel på en ytelseserklæring. Den kan leveres enten i papirformat sammen med produktet eller være tilgjengelig på produsentens nettside.</p>"
                 }
               ]
@@ -537,7 +631,7 @@
                 {
                   "id": "ytelseserklaringIngress.rekkverkAluStalGlass",
                   "type": "Text",
-                  "heading": "Ytelseserklæring",
+                  "heading": "Finnes det ytelseserklæring?",
                   "text": "<p>Ytelseserklæring er et dokument laget og undertegnet av produsenten. Produsenten skal levere en ytelseserklæring som inneholder:</p><ul><li>vinduets identifikasjonskode</li><li>navn og adresse til produsenten</li><li>henvisning til den harmoniserte produktstandarden EN 14351-1</li><li>henvisning til system 3 for vurdering og verifikasjon av byggevarers egenskaper</li><li>identifikasjonsnummer og adresse til det tekniske kontrollorganet som har testet vinduet</li><li>vinduets egenskaper og ytelser</li><li>produsentens signatur, med sted og dato</li></ul><p><a href=\"#\">Her</a> kan du se eksempel på en ytelseserklæring. Den kan leveres enten i papirformat sammen med produktet eller være tilgjengelig på produsentens nettside.</p>"
                 }
               ]
@@ -548,7 +642,7 @@
                 {
                   "id": "ytelseserklaringIngress.ror",
                   "type": "Text",
-                  "heading": "Ytelseserklæring",
+                  "heading": "Finnes det ytelseserklæring?",
                   "text": "<p>Ytelseserklæring er et dokument laget og undertegnet av produsenten. Produsenten skal levere en ytelseserklæring som inneholder:</p><ul><li>vinduets identifikasjonskode</li><li>navn og adresse til produsenten</li><li>henvisning til den harmoniserte produktstandarden EN 14351-1</li><li>henvisning til system 3 for vurdering og verifikasjon av byggevarers egenskaper</li><li>identifikasjonsnummer og adresse til det tekniske kontrollorganet som har testet vinduet</li><li>vinduets egenskaper og ytelser</li><li>produsentens signatur, med sted og dato</li></ul><p><a href=\"#\">Her</a> kan du se eksempel på en ytelseserklæring. Den kan leveres enten i papirformat sammen med produktet eller være tilgjengelig på produsentens nettside.</p>"
                 }
               ]
@@ -559,7 +653,7 @@
                 {
                   "id": "ytelseserklaringIngress.sandwichelementer",
                   "type": "Text",
-                  "heading": "Ytelseserklæring",
+                  "heading": "Finnes det ytelseserklæring?",
                   "text": "<p>Ytelseserklæring er et dokument laget og undertegnet av produsenten. Produsenten skal levere en ytelseserklæring som inneholder:</p><ul><li>vinduets identifikasjonskode</li><li>navn og adresse til produsenten</li><li>henvisning til den harmoniserte produktstandarden EN 14351-1</li><li>henvisning til system 3 for vurdering og verifikasjon av byggevarers egenskaper</li><li>identifikasjonsnummer og adresse til det tekniske kontrollorganet som har testet vinduet</li><li>vinduets egenskaper og ytelser</li><li>produsentens signatur, med sted og dato</li></ul><p><a href=\"#\">Her</a> kan du se eksempel på en ytelseserklæring. Den kan leveres enten i papirformat sammen med produktet eller være tilgjengelig på produsentens nettside.</p>"
                 }
               ]
@@ -570,7 +664,7 @@
                 {
                   "id": "ytelseserklaringIngress.styrkesortertKonstruksjonsvirke",
                   "type": "Text",
-                  "heading": "Ytelseserklæring",
+                  "heading": "Finnes det ytelseserklæring?",
                   "text": "<p>Ytelseserklæring er et dokument laget og undertegnet av produsenten. Produsenten skal levere en ytelseserklæring som inneholder:</p><ul><li>vinduets identifikasjonskode</li><li>navn og adresse til produsenten</li><li>henvisning til den harmoniserte produktstandarden EN 14351-1</li><li>henvisning til system 3 for vurdering og verifikasjon av byggevarers egenskaper</li><li>identifikasjonsnummer og adresse til det tekniske kontrollorganet som har testet vinduet</li><li>vinduets egenskaper og ytelser</li><li>produsentens signatur, med sted og dato</li></ul><p><a href=\"#\">Her</a> kan du se eksempel på en ytelseserklæring. Den kan leveres enten i papirformat sammen med produktet eller være tilgjengelig på produsentens nettside.</p>"
                 }
               ]
@@ -581,7 +675,7 @@
                 {
                   "id": "ytelseserklaringIngress.takbelegg",
                   "type": "Text",
-                  "heading": "Ytelseserklæring",
+                  "heading": "Finnes det ytelseserklæring?",
                   "text": "<p>Ytelseserklæring er et dokument laget og undertegnet av produsenten. Produsenten skal levere en ytelseserklæring som inneholder:</p><ul><li>vinduets identifikasjonskode</li><li>navn og adresse til produsenten</li><li>henvisning til den harmoniserte produktstandarden EN 14351-1</li><li>henvisning til system 3 for vurdering og verifikasjon av byggevarers egenskaper</li><li>identifikasjonsnummer og adresse til det tekniske kontrollorganet som har testet vinduet</li><li>vinduets egenskaper og ytelser</li><li>produsentens signatur, med sted og dato</li></ul><p><a href=\"#\">Her</a> kan du se eksempel på en ytelseserklæring. Den kan leveres enten i papirformat sammen med produktet eller være tilgjengelig på produsentens nettside.</p>"
                 }
               ]
@@ -592,7 +686,7 @@
                 {
                   "id": "ytelseserklaringIngress.takstoler",
                   "type": "Text",
-                  "heading": "Ytelseserklæring",
+                  "heading": "Finnes det ytelseserklæring?",
                   "text": "<p>Ytelseserklæring er et dokument laget og undertegnet av produsenten. Produsenten skal levere en ytelseserklæring som inneholder:</p><ul><li>vinduets identifikasjonskode</li><li>navn og adresse til produsenten</li><li>henvisning til den harmoniserte produktstandarden EN 14351-1</li><li>henvisning til system 3 for vurdering og verifikasjon av byggevarers egenskaper</li><li>identifikasjonsnummer og adresse til det tekniske kontrollorganet som har testet vinduet</li><li>vinduets egenskaper og ytelser</li><li>produsentens signatur, med sted og dato</li></ul><p><a href=\"#\">Her</a> kan du se eksempel på en ytelseserklæring. Den kan leveres enten i papirformat sammen med produktet eller være tilgjengelig på produsentens nettside.</p>"
                 }
               ]
@@ -603,7 +697,7 @@
                 {
                   "id": "ytelseserklaringIngress.fasadekledningMetall",
                   "type": "Text",
-                  "heading": "Ytelseserklæring",
+                  "heading": "Finnes det ytelseserklæring?",
                   "text": "<p>Ytelseserklæring er et dokument laget og undertegnet av produsenten. Produsenten skal levere en ytelseserklæring som inneholder:</p><ul><li>vinduets identifikasjonskode</li><li>navn og adresse til produsenten</li><li>henvisning til den harmoniserte produktstandarden EN 14351-1</li><li>henvisning til system 3 for vurdering og verifikasjon av byggevarers egenskaper</li><li>identifikasjonsnummer og adresse til det tekniske kontrollorganet som har testet vinduet</li><li>vinduets egenskaper og ytelser</li><li>produsentens signatur, med sted og dato</li></ul><p><a href=\"#\">Her</a> kan du se eksempel på en ytelseserklæring. Den kan leveres enten i papirformat sammen med produktet eller være tilgjengelig på produsentens nettside.</p>"
                 }
               ]
@@ -614,7 +708,7 @@
                 {
                   "id": "ytelseserklaringIngress.veggelement",
                   "type": "Text",
-                  "heading": "Ytelseserklæring",
+                  "heading": "Finnes det ytelseserklæring?",
                   "text": "<p>Ytelseserklæring er et dokument laget og undertegnet av produsenten. Produsenten skal levere en ytelseserklæring som inneholder:</p><ul><li>vinduets identifikasjonskode</li><li>navn og adresse til produsenten</li><li>henvisning til den harmoniserte produktstandarden EN 14351-1</li><li>henvisning til system 3 for vurdering og verifikasjon av byggevarers egenskaper</li><li>identifikasjonsnummer og adresse til det tekniske kontrollorganet som har testet vinduet</li><li>vinduets egenskaper og ytelser</li><li>produsentens signatur, med sted og dato</li></ul><p><a href=\"#\">Her</a> kan du se eksempel på en ytelseserklæring. Den kan leveres enten i papirformat sammen med produktet eller være tilgjengelig på produsentens nettside.</p>"
                 }
               ]
@@ -625,7 +719,7 @@
                 {
                   "id": "ytelseserklaringIngress.vindsperre",
                   "type": "Text",
-                  "heading": "Ytelseserklæring",
+                  "heading": "Finnes det ytelseserklæring?",
                   "text": "<p>Ytelseserklæring er et dokument laget og undertegnet av produsenten. Produsenten skal levere en ytelseserklæring som inneholder:</p><ul><li>vinduets identifikasjonskode</li><li>navn og adresse til produsenten</li><li>henvisning til den harmoniserte produktstandarden EN 14351-1</li><li>henvisning til system 3 for vurdering og verifikasjon av byggevarers egenskaper</li><li>identifikasjonsnummer og adresse til det tekniske kontrollorganet som har testet vinduet</li><li>vinduets egenskaper og ytelser</li><li>produsentens signatur, med sted og dato</li></ul><p><a href=\"#\">Her</a> kan du se eksempel på en ytelseserklæring. Den kan leveres enten i papirformat sammen med produktet eller være tilgjengelig på produsentens nettside.</p>"
                 }
               ]
@@ -636,7 +730,7 @@
                 {
                   "id": "ytelseserklaringIngress.vindu",
                   "type": "Text",
-                  "heading": "Ytelseserklæring",
+                  "heading": "Finnes det ytelseserklæring?",
                   "text": "<p>Ytelseserklæring er et dokument laget og undertegnet av produsenten. Produsenten skal levere en ytelseserklæring som inneholder:</p><ul><li>vinduets identifikasjonskode</li><li>navn og adresse til produsenten</li><li>henvisning til den harmoniserte produktstandarden EN 14351-1</li><li>henvisning til system 3 for vurdering og verifikasjon av byggevarers egenskaper</li><li>identifikasjonsnummer og adresse til det tekniske kontrollorganet som har testet vinduet</li><li>vinduets egenskaper og ytelser</li><li>produsentens signatur, med sted og dato</li></ul><p><a href=\"#\">Her</a> kan du se eksempel på en ytelseserklæring. Den kan leveres enten i papirformat sammen med produktet eller være tilgjengelig på produsentens nettside.</p>"
                 }
               ]
@@ -695,7 +789,7 @@
                       "id": "viktigsteEgenskaper.error.msg",
                       "type": "Text",
                       "warning": true,
-                      "text": "Oppfyller ikke dokumentasjonen kravene må dere vurdere oppfølging basert på hvor alvorlig bruddet er. <a href=\"#\">Se mulig reaksjoner her</a>."
+                      "text": "Oppfyller ikke dokumentasjonen kravene må dere vurdere oppfølging basert på hvor alvorlig bruddet er. <a href=\"#\">Se mulige reaksjoner her</a>."
                     }
                   ]
                 }
@@ -752,7 +846,7 @@
                       "id": "viktigsteEgenskaperYtelseserklaering.error.msg",
                       "type": "Text",
                       "warning": true,
-                      "text": "Ytelseserklæringen må beskrive relevante egenskaper. Kan de ikke levere denne må dere vurdere oppfølging basert på hvor alvorlig bruddet er. <a href=\"#\">Se mulig reaksjoner her.</a>"
+                      "text": "Er ikke egenskapene du fører tilsyn med beskrevet, må dere vurdere oppfølging basert på hvor alvorlig bruddet er. <a href=\"#\">Se mulige reaksjoner her.</a>"
                     }
                   ]
                 }
@@ -1035,7 +1129,7 @@
               "property": "produktCeMerket",
               "type": "Radio",
               "heading": "Er produktet CE-merket?",
-              "text": "<p>Du kan finne både CE-merkede og ikke CE-merkede produkter på markedet. Produktet du har valgt krever CE-merking, og det skal være festet på produktet. Der det ikke er mulig må det være festet på emballasjen.</p>",
+              "text": "<p>Produktet du har valgt krever CE-merking, og det skal være festet på produktet. Der det ikke er mulig må det være festet på emballasjen.</p>",
               "options": [
                 {
                   "id": "produktCeMerket.ja",
@@ -1061,7 +1155,7 @@
                   "type": "Text",
                   "warning": true,
                   "heading": "Produktet må ha CE-merke",
-                  "text": "Finnes ikke merket, må dere vurdere oppfølging basert på hvor alvorlig bruddet er og hvorvidt det finnes god produktdokumentasjon. <a href=\"#\">Se mulig reaksjoner her.</a>"
+                  "text": "Finnes ikke merket, må dere vurdere oppfølging basert på hvor alvorlig bruddet er. <a href=\"#\">Se mulige reaksjoner her.</a>"
                 }
               ]
             }
@@ -1110,28 +1204,7 @@
                   "id": "resultatManglerDokumentasjon.msg",
                   "type": "Text",
                   "warning": true,
-                  "text": "Kan ikke produsent leverere produktdokumentasjon, må dere vurdere oppfølging basert på hvor alvorlig avviket er."
-                }
-              ]
-            },
-            {
-              "id": "resultatManglerDokumentasjon",
-              "type": "Result",
-              "heading": "Nein!",
-              "show": { "field": "finnesDokumentasjon", "operator": "eq", "value": false },
-              "children": [
-                {
-                  "id": "resultatManglerDokumentasjon.error",
-                  "type": "Error",
-                  "show": { "field": "finnesDokumentasjon", "operator": "eq", "value": false },
-                  "children": [
-                    {
-                      "id": "resultatManglerDokumentasjon.msg",
-                      "type": "Text",
-                      "warning": true,
-                      "text": "Kan ikke produsenten levere produktinformasjon, må dere vurdere oppfølging basert på hvor alvorlig bruddet er. <a href=\"#\">Se mulig reaksjoner her.</a>"
-                    }
-                  ]
+                  "text": "Produktdokumentasjon må følge med produktet. Kan ikke produsent leverere denne, må dere vurdere oppfølging basert på hvor alvorlig bruddet er. <a href=\"#\">Se mulige reaksjoner her.</a>"
                 }
               ]
             },
@@ -1172,7 +1245,7 @@
                   "id": "dokumentasjonOppfylt.error.msg",
                   "type": "Text",
                   "warning": true,
-                  "text": "Denne produktinformasjonen burde følge med produktet. Når produktet ikke er CE-merket må det være god produktinformasjon som oppfyller kravene."
+                  "text": "Denne produktinformasjonen må følge med produktet. Kan ikke produsent levere denne, må dere vurdere oppfølging basert på hvor alvorlig bruddet er."
                 }
               ]
             },
@@ -1208,29 +1281,7 @@
                   "type": "Text",
                   "warning": true,
                   "heading": "Produktet må være sertifisert",
-                  "text": "Er ikke produktet sertifisert må dere vurdere oppfølging basert på hvor alvorlig bruddet er. <a href\"#\">Se mulig reaksjoner her.</a>"
-                }
-              ]
-            },
-            {
-              "id": "resultatSertifisertAvTredjepart",
-              "type": "Result",
-              "heading": "Nein!",
-              "show": { "field": "sertifisertAvTredjepart", "operator": "eq", "value": false },
-              "children": [
-                {
-                  "id": "sertifisertAvTredjepart.error",
-                  "type": "Error",
-                  "show": { "field": "sertifisertAvTredjepart", "operator": "eq", "value": false },
-                  "children": [
-                    {
-                      "id": "sertifisertAvTredjepart.error.msg",
-                      "type": "Text",
-                      "warning": true,
-                      "heading": "Produktet må være sertifisert",
-                      "text": "Er ikke produktet sertifisert må dere vurdere oppfølging basert på hvor alvorlig bruddet er. <a href\"#\">Se mulig reaksjoner her.</a>"
-                    }
-                  ]
+                  "text": "Er ikke produktet sertifisert må dere vurdere oppfølging basert på hvor alvorlig bruddet er. <a href\"#\">Se mulige reaksjoner her.</a>"
                 }
               ]
             },
@@ -1322,7 +1373,7 @@
                   "type": "Text",
                   "warning": true,
                   "heading": "Produktet må ha en ytelseserklæring",
-                  "text": "Kan ikke produsenten levere den, må dere vurdere oppfølging basert på hvor alvorlig bruddet er. Se mulig reaksjoner her."
+                  "text": "Kan ikke produsenten levere den, må dere vurdere oppfølging basert på hvor alvorlig bruddet er. Se mulige reaksjoner her."
                 }
               ]
             },
@@ -1467,7 +1518,7 @@
           "property": "produktytelseSamsvarer",
           "type": "Radio",
           "heading": "Er egenskapene i samsvar med prosjekteringen?",
-          "text": "<p>Finn fram prosjekteringsgrunnlaget. Sjekk at produktets egenskaper stemmer overens med det som er prosjektert. For eksempel at det er angitt samme brannmotstand.</p>",
+          "text": "<p>Finn fram til den delen av prosjekteringsgrunnlaget som er relevant for egenskapen du fører tilsyn med. Skal du føre tilsyn med brann, finner du fram til den dokumentasjonen som er utformet av brannprosjekterende.</p><p>Sjekk så at ytelsene i ytelseserklæringen stemmer overens med det som er prosjektert.</p>",
           "options": [
             {
               "id": "produktytelseSamsvarer.ja",
@@ -1492,7 +1543,7 @@
               "id": "produktytelseSamsvarer.error.msg",
               "type": "Text",
               "warning": true,
-              "text": "Er det ikke samsvar må dere vurdere oppfølging basert på hvor alvorlig bruddet er. <a href=\"#\">Se mulig reaksjoner her</a>."
+              "text": "Er det ikke samsvar må dere vurdere oppfølging basert på hvor alvorlig bruddet er. <a href=\"#\">Se mulige reaksjoner her</a>."
             }
           ]
         }
@@ -1534,7 +1585,7 @@
               "type": "Text",
               "warning": true,
               "heading": "Produktet må ha bruksanvisning",
-              "text": "Kan ikke produsent forklare hvordan produktet skal brukes, må dere vurdere oppfølging basert på hvor alvorlig bruddet er."
+              "text": "Kan ikke produsent legge frem denne type dokumentasjon, må dere vurdere oppfølging basert på hvor alvorlig bruddet er. <a href=\"#\">Se mulige reaksjoner her</a>."
             }
           ]
         },
@@ -1588,9 +1639,68 @@
       ]
     },
     {
-      "id": "manglerProduktdokumentasjon",
+      "id": "resultNotOk",
       "type": "Result",
-      "heading": "Nå har du kommet til slutten 🙌"
+      "heading": "Dokumentasjonen er ikke i orden",
+      "errorheading": "Dokumentasjonen er ikke i orden",
+      "lead": "<p>Svarene dine viser at noe av dokumentasjonen til produktet du fører tilsyn med er mangelfull.</p><p>Usikker på om du har fått all dokumentasjon?<br />Ta kontakt med ansvarlig søker og be om å få det ettersendt. Husk å sette tidsfrist. Når du har fått dokumentasjonen, kan du ta veiviseren på nytt.</p><p>Har du fått all dokumentasjon du har etterspurt?<br />Vurdér oppfølging basert på hvor alvorlig bruddet er. <a href=\"#\">Se mulig reaksjoner her</a>.</p><p>Se hva du har svart under. Der kan du også endre svarene dine.</p><p>Takk for at du brukte veiviseren!</p>",
+      "errorlead": "<p>Svarene dine viser at noe av dokumentasjonen til produktet du fører tilsyn med er mangelfull.</p><p>Siden du kun har ført tilsyn med deler av dokumentasjonen, kan det være at også andre deler er mangelfull. Du kan vurdere å føre tilsyn med andre deler av dokumentasjonen også.</p><p>Usikker på om du har fått all dokumentasjon?<br />Ta kontakt med ansvarlig søker og be om å få det ettersendt. Husk å sette tidsfrist. Når du har fått dokumentasjonen, kan du ta veiviseren på nytt.</p><p>Har du fått all dokumentasjon du har etterspurt?<br />Vurdér oppfølging basert på hvor alvorlig bruddet er. <a href=\"#\">Se mulig reaksjoner her</a>.</p><p>Se hva du har svart under. Der kan du også endre svarene dine.</p><p>Takk for at du brukte veiviseren!</p>",
+      "show": { 
+        "type": "or",
+        "clauses": [
+          {
+            "type": "and",
+            "clauses": [
+              { "field": "$computed.ceValgfri", "operator": "is" },
+              {
+                "type": "or",
+                "clauses": [
+                  { "field": "produktCeMerket", "operator": "eq", "value": false },
+                  { "field": "ytelseserklæringFremlagt", "operator": "eq", "value": false },
+                  { "field": "viktigsteEgenskaperYtelseserklaering", "operator": "eq", "value": false },
+                  { "field": "dokumentasjonOppfylt", "operator": "eq", "value": false },
+                  { "field": "sertifisertAvTredjepart", "operator": "eq", "value": false },
+                  { "field": "dokumentasjonSpraak", "operator": "eq", "value": false },
+                  { "field": "viktigsteEgenskaper", "operator": "eq", "value": false },
+                  { 
+                    "type": "and",
+                    "clauses": [
+                      { "field": "eta", "operator": "eq", "value": false },
+                      { "field": "finnesDokumentasjon", "operator": "eq", "value": false }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "and",
+            "clauses": [
+              { "field": "$computed.ceValgfri", "operator": "not" },
+              {
+                "type": "or",
+                "clauses": [
+                  { "field": "produktCeMerket", "operator": "eq", "value": false },
+                  { "field": "ytelseserklæringFremlagt", "operator": "eq", "value": false },
+                  { "field": "viktigsteEgenskaperYtelseserklaering", "operator": "eq", "value": false }
+                ]
+              }
+            ]
+          },
+          { "field": "ytelseserklaeringSpraak", "operator": "eq", "value": false },
+          { "field": "produktytelseSamsvarer", "operator": "eq", "value": false },
+          { "field": "finnesProdusentensVeiledning", "operator": "eq", "value": false },
+          { "field": "bruksanvisningSpraak", "operator": "eq", "value": false }
+        ]
+      }
+    },
+    {
+      "id": "resultOk",
+      "type": "Result",
+      "heading": "Dokumentasjonen er i orden",
+      "errorheading": "Dokumentasjonen du har gjort tilsyn med er i orden",
+      "lead": "<p>Du har svart på alle spørsmål i veiviseren. Svarene viser at dokumentasjonen du har ført tilsyn med er i orden.<p></p>Du kan avslutte dette tilsynet. Du kan ta en utskrift fra veiviseren for å dokumentere tilsynet.</p><p>Mistenker du at andre deler av dokumentasjonen ikke er i orden?<br />Da kan du vurdere å gjennomføre et tilsyn med andre deler av dokumentasjonen også.</p><p>Se hva du har svart under. Der kan du også endre svarene.</p><p>Takk for at du brukte veiviseren!</p>",
+      "errorlead": "<p>Svarene viser at dokumentasjonen du har ført tilsyn med er i orden.<p></p>Du kan avslutte dette tilsynet. Du kan ta en utskrift fra veiviseren for å dokumentere tilsynet.</p><p>Mistenker du at andre deler av dokumentasjonen ikke er i orden?<br />Da kan du vurdere å gjennomføre et tilsyn med andre deler av dokumentasjonen også.</p><p>Du har kun ført tilsyn med noen deler av dokumentasjonen. Det betyr at andre deler kan være mangelfulle.</p><p>Se hva du har svart under. Der kan du også endre svarene.</p><p>Takk for at du brukte veiviseren!</p>"
     }
   ]
 }
