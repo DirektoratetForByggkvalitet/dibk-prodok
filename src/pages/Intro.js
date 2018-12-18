@@ -20,7 +20,7 @@ function Intro({ close, data: { $computed, ...data } }) {
           <div>
             <Primitives.Heading.H2>Før du begynner</Primitives.Heading.H2>
             <ol>
-              <li>Bestem deg for hvilket produkt eller hvilken byggevaren du vil føre tilsyn med.</li>
+              <li>Bestem deg for hvilket produkt eller hvilken byggevare du vil føre tilsyn med.</li>
               <li>Bestem deg for hvilke egenskaper ved produktet du skal føre tilsyn med.</li>
               <li>Be om all relevant produktdokumentasjon og prosjekteringsgrunnlag fra ansvarlig søker.</li>
             </ol>

@@ -73,7 +73,7 @@
               "children": [
                 {
                   "id": "ytelseserklaringTabell.brannsikkerFugemasse",
-                  "text": "<p>Produktdokumentasjonen skal inneholde informasjon om fugemassens viktigste egenskaper og ytelser. Nedenfor finner du noen eksempler på disse for brannsikker fugemasse, men listen er ikke uttømmende.</p>",
+                  "text": "<p>Produktdokumentasjonen skal inneholde informasjon om fugemassens viktigste egenskaper og ytelser. Nedenfor finner du noen eksempler på disse for brannsikker fugemasse, men listen er ikke uttømmende. NPD (No Performance Determined) betyr at egenskapen ikke er testet.</p>",
                   "type": "Table",
                   "simple": true,
                   "cells": [
@@ -161,7 +161,7 @@
               "children": [
                 {
                   "id": "ytelseserklaringTabell.hulldekkeelementer",
-                  "text": "<p>Ytelseserklæringen skal inneholde informasjon om elementets viktigste egenskaper og ytelser. Nedenfor finner du noen eksempler på disse for hulldekkeelementer, men listen er ikke uttømmende.</p>",
+                  "text": "<p>Ytelseserklæringen skal inneholde informasjon om elementets viktigste egenskaper og ytelser. Nedenfor finner du noen eksempler på disse for hulldekkeelementer, men listen er ikke uttømmende. NPD (No Performance Determined) betyr at egenskapen ikke er testet.</p>",
                   "type": "Table",
                   "simple": true,
                   "cells": [
@@ -271,7 +271,7 @@
               "children": [
                 {
                   "id": "ytelseserklaringTabell.laminertglass",
-                  "text": "<p>Ytelseserklæringen skal inneholde informasjon om glassets viktigste egenskaper og ytelser. Nedenfor finner du noen eksempler på disse for laminert glass, men listen er ikke uttømmende.</p>",
+                  "text": "<p>Ytelseserklæringen skal inneholde informasjon om glassets viktigste egenskaper og ytelser. Nedenfor finner du noen eksempler på disse for laminert glass, men listen er ikke uttømmende. NPD (No Performance Determined) betyr at egenskapen ikke er testet.</p>",
                   "type": "Table",
                   "simple": true,
                   "cells": [
@@ -436,7 +436,7 @@
               "children": [
                 {
                   "id": "ytelseserklaringTabell.prefabrikertBaderomsmodul",
-                  "text": "<p>Produktdokumentasjonen skal inneholde informasjon om baderomsmodulens viktigste egenskaper og ytelser. Nedenfor finner du noen eksempler på disse, men listen er ikke uttømmende.</p>",
+                  "text": "<p>Produktdokumentasjonen skal inneholde informasjon om baderomsmodulens viktigste egenskaper og ytelser. Nedenfor finner du noen eksempler på disse, men listen er ikke uttømmende. NPD (No Performance Determined) betyr at egenskapen ikke er testet.</p>",
                   "type": "Table",
                   "simple": true,
                   "cells": [
@@ -656,7 +656,7 @@
               "children": [
                 {
                   "id": "ytelseserklaringTabell.trapp",
-                  "text": "<p>Produktdokumentasjonen skal inneholde informasjon om trappens viktigste egenskaper og ytelser. Nedenfor finner du noen eksempler på disse, men listen er ikke uttømmende.</p>",
+                  "text": "<p>Produktdokumentasjonen skal inneholde informasjon om trappens viktigste egenskaper og ytelser. Nedenfor finner du noen eksempler på disse, men listen er ikke uttømmende. NPD (No Performance Determined) betyr at egenskapen ikke er testet.</p>",
                   "type": "Table",
                   "simple": true,
                   "cells": [
@@ -850,7 +850,7 @@
               "children": [
                 {
                   "id": "ytelseserklaringTabell.prefabrikerteStålkonstruksjoner",
-                  "text": "<p>Ytelseserklæringen skal inneholde informasjon om stålkonstruksjonens viktigste egenskaper og ytelser. Nedenfor finner du noen eksempler på disse, men listen er ikke uttømmende.</p>",
+                  "text": "<p>Ytelseserklæringen skal inneholde informasjon om stålkonstruksjonens viktigste egenskaper og ytelser. Nedenfor finner du noen eksempler på disse, men listen er ikke uttømmende. NPD (No Performance Determined) betyr at egenskapen ikke er testet.</p>",
                   "type": "Table",
                   "simple": true,
                   "cells": [
@@ -982,7 +982,7 @@
               "children": [
                 {
                   "id": "ytelseserklaringTabell.byggmodulerITre",
-                  "text": "<p>Produktdokumentasjonen skal inneholde informasjon om den prefabrikerte byggmodulens viktigste egenskaper og ytelser. Nedenfor finner du noen eksempler på disse, men listen er ikke uttømmende.</p>",
+                  "text": "<p>Produktdokumentasjonen skal inneholde informasjon om den prefabrikerte byggmodulens viktigste egenskaper og ytelser. Nedenfor finner du noen eksempler på disse, men listen er ikke uttømmende. NPD (No Performance Determined) betyr at egenskapen ikke er testet.</p>",
                   "type": "Table",
                   "simple": true,
                   "cells": [
@@ -1152,7 +1152,7 @@
               "children": [
                 {
                   "id": "ytelseserklaringTabell.prefabrikerteStålkonstruksjoner",
-                  "text": "<p>Produktdokumentasjonen skal inneholde informasjon om den prefabrikerte byggmodulens viktigste egenskaper og ytelser. Nedenfor finner du noen eksempler på disse, men listen er ikke uttømmende.</p>",
+                  "text": "<p>Produktdokumentasjonen skal inneholde informasjon om den prefabrikerte byggmodulens viktigste egenskaper og ytelser. Nedenfor finner du noen eksempler på disse, men listen er ikke uttømmende. NPD (No Performance Determined) betyr at egenskapen ikke er testet.</p>",
                   "type": "Table",
                   "simple": true,
                   "cells": [
@@ -1298,7 +1298,7 @@
               "children": [
                 {
                   "id": "ytelseserklaringTabell.påhengsfasader",
-                  "text": "<p>Ytelseserklæringen skal inneholde informasjon om påhengsfasadens viktigste egenskaper og ytelser. Nedenfor finner du noen eksempler på disse, men listen er ikke uttømmende.</p>",
+                  "text": "<p>Ytelseserklæringen skal inneholde informasjon om påhengsfasadens viktigste egenskaper og ytelser. Nedenfor finner du noen eksempler på disse, men listen er ikke uttømmende. NPD (No Performance Determined) betyr at egenskapen ikke er testet.</p>",
                   "type": "Table",
                   "simple": true,
                   "cells": [
@@ -1430,7 +1430,7 @@
               "children": [
                 {
                   "id": "ytelseserklaringTabell.radonmembran",
-                  "text": "<p>Produktdokumentasjonen skal inneholde informasjon om radonmembranens viktigste egenskaper og ytelser. Nedenfor finner du noen eksempler på disse, men listen er ikke uttømmende.</p>",
+                  "text": "<p>Produktdokumentasjonen skal inneholde informasjon om radonmembranens viktigste egenskaper og ytelser. Nedenfor finner du noen eksempler på disse, men listen er ikke uttømmende. NPD (No Performance Determined) betyr at egenskapen ikke er testet.</p>",
                   "type": "Table",
                   "simple": true,
                   "cells": [
@@ -1587,7 +1587,7 @@
               "children": [
                 {
                   "id": "ytelseserklaringTabell.rekkverk",
-                  "text": "<p>Produktdokumentasjonen skal inneholde informasjon om rekkverkets viktigste egenskaper og ytelser. Nedenfor finner du noen eksempler på disse, men listen er ikke uttømmende.</p>",
+                  "text": "<p>Produktdokumentasjonen skal inneholde informasjon om rekkverkets viktigste egenskaper og ytelser. Nedenfor finner du noen eksempler på disse, men listen er ikke uttømmende. NPD (No Performance Determined) betyr at egenskapen ikke er testet.</p>",
                   "type": "Table",
                   "simple": true,
                   "cells": [
@@ -1726,7 +1726,7 @@
               "children": [
                 {
                   "id": "ytelseserklaringTabell.ror",
-                  "text": "<p>Ytelseserklæringen skal inneholde informasjon om rørets viktigste egenskaper og ytelser. Nedenfor finner du noen eksempler på disse, men listen er ikke uttømmende.</p>",
+                  "text": "<p>Ytelseserklæringen skal inneholde informasjon om rørets viktigste egenskaper og ytelser. Nedenfor finner du noen eksempler på disse, men listen er ikke uttømmende. NPD (No Performance Determined) betyr at egenskapen ikke er testet.</p>",
                   "type": "Table",
                   "simple": true,
                   "cells": [
@@ -1803,7 +1803,7 @@
               "children": [
                 {
                   "id": "ytelseserklaringTabell.sandwitchelementer",
-                  "text": "<p>Ytelseserklæringen skal inneholde informasjon om sandwichelementets viktigste egenskaper og ytelser. Nedenfor finner du noen eksempler på disse, men listen er ikke uttømmende.</p>",
+                  "text": "<p>Ytelseserklæringen skal inneholde informasjon om sandwichelementets viktigste egenskaper og ytelser. Nedenfor finner du noen eksempler på disse, men listen er ikke uttømmende. NPD (No Performance Determined) betyr at egenskapen ikke er testet.</p>",
                   "type": "Table",
                   "simple": true,
                   "cells": [
@@ -1968,7 +1968,7 @@
               "children": [
                 {
                   "id": "ytelseserklaringTabell.konstruksjonsvirke",
-                  "text": "<p>Ytelseserklæringen skal inneholde informasjon om konstruksjonsvirkets viktigste egenskaper og ytelser. Nedenfor finner du noen eksempler på disse, men listen er ikke uttømmende.</p>",
+                  "text": "<p>Ytelseserklæringen skal inneholde informasjon om konstruksjonsvirkets viktigste egenskaper og ytelser. Nedenfor finner du noen eksempler på disse, men listen er ikke uttømmende. NPD (No Performance Determined) betyr at egenskapen ikke er testet.</p>",
                   "type": "Table",
                   "simple": true,
                   "cells": [
@@ -2033,7 +2033,7 @@
               "children": [
                 {
                   "id": "ytelseserklaringTabell.takbelegg",
-                  "text": "<p>Ytelseserklæringen skal inneholde informasjon om takbeleggets viktigste egenskaper og ytelser. Nedenfor finner du noen eksempler på disse, men listen er ikke uttømmende.</p>",
+                  "text": "<p>Ytelseserklæringen skal inneholde informasjon om takbeleggets viktigste egenskaper og ytelser. Nedenfor finner du noen eksempler på disse, men listen er ikke uttømmende. NPD (No Performance Determined) betyr at egenskapen ikke er testet.</p>",
                   "type": "Table",
                   "simple": true,
                   "cells": [
@@ -2187,7 +2187,7 @@
               "children": [
                 {
                   "id": "ytelseserklaringTabell.takstoler",
-                  "text": "<p>Ytelseserklæringen skal inneholde informasjon om takstolens viktigste egenskaper og ytelser. Nedenfor finner du noen eksempler på disse, men listen er ikke uttømmende.</p>",
+                  "text": "<p>Ytelseserklæringen skal inneholde informasjon om takstolens viktigste egenskaper og ytelser. Nedenfor finner du noen eksempler på disse, men listen er ikke uttømmende. NPD (No Performance Determined) betyr at egenskapen ikke er testet.</p>",
                   "type": "Table",
                   "simple": true,
                   "cells": [
@@ -2297,7 +2297,7 @@
               "children": [
                 {
                   "id": "ytelseserklaringTabell.fasadekledningMetall",
-                  "text": "<p>Ytelseserklæringen skal inneholde informasjon om fasadekledningens viktigste egenskaper og ytelser. Nedenfor finner du noen eksempler på disse, men listen er ikke uttømmende.</p>",
+                  "text": "<p>Ytelseserklæringen skal inneholde informasjon om fasadekledningens viktigste egenskaper og ytelser. Nedenfor finner du noen eksempler på disse, men listen er ikke uttømmende. NPD (No Performance Determined) betyr at egenskapen ikke er testet.</p>",
                   "type": "Table",
                   "simple": true,
                   "cells": [
@@ -2363,7 +2363,7 @@
               "children": [
                 {
                   "id": "ytelseserklaringTabell.veggelement",
-                  "text": "<p>Ytelseserklæringen skal inneholde informasjon om veggelementets viktigste egenskaper og ytelser. Nedenfor finner du noen eksempler på disse, men listen er ikke uttømmende.</p>",
+                  "text": "<p>Ytelseserklæringen skal inneholde informasjon om veggelementets viktigste egenskaper og ytelser. Nedenfor finner du noen eksempler på disse, men listen er ikke uttømmende. NPD (No Performance Determined) betyr at egenskapen ikke er testet.</p>",
                   "type": "Table",
                   "simple": true,
                   "cells": [
@@ -2462,7 +2462,7 @@
               "children": [
                 {
                   "id": "ytelseserklaringTabell.vindsperre",
-                  "text": "<p>Ytelseserklæringen skal inneholde informasjon om vindsperrens viktigste egenskaper og ytelser. Nedenfor finner du noen eksempler på disse, men listen er ikke uttømmende.</p>",
+                  "text": "<p>Ytelseserklæringen skal inneholde informasjon om vindsperrens viktigste egenskaper og ytelser. Nedenfor finner du noen eksempler på disse, men listen er ikke uttømmende. NPD (No Performance Determined) betyr at egenskapen ikke er testet.</p>",
                   "type": "Table",
                   "simple": true,
                   "cells": [
@@ -2594,7 +2594,7 @@
               "children": [
                 {
                   "id": "ytelseserklaringTabell.vindu",
-                  "text": "<p>Ytelseserklæringen skal inneholde informasjon om vinduets viktigste egenskaper og ytelser. Nedenfor finner du noen eksempler på disse, men listen er ikke uttømmende.</p>",
+                  "text": "<p>Ytelseserklæringen skal inneholde informasjon om vinduets viktigste egenskaper og ytelser. Nedenfor finner du noen eksempler på disse, men listen er ikke uttømmende. NPD (No Performance Determined) betyr at egenskapen ikke er testet.</p>",
                   "type": "Table",
                   "simple": true,
                   "cells": [
@@ -2659,229 +2659,9 @@
         },
         {
           "id": "ytelseserklaringIngress",
-          "type": "Branch",
-          "branches": [
-            {
-              "test": { "field": "produktType", "operator": "eq", "value": "brannsikkerFugemasse" },
-              "children": [
-                {
-                  "id": "ytelseserklaringIngress.ytelseserklaringIngress.brannsikkerFugemasse",
-                  "type": "Text",
-                  "heading": "Finnes det ytelseserklæring?",
-                  "text": "<p>Ytelseserklæring er et dokument laget og undertegnet av produsenten. Produsenten skal levere en ytelseserklæring som inneholder:</p><ul><li>vinduets identifikasjonskode</li><li>navn og adresse til produsenten</li><li>henvisning til den harmoniserte produktstandarden EN 14351-1</li><li>henvisning til <a href=\"#\">system 3</a> for vurdering og verifikasjon av byggevarers egenskaper</li><li>identifikasjonsnummer og adresse til det tekniske kontrollorganet som har testet vinduet</li><li>vinduets egenskaper og ytelser</li><li>produsentens signatur, med sted og dato</li></ul><p>Den kan leveres enten i papirformat sammen med produktet eller være tilgjengelig på produsentens nettside.</p>"
-                }
-              ]
-            },
-            {
-              "test": { "field": "produktType", "operator": "eq", "value": "hulldekkeelementer" },
-              "children": [
-                {
-                  "id": "ytelseserklaringIngress.hulldekkeelementer",
-                  "type": "Text",
-                  "heading": "Finnes det ytelseserklæring?",
-                  "text": "<p>Ytelseserklæring er et dokument laget og undertegnet av produsenten. Produsenten skal levere en ytelseserklæring som inneholder:</p><ul><li>vinduets identifikasjonskode</li><li>navn og adresse til produsenten</li><li>henvisning til den harmoniserte produktstandarden EN 14351-1</li><li>henvisning til <a href=\"#\">system 3</a> for vurdering og verifikasjon av byggevarers egenskaper</li><li>identifikasjonsnummer og adresse til det tekniske kontrollorganet som har testet vinduet</li><li>vinduets egenskaper og ytelser</li><li>produsentens signatur, med sted og dato</li></ul><p>Den kan leveres enten i papirformat sammen med produktet eller være tilgjengelig på produsentens nettside.</p>"
-                }
-              ]
-            },
-            {
-              "test": { "field": "produktType", "operator": "eq", "value": "laminertGlass" },
-              "children": [
-                {
-                  "id": "ytelseserklaringIngress.laminertGlass",
-                  "type": "Text",
-                  "heading": "Finnes det ytelseserklæring?",
-                  "text": "<p>Ytelseserklæring er et dokument laget og undertegnet av produsenten. Produsenten skal levere en ytelseserklæring som inneholder:</p><ul><li>vinduets identifikasjonskode</li><li>navn og adresse til produsenten</li><li>henvisning til den harmoniserte produktstandarden EN 14351-1</li><li>henvisning til <a href=\"#\">system 3</a> for vurdering og verifikasjon av byggevarers egenskaper</li><li>identifikasjonsnummer og adresse til det tekniske kontrollorganet som har testet vinduet</li><li>vinduets egenskaper og ytelser</li><li>produsentens signatur, med sted og dato</li></ul><p>Den kan leveres enten i papirformat sammen med produktet eller være tilgjengelig på produsentens nettside.</p>"
-                }
-              ]
-            },
-            {
-              "test": { "field": "produktType", "operator": "eq", "value": "prefabrikertBaderomsmodul" },
-              "children": [
-                {
-                  "id": "ytelseserklaringIngress.prefabrikertBaderomsmodul",
-                  "type": "Text",
-                  "heading": "Finnes det ytelseserklæring?",
-                  "text": "<p>Ytelseserklæring er et dokument laget og undertegnet av produsenten. Produsenten skal levere en ytelseserklæring som inneholder:</p><ul><li>vinduets identifikasjonskode</li><li>navn og adresse til produsenten</li><li>henvisning til den harmoniserte produktstandarden EN 14351-1</li><li>henvisning til <a href=\"#\">system 3</a> for vurdering og verifikasjon av byggevarers egenskaper</li><li>identifikasjonsnummer og adresse til det tekniske kontrollorganet som har testet vinduet</li><li>vinduets egenskaper og ytelser</li><li>produsentens signatur, med sted og dato</li></ul><p>Den kan leveres enten i papirformat sammen med produktet eller være tilgjengelig på produsentens nettside.</p>"
-                }
-              ]
-            },
-            {
-              "test": { "field": "produktType", "operator": "eq", "value": "prefabrikertTrapp" },
-              "children": [
-                {
-                  "id": "ytelseserklaringIngress.prefabrikertTrapp",
-                  "type": "Text",
-                  "heading": "Finnes det ytelseserklæring?",
-                  "text": "<p>Ytelseserklæring er et dokument laget og undertegnet av produsenten. Produsenten skal levere en ytelseserklæring som inneholder:</p><ul><li>vinduets identifikasjonskode</li><li>navn og adresse til produsenten</li><li>henvisning til den harmoniserte produktstandarden EN 14351-1</li><li>henvisning til <a href=\"#\">system 3</a> for vurdering og verifikasjon av byggevarers egenskaper</li><li>identifikasjonsnummer og adresse til det tekniske kontrollorganet som har testet vinduet</li><li>vinduets egenskaper og ytelser</li><li>produsentens signatur, med sted og dato</li></ul><p>Den kan leveres enten i papirformat sammen med produktet eller være tilgjengelig på produsentens nettside.</p>"
-                }
-              ]
-            },
-            {
-              "test": { "field": "produktType", "operator": "eq", "value": "prefabrikerteByggmodulerTre" },
-              "children": [
-                {
-                  "id": "ytelseserklaringIngress.prefabrikerteByggmodulerITre",
-                  "type": "Text",
-                  "heading": "Finnes det ytelseserklæring?",
-                  "text": "<p>Ytelseserklæring er et dokument laget og undertegnet av produsenten. Produsenten skal levere en ytelseserklæring som inneholder:</p><ul><li>modulens identifikasjonskode</li><li>produsentens navn, adresse, signatur, sted og dato</li><li>henvisning til referansenummer til ETA-en</li><li>henvisning til <a href=\"#\">system 1</a> for vurdering og verifikasjon av byggemodulens egenskaper</li><li>informasjon om tredjepartsorganet (identifikasjonsnummer og adresse) som har utført produktsertifisering</li><li>byggemodulens egenskaper</li></ul><p>Den kan leveres enten i papirformat sammen med produktet eller være tilgjengelig på produsentens nettside.</p>"
-                }
-              ]
-            },
-            {
-              "test": { "field": "produktType", "operator": "eq", "value": "prefabrikerteStalkonstruksjoner" },
-              "children": [
-                {
-                  "id": "ytelseserklaringIngress.prefabrikerteStalkonstruksjoner",
-                  "type": "Text",
-                  "heading": "Finnes det ytelseserklæring?",
-                  "text": "<p>Ytelseserklæring er et dokument laget og undertegnet av produsenten. Produsenten skal levere en ytelseserklæring som inneholder:</p><ul><li>vinduets identifikasjonskode</li><li>navn og adresse til produsenten</li><li>henvisning til den harmoniserte produktstandarden EN 14351-1</li><li>henvisning til <a href=\"#\">system 3</a> for vurdering og verifikasjon av byggevarers egenskaper</li><li>identifikasjonsnummer og adresse til det tekniske kontrollorganet som har testet vinduet</li><li>vinduets egenskaper og ytelser</li><li>produsentens signatur, med sted og dato</li></ul><p>Den kan leveres enten i papirformat sammen med produktet eller være tilgjengelig på produsentens nettside.</p>"
-                }
-              ]
-            },
-            {
-              "test": { "field": "produktType", "operator": "eq", "value": "prefabrikerteByggmodulerStal" },
-              "children": [
-                {
-                  "id": "ytelseserklaringIngress.prefabrikerteByggemodulerStal",
-                  "type": "Text",
-                  "heading": "Finnes det ytelseserklæring?",
-                  "text": "<p>Ytelseserklæring er et dokument laget og undertegnet av produsenten. Produsenten skal levere en ytelseserklæring som inneholder:</p><ul><li>vinduets identifikasjonskode</li><li>navn og adresse til produsenten</li><li>henvisning til den harmoniserte produktstandarden EN 14351-1</li><li>henvisning til <a href=\"#\">system 3</a> for vurdering og verifikasjon av byggevarers egenskaper</li><li>identifikasjonsnummer og adresse til det tekniske kontrollorganet som har testet vinduet</li><li>vinduets egenskaper og ytelser</li><li>produsentens signatur, med sted og dato</li></ul><p>Den kan leveres enten i papirformat sammen med produktet eller være tilgjengelig på produsentens nettside.</p>"
-                }
-              ]
-            },
-            {
-              "test": { "field": "produktType", "operator": "eq", "value": "pahengsfasader" },
-              "children": [
-                {
-                  "id": "ytelseserklaringIngress.pahengsfasader",
-                  "type": "Text",
-                  "heading": "Finnes det ytelseserklæring?",
-                  "text": "<p>Ytelseserklæring er et dokument laget og undertegnet av produsenten. Produsenten skal levere en ytelseserklæring som inneholder:</p><ul><li>vinduets identifikasjonskode</li><li>navn og adresse til produsenten</li><li>henvisning til den harmoniserte produktstandarden EN 14351-1</li><li>henvisning til <a href=\"#\">system 3</a> for vurdering og verifikasjon av byggevarers egenskaper</li><li>identifikasjonsnummer og adresse til det tekniske kontrollorganet som har testet vinduet</li><li>vinduets egenskaper og ytelser</li><li>produsentens signatur, med sted og dato</li></ul><p>Den kan leveres enten i papirformat sammen med produktet eller være tilgjengelig på produsentens nettside.</p>"
-                }
-              ]
-            },
-            {
-              "test": { "field": "produktType", "operator": "eq", "value": "radonmembran" },
-              "children": [
-                {
-                  "id": "ytelseserklaringIngress.radonmembran",
-                  "type": "Text",
-                  "heading": "Finnes det ytelseserklæring?",
-                  "text": "<p>Ytelseserklæring er et dokument laget og undertegnet av produsenten. Produsenten skal levere en ytelseserklæring som inneholder:</p><ul><li>vinduets identifikasjonskode</li><li>navn og adresse til produsenten</li><li>henvisning til den harmoniserte produktstandarden EN 14351-1</li><li>henvisning til <a href=\"#\">system 3</a> for vurdering og verifikasjon av byggevarers egenskaper</li><li>identifikasjonsnummer og adresse til det tekniske kontrollorganet som har testet vinduet</li><li>vinduets egenskaper og ytelser</li><li>produsentens signatur, med sted og dato</li></ul><p>Den kan leveres enten i papirformat sammen med produktet eller være tilgjengelig på produsentens nettside.</p>"
-                }
-              ]
-            },
-            {
-              "test": { "field": "produktType", "operator": "eq", "value": "rekkverkAluStalGlass" },
-              "children": [
-                {
-                  "id": "ytelseserklaringIngress.rekkverkAluStalGlass",
-                  "type": "Text",
-                  "heading": "Finnes det ytelseserklæring?",
-                  "text": "<p>Ytelseserklæring er et dokument laget og undertegnet av produsenten. Produsenten skal levere en ytelseserklæring som inneholder:</p><ul><li>vinduets identifikasjonskode</li><li>navn og adresse til produsenten</li><li>henvisning til den harmoniserte produktstandarden EN 14351-1</li><li>henvisning til <a href=\"#\">system 3</a> for vurdering og verifikasjon av byggevarers egenskaper</li><li>identifikasjonsnummer og adresse til det tekniske kontrollorganet som har testet vinduet</li><li>vinduets egenskaper og ytelser</li><li>produsentens signatur, med sted og dato</li></ul><p>Den kan leveres enten i papirformat sammen med produktet eller være tilgjengelig på produsentens nettside.</p>"
-                }
-              ]
-            },
-            {
-              "test": { "field": "produktType", "operator": "eq", "value": "ror" },
-              "children": [
-                {
-                  "id": "ytelseserklaringIngress.ror",
-                  "type": "Text",
-                  "heading": "Finnes det ytelseserklæring?",
-                  "text": "<p>Ytelseserklæring er et dokument laget og undertegnet av produsenten. Produsenten skal levere en ytelseserklæring som inneholder:</p><ul><li>vinduets identifikasjonskode</li><li>navn og adresse til produsenten</li><li>henvisning til den harmoniserte produktstandarden EN 14351-1</li><li>henvisning til <a href=\"#\">system 3</a> for vurdering og verifikasjon av byggevarers egenskaper</li><li>identifikasjonsnummer og adresse til det tekniske kontrollorganet som har testet vinduet</li><li>vinduets egenskaper og ytelser</li><li>produsentens signatur, med sted og dato</li></ul><p>Den kan leveres enten i papirformat sammen med produktet eller være tilgjengelig på produsentens nettside.</p>"
-                }
-              ]
-            },
-            {
-              "test": { "field": "produktType", "operator": "eq", "value": "sandwichelementer" },
-              "children": [
-                {
-                  "id": "ytelseserklaringIngress.sandwichelementer",
-                  "type": "Text",
-                  "heading": "Finnes det ytelseserklæring?",
-                  "text": "<p>Ytelseserklæring er et dokument laget og undertegnet av produsenten. Produsenten skal levere en ytelseserklæring som inneholder:</p><ul><li>vinduets identifikasjonskode</li><li>navn og adresse til produsenten</li><li>henvisning til den harmoniserte produktstandarden EN 14351-1</li><li>henvisning til <a href=\"#\">system 3</a> for vurdering og verifikasjon av byggevarers egenskaper</li><li>identifikasjonsnummer og adresse til det tekniske kontrollorganet som har testet vinduet</li><li>vinduets egenskaper og ytelser</li><li>produsentens signatur, med sted og dato</li></ul><p>Den kan leveres enten i papirformat sammen med produktet eller være tilgjengelig på produsentens nettside.</p>"
-                }
-              ]
-            },
-            {
-              "test": { "field": "produktType", "operator": "eq", "value": "styrkesortertKonstruksjonsvirke" },
-              "children": [
-                {
-                  "id": "ytelseserklaringIngress.styrkesortertKonstruksjonsvirke",
-                  "type": "Text",
-                  "heading": "Finnes det ytelseserklæring?",
-                  "text": "<p>Ytelseserklæring er et dokument laget og undertegnet av produsenten. Produsenten skal levere en ytelseserklæring som inneholder:</p><ul><li>vinduets identifikasjonskode</li><li>navn og adresse til produsenten</li><li>henvisning til den harmoniserte produktstandarden EN 14351-1</li><li>henvisning til <a href=\"#\">system 3</a> for vurdering og verifikasjon av byggevarers egenskaper</li><li>identifikasjonsnummer og adresse til det tekniske kontrollorganet som har testet vinduet</li><li>vinduets egenskaper og ytelser</li><li>produsentens signatur, med sted og dato</li></ul><p>Den kan leveres enten i papirformat sammen med produktet eller være tilgjengelig på produsentens nettside.</p>"
-                }
-              ]
-            },
-            {
-              "test": { "field": "produktType", "operator": "eq", "value": "takbelegg" },
-              "children": [
-                {
-                  "id": "ytelseserklaringIngress.takbelegg",
-                  "type": "Text",
-                  "heading": "Finnes det ytelseserklæring?",
-                  "text": "<p>Ytelseserklæring er et dokument laget og undertegnet av produsenten. Produsenten skal levere en ytelseserklæring som inneholder:</p><ul><li>vinduets identifikasjonskode</li><li>navn og adresse til produsenten</li><li>henvisning til den harmoniserte produktstandarden EN 14351-1</li><li>henvisning til <a href=\"#\">system 3</a> for vurdering og verifikasjon av byggevarers egenskaper</li><li>identifikasjonsnummer og adresse til det tekniske kontrollorganet som har testet vinduet</li><li>vinduets egenskaper og ytelser</li><li>produsentens signatur, med sted og dato</li></ul><p>Den kan leveres enten i papirformat sammen med produktet eller være tilgjengelig på produsentens nettside.</p>"
-                }
-              ]
-            },
-            {
-              "test": { "field": "produktType", "operator": "eq", "value": "takstoler" },
-              "children": [
-                {
-                  "id": "ytelseserklaringIngress.takstoler",
-                  "type": "Text",
-                  "heading": "Finnes det ytelseserklæring?",
-                  "text": "<p>Ytelseserklæring er et dokument laget og undertegnet av produsenten. Produsenten skal levere en ytelseserklæring som inneholder:</p><ul><li>vinduets identifikasjonskode</li><li>navn og adresse til produsenten</li><li>henvisning til den harmoniserte produktstandarden EN 14351-1</li><li>henvisning til <a href=\"#\">system 3</a> for vurdering og verifikasjon av byggevarers egenskaper</li><li>identifikasjonsnummer og adresse til det tekniske kontrollorganet som har testet vinduet</li><li>vinduets egenskaper og ytelser</li><li>produsentens signatur, med sted og dato</li></ul><p>Den kan leveres enten i papirformat sammen med produktet eller være tilgjengelig på produsentens nettside.</p>"
-                }
-              ]
-            },
-            {
-              "test": { "field": "produktType", "operator": "eq", "value": "fasadekledningMetall" },
-              "children": [
-                {
-                  "id": "ytelseserklaringIngress.fasadekledningMetall",
-                  "type": "Text",
-                  "heading": "Finnes det ytelseserklæring?",
-                  "text": "<p>Ytelseserklæring er et dokument laget og undertegnet av produsenten. Produsenten skal levere en ytelseserklæring som inneholder:</p><ul><li>vinduets identifikasjonskode</li><li>navn og adresse til produsenten</li><li>henvisning til den harmoniserte produktstandarden EN 14351-1</li><li>henvisning til <a href=\"#\">system 3</a> for vurdering og verifikasjon av byggevarers egenskaper</li><li>identifikasjonsnummer og adresse til det tekniske kontrollorganet som har testet vinduet</li><li>vinduets egenskaper og ytelser</li><li>produsentens signatur, med sted og dato</li></ul><p>Den kan leveres enten i papirformat sammen med produktet eller være tilgjengelig på produsentens nettside.</p>"
-                }
-              ]
-            },
-            {
-              "test": { "field": "produktType", "operator": "eq", "value": "veggelement" },
-              "children": [
-                {
-                  "id": "ytelseserklaringIngress.veggelement",
-                  "type": "Text",
-                  "heading": "Finnes det ytelseserklæring?",
-                  "text": "<p>Ytelseserklæring er et dokument laget og undertegnet av produsenten. Produsenten skal levere en ytelseserklæring som inneholder:</p><ul><li>vinduets identifikasjonskode</li><li>navn og adresse til produsenten</li><li>henvisning til den harmoniserte produktstandarden EN 14351-1</li><li>henvisning til <a href=\"#\">system 3</a> for vurdering og verifikasjon av byggevarers egenskaper</li><li>identifikasjonsnummer og adresse til det tekniske kontrollorganet som har testet vinduet</li><li>vinduets egenskaper og ytelser</li><li>produsentens signatur, med sted og dato</li></ul><p>Den kan leveres enten i papirformat sammen med produktet eller være tilgjengelig på produsentens nettside.</p>"
-                }
-              ]
-            },
-            {
-              "test": { "field": "produktType", "operator": "eq", "value": "vindsperre" },
-              "children": [
-                {
-                  "id": "ytelseserklaringIngress.vindsperre",
-                  "type": "Text",
-                  "heading": "Finnes det ytelseserklæring?",
-                  "text": "<p>Ytelseserklæring er et dokument laget og undertegnet av produsenten. Produsenten skal levere en ytelseserklæring som inneholder:</p><ul><li>vinduets identifikasjonskode</li><li>navn og adresse til produsenten</li><li>henvisning til den harmoniserte produktstandarden EN 14351-1</li><li>henvisning til <a href=\"#\">system 3</a> for vurdering og verifikasjon av byggevarers egenskaper</li><li>identifikasjonsnummer og adresse til det tekniske kontrollorganet som har testet vinduet</li><li>vinduets egenskaper og ytelser</li><li>produsentens signatur, med sted og dato</li></ul><p>Den kan leveres enten i papirformat sammen med produktet eller være tilgjengelig på produsentens nettside.</p>"
-                }
-              ]
-            },
-            {
-              "test": { "field": "produktType", "operator": "eq", "value": "vindu" },
-              "children": [
-                {
-                  "id": "ytelseserklaringIngress.vindu",
-                  "type": "Text",
-                  "heading": "Finnes det ytelseserklæring?",
-                  "text": "<p>Ytelseserklæring er et dokument laget og undertegnet av produsenten. Produsenten skal levere en ytelseserklæring som inneholder:</p><ul><li>vinduets identifikasjonskode</li><li>navn og adresse til produsenten</li><li>henvisning til den harmoniserte produktstandarden EN 14351-1</li><li>henvisning til <a href=\"#\">system 3</a> for vurdering og verifikasjon av byggevarers egenskaper</li><li>identifikasjonsnummer og adresse til det tekniske kontrollorganet som har testet vinduet</li><li>vinduets egenskaper og ytelser</li><li>produsentens signatur, med sted og dato</li></ul><p>Den kan leveres enten i papirformat sammen med produktet eller være tilgjengelig på produsentens nettside.</p>"
-                }
-              ]
-            }
-          ]
+          "type": "Text",
+          "heading": "Finnes det ytelseserklæring?",
+          "text": "<p>Det er viktig at opplysningene i ytelseserklæringen skrives på en klar og sammenhengende måte. Rekkefølge og fremstillingen av innholdet er opp til produsenten å bestemme, men følgende innhold må være med:</p><ol><li>Produkttype.</li><li>Vareidentifikasjon (type-, parti-, eller serienummer).</li><li>Tiltenkt bruk av byggevaren.</li><li>Navn og adresse til produsent.</li><li>Hvilket system for vurdering og verifikasjon av byggevarens ytelser som er valgt.</li><li>Nummer til det tekniske kontrollorgan (gjelder kun enkelte produkter).</li><li>Henvisning til den relevante harmonisierte produktstandarden/europeiske bedømmelsesdokumentet.</li><li>Byggevarens viktigste egenskaper og ytelser.</li><li>Underskrift av produsent eller en representant.</li></ol>"
         },
         {
           "id": "egenskapProduktdokumentasjon",
@@ -3325,7 +3105,7 @@
               "property": "finnesDokumentasjon",
               "type": "Radio",
               "heading": "Finnes det produktdokumentasjon?",
-              "text": "<p>Dette kan for eksempel være en teknisk godkjenning fra SINTEF, p-merket fra RISE Certification eller fra et annet akkreditert testorgan. I noen tilfeller kan produsenten utarbeide dette selv.</p>",
+              "text": "<p>Dette kan for eksempel være en teknisk godkjenning fra SINTEF, P-märket fra RISE Certification eller fra et annet akkreditert testorgan. I noen tilfeller kan produsenten utarbeide dette selv.</p>",
               "options": [
                 {
                   "id": "finnesDokumentasjon.ja",
@@ -3399,7 +3179,7 @@
                       "id": "dokumentasjonKrav",
                       "property": "dokumentasjonKrav",
                       "type": "Text",
-                      "text": "<h4>Krav til produktdokumentasjon</h4><p>Produsenten skal lage og undertegne produktdokumentasjonen, og dermed ta ansvar for at produktet har de beskrevne egenskapene. Det finnes ikke en felles mal for dokumentasjonen til ikke-CE-merkede produkter, men den skal inneholde:</p><ul><li>Produsentens navn og adresse.</li><li>Den tekniske spesifikasjonen som er lagt til grunn. Denne godkjenningen eller standarden vil som regel være fra Norge eller et annet land i Europa.</li><li>Informasjon om tredjepartsorganet som har utført produktsertifiseringen.</li><li>Produktets egenskaper og ytelser.</li></ul><p><a href=\"https://dibk.no/byggeregler/dok/iii/13/\" target=\"_blank\">Les mer om kravene i kapittel tre i byggevareforskriften (DOK)</a>.",
+                      "text": "<h4>Krav til produktdokumentasjon</h4><p>Det er viktig at opplysningene i produktdokumentasjonen skrives på en klar og sammenhengende måte. Rekkefølge og presentasjon av innhold er opp til produsenten å bestemme, men følgende innhold må være med:<p><ol><li>Navn på produsent og navn på eventuell importør.</li><li>Produsentens og eventuell importør sine kontaktdetaljer.</li><li>Hvilke tekniske spesifikasjoner som er lagt til grunn (denne godkjenningen eller standarden vil som regel være fra Norge eller et annet land i Europa).</li><li>System for produktet.</li><li>Navnet på uavhengig tredjepartsorgan (gjelder kun noen produkter).</li><li>Produktets egenskaper og ytelser.</li></ol><p><a href=\"https://dibk.no/byggeregler/dok/iii/13/\" target=\"_blank\">Les mer om kravene i kapittel tre i byggevareforskriften (DOK)</a></p>.",
                       "show": { "field": "finnesDokumentasjon", "operator": "eq", "value": true }
                     },
                     {
@@ -3578,11 +3358,6 @@
           "nodeId": "ytelseserklaringTabell"
         },
         {
-          "id": "ytelseserklaringTabell.npd",
-          "type": "Text",
-          "text": "NPD (No Performance Determined) betyr at egenskapen ikke er testet."
-        },
-        {
           "type": "Reference",
           "nodeId": "egenskapYtelseserklaering"
         },
@@ -3642,20 +3417,26 @@
               "id": "finnesProdusentensVeiledning.ja",
               "type": "Answer",
               "heading": "Ja",
-              "value": true
+              "value": "ja"
             },
             {
               "id": "finnesProdusentensVeiledning.nei",
               "type": "Answer",
               "heading": "Nei",
-              "value": false
+              "value": "nei"
+            },
+            {
+              "id": "finnesProdusentensVeiledning.trengerIkke",
+              "type": "Answer",
+              "heading": "Produktet trenger ikke bruksanvisning",
+              "value": "trenger ikke"
             }
           ]
         },
         {
           "id": "finnesProdusentensVeiledning.error",
           "type": "Error",
-          "show": { "field": "finnesProdusentensVeiledning", "operator": "eq", "value": false },
+          "show": { "field": "finnesProdusentensVeiledning", "operator": "eq", "value": "nei" },
           "children": [
             {
               "id": "finnesProdusentensVeiledning.error.msg",
@@ -3670,7 +3451,7 @@
           "type": "Branch",
           "branches": [
             {
-              "test": { "field": "finnesProdusentensVeiledning", "operator": "eq", "value": true },
+              "test": { "field": "finnesProdusentensVeiledning", "operator": "eq", "value": "ja" },
               "children": [
                 {
                   "id": "bruksanvisningSpraak",
@@ -3721,7 +3502,7 @@
       "heading": "Dokumentasjonen er ikke i orden",
       "errorheading": "Dokumentasjonen er ikke i orden",
       "lead": "<p>Svarene dine viser at noe av dokumentasjonen til produktet du fører tilsyn med er mangelfull.</p><p>Usikker på om du har fått all dokumentasjon?<br />Ta kontakt med ansvarlig søker og be om å få det ettersendt. Husk å sette tidsfrist. Når du har fått dokumentasjonen, kan du ta veiviseren på nytt.</p><p>Har du fått all dokumentasjon du har etterspurt?</p><ul><li><a href=\"https://dibk.no/saksbehandling/kommunalt-tilsyn/temaveiledninger/tilsyn/del-1-gjennomforing-av-tilsyn/1.5.-nar-tilsynet-avdekker/1.5.2.-de-ulike-reaksjonsformer/\" target=\"_blank\">Se mulige reaksjoner i tilsynsveilederen.</a></li><li>Vurdér oppfølging basert på hvor alvorlig bruddet er.</li><li><a href=\"https://sgbruker.dibk.no/product_report_cases/new\" target=\"_blank\">Meld fra til oss i Direktoratet for byggkvalitet.</a></li></ul><p>Se hva du har svart under. Der kan du også endre svarene dine.</p><p>Takk for at du brukte veiviseren!</p>",
-      "errorlead": "<p>Svarene dine viser at noe av dokumentasjonen til produktet du fører tilsyn med er mangelfull.</p><p>Siden du kun har ført tilsyn med deler av dokumentasjonen, kan det være at også andre deler er mangelfull. Du kan vurdere å føre tilsyn med andre deler av dokumentasjonen også.</p><p>Usikker på om du har fått all dokumentasjon?<br />Ta kontakt med ansvarlig søker og be om å få det ettersendt. Husk å sette tidsfrist. Når du har fått dokumentasjonen, kan du ta veiviseren på nytt.</p><p>Har du fått all dokumentasjon du har etterspurt?</p><ul><li><a href=\"https://dibk.no/saksbehandling/kommunalt-tilsyn/temaveiledninger/tilsyn/del-1-gjennomforing-av-tilsyn/1.5.-nar-tilsynet-avdekker/1.5.2.-de-ulike-reaksjonsformer/\" target=\"_blank\">Se mulige reaksjoner i tilsynsveilederen.</a></li><li>Vurdér oppfølging basert på hvor alvorlig bruddet er.</li><li><a href=\"https://sgbruker.dibk.no/product_report_cases/new\" target=\"_blank\">Meld fra til oss i Direktoratet for byggkvalitet.</a></li></ul><p>Se hva du har svart under. Der kan du også endre svarene dine.</p><p>Takk for at du brukte veiviseren!</p>",
+      "errorlead": "<p>Svarene dine viser at noe av dokumentasjonen til produktet du fører tilsyn med er mangelfull.</p><p>Siden du kun har ført tilsyn med deler av dokumentasjonen, kan det være at også andre deler er mangelfull. Du kan vurdere å føre tilsyn med andre deler av dokumentasjonen også.</p><p>Usikker på om du har fått all dokumentasjon?<br />Ta kontakt med ansvarlig søker og be om å få det ettersendt. Husk å sette tidsfrist. Når du har fått dokumentasjonen, kan du ta veiviseren på nytt.</p><p>Har du fått all dokumentasjon du har etterspurt?</p><ul><li>Vurdér oppfølging basert på hvor alvorlig bruddet er.</li><li><a href=\"https://dibk.no/saksbehandling/kommunalt-tilsyn/temaveiledninger/tilsyn/del-1-gjennomforing-av-tilsyn/1.5.-nar-tilsynet-avdekker/1.5.2.-de-ulike-reaksjonsformer/\" target=\"_blank\">Se mulige reaksjoner i tilsynsveilederen.</a></li><li><a href=\"https://sgbruker.dibk.no/product_report_cases/new\" target=\"_blank\">Meld fra til oss i Direktoratet for byggkvalitet.</a></li></ul><p>Se hva du har svart under. Der kan du også endre svarene dine.</p><p>Takk for at du brukte veiviseren!</p>",
       "show": { 
         "type": "or",
         "clauses": [
@@ -3765,7 +3546,7 @@
           },
           { "field": "ytelseserklaeringSpraak", "operator": "eq", "value": false },
           { "field": "produktytelseSamsvarer", "operator": "eq", "value": false },
-          { "field": "finnesProdusentensVeiledning", "operator": "eq", "value": false },
+          { "field": "finnesProdusentensVeiledning", "operator": "eq", "value": "nei" },
           { "field": "bruksanvisningSpraak", "operator": "eq", "value": false }
         ]
       }
