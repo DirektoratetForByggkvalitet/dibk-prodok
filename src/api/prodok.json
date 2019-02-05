@@ -8,12 +8,19 @@
       "type": "or",
       "clauses": [
         { "field": "produktType", "operator": "eq", "value": "radonmembran" },
-        { "field": "produktType", "operator": "eq", "value": "rekkverkAluStalGlass" },
-        { "field": "produktType", "operator": "eq", "value": "prefabrikertBaderomsmodul" },
-        { "field": "produktType", "operator": "eq", "value": "prefabrikerteByggmodulerTre" },
-        { "field": "produktType", "operator": "eq", "value": "prefabrikerteByggmodulerStal" },
+        { "field": "produktType", "operator": "eq", "value": "prefabrikkertBaderomsmodul" },
+        { "field": "produktType", "operator": "eq", "value": "prefabrikkerteByggmodulerTre" },
+        { "field": "produktType", "operator": "eq", "value": "prefabrikkerteByggmodulerStal" },
         { "field": "produktType", "operator": "eq", "value": "brannsikkerFugemasse" },
-        { "field": "produktType", "operator": "eq", "value": "prefabrikertTrapp" }
+        { "field": "produktType", "operator": "eq", "value": "prefabrikkertTrapp" },
+        { "field": "produktType", "operator": "eq", "value": "element" }
+      ]
+    },
+    "iSystem1Plus": {
+      "type": "or",
+      "clauses": [
+        { "field": "produktType", "operator": "eq", "value": "element" },
+        { "field": "produktType", "operator": "eq", "value": "annet" }
       ]
     },
     "iSystem1": {
@@ -21,10 +28,11 @@
       "clauses": [
         { "field": "produktType", "operator": "eq", "value": "brannsikkerFugemasse" },
         { "field": "produktType", "operator": "eq", "value": "laminertGlass" },
-        { "field": "produktType", "operator": "eq", "value": "radonmembran" },
-        { "field": "produktType", "operator": "eq", "value": "prefabrikertBaderomsmodul" },
-        { "field": "produktType", "operator": "eq", "value": "prefabrikerteByggmodulerTre" },
-        { "field": "produktType", "operator": "eq", "value": "prefabrikerteByggmodulerStal" }
+        { "field": "produktType", "operator": "eq", "value": "prefabrikkertBaderomsmodul" },
+        { "field": "produktType", "operator": "eq", "value": "prefabrikkerteByggmodulerTre" },
+        { "field": "produktType", "operator": "eq", "value": "prefabrikkerteByggmodulerStal" },
+        { "field": "produktType", "operator": "eq", "value": "element" },
+        { "field": "produktType", "operator": "eq", "value": "annet" }
       ]
     },
     "iSystem2Plus": {
@@ -33,10 +41,11 @@
         { "field": "produktType", "operator": "eq", "value": "veggelement" },
         { "field": "produktType", "operator": "eq", "value": "takstoler" },
         { "field": "produktType", "operator": "eq", "value": "styrkesortertKonstruksjonsvirke" },
-        { "field": "produktType", "operator": "eq", "value": "prefabrikerteStalkonstruksjoner" },
+        { "field": "produktType", "operator": "eq", "value": "prefabrikkerteStalkonstruksjoner" },
         { "field": "produktType", "operator": "eq", "value": "hulldekkeelementer" },
-        { "field": "produktType", "operator": "eq", "value": "rekkverkAluStalGlass" },
-        { "field": "produktType", "operator": "eq", "value": "rekkverkAluStalGlass" }
+        { "field": "produktType", "operator": "eq", "value": "element" },
+        { "field": "produktType", "operator": "eq", "value": "prefabrikkertTrapp" },
+        { "field": "produktType", "operator": "eq", "value": "annet" }
       ]
     },
     "iSystem3": {
@@ -46,15 +55,22 @@
         { "field": "produktType", "operator": "eq", "value": "vindsperre" },
         { "field": "produktType", "operator": "eq", "value": "takbelegg" },
         { "field": "produktType", "operator": "eq", "value": "sandwichelementer" },
-        { "field": "produktType", "operator": "eq", "value": "pahengsfasader" }
+        { "field": "produktType", "operator": "eq", "value": "pahengsfasader" },
+        { "field": "produktType", "operator": "eq", "value": "laminertGlass" },
+        { "field": "produktType", "operator": "eq", "value": "element" },
+        { "field": "produktType", "operator": "eq", "value": "radonmembran" },
+        { "field": "produktType", "operator": "eq", "value": "annet" }
       ]
     },
     "iSystem4": {
       "type": "or",
       "clauses": [
         { "field": "produktType", "operator": "eq", "value": "fasadekledningMetall" },
+        { "field": "produktType", "operator": "eq", "value": "veggelement" },
         { "field": "produktType", "operator": "eq", "value": "ror" },
-        { "field": "produktType", "operator": "eq", "value": "prefabrikertTrapp" }
+        { "field": "produktType", "operator": "eq", "value": "prefabrikkertTrapp" },
+        { "field": "produktType", "operator": "eq", "value": "element" },
+        { "field": "produktType", "operator": "eq", "value": "annet" }
       ]
     }
   },
@@ -2997,13 +3013,43 @@
           "text": "<p></p>",
           "options": [
             {
+              "id": "produktType.prefabrikkertBaderomsmodul",
+              "type": "Answer",
+              "heading": "Baderomsmodul",
+              "value": "prefabrikkertBaderomsmodul",
+              "image": {
+                "url": "/images/baderomsmodul.png",
+                "alt": "Baderomsmodul"
+              }
+            },
+            {
               "id": "produktType.brannsikkerFugemasse",
               "type": "Answer",
-              "heading": "Brannklassifiserte fugemasser",
+              "heading": "Brannklassifisert fugemasse",
               "value": "brannsikkerFugemasse",
               "image": {
                 "url": "/images/brannfugemasse.png",
-                "alt": "Brannklassifiserte fugemasser"
+                "alt": "Brannklassifisert fugemasse"
+              }
+            },
+            {
+              "id": "produktType.prefabrikkerteByggmodulerStal",
+              "type": "Answer",
+              "heading": "Byggmoduler i stål",
+              "value": "prefabrikkerteByggmodulerStal",
+              "image": {
+                "url": "/images/prefabrikkert_staal.png",
+                "alt": "Byggmoduler i stål"
+              }
+            },
+            {
+              "id": "produktType.prefabrikkerteByggmodulerTre",
+              "type": "Answer",
+              "heading": "Byggmoduler i tre",
+              "value": "prefabrikkerteByggmodulerTre",
+              "image": {
+                "url": "/images/prefabrikkert_tre.png",
+                "alt": "Byggmoduler i tre"
               }
             },
             {
@@ -3013,67 +3059,17 @@
               "value": "hulldekkeelementer",
               "image": {
                 "url": "/images/hulldekkemodul_ce.png",
-                "alt": "Hulldekkelementer med CE-merke"
+                "alt": "Hulldekkelement med CE-merke"
               }
             },
             {
-              "id": "produktType.laminertGlass",
+              "id": "produktType.prefabrikkerteStalkonstruksjoner",
               "type": "Answer",
-              "heading": "Sikkerhetsglass",
-              "value": "laminertGlass",
-              "image": {
-                "url": "/images/laminert_glass_ce.png",
-                "alt": "Sikkerhetsglass med CE-merke"
-              }
-            },
-            {
-              "id": "produktType.prefabrikertBaderomsmodul",
-              "type": "Answer",
-              "heading": "Baderomsmoduler",
-              "value": "prefabrikertBaderomsmodul",
-              "image": {
-                "url": "/images/baderomsmodul.png",
-                "alt": "Baderomsmodul"
-              }
-            },
-            {
-              "id": "produktType.prefabrikertTrapp",
-              "type": "Answer",
-              "heading": "Trapper i stål eller tre",
-              "value": "prefabrikertTrapp",
-              "image": {
-                "url": "/images/trapp.png",
-                "alt": "Trapp"
-              }
-            },
-            {
-              "id": "produktType.prefabrikerteByggmodulerTre",
-              "type": "Answer",
-              "heading": "Byggmoduler i tre",
-              "value": "prefabrikerteByggmodulerTre",
-              "image": {
-                "url": "/images/prefabrikert_tre.png",
-                "alt": "Byggmoduler i tre"
-              }
-            },
-            {
-              "id": "produktType.prefabrikerteStalkonstruksjoner",
-              "type": "Answer",
-              "heading": "Prefabrikerte stålkonstruksjoner",
-              "value": "prefabrikerteStalkonstruksjoner",
+              "heading": "Prefabrikkerte stålkonstruksjoner",
+              "value": "prefabrikkerteStalkonstruksjoner",
               "image": {
                 "url": "/images/prefab_staalkonstruksjon_ce.png",
-                "alt": "Prefabrikert stålkonstruksjon med CE-merke"
-              }
-            },
-            {
-              "id": "produktType.prefabrikerteByggmodulerStal",
-              "type": "Answer",
-              "heading": "Byggmoduler i stål",
-              "value": "prefabrikerteByggmodulerStal",
-              "image": {
-                "url": "/images/prefabrikert_staal.png",
-                "alt": "Prefabrikert byggemodul i stål"
+                "alt": "prefabrikkert stålkonstruksjon med CE-merke"
               }
             },
             {
@@ -3097,16 +3093,6 @@
               }
             },
             {
-              "id": "produktType.rekkverkAluStalGlass",
-              "type": "Answer",
-              "heading": "Rekkverk",
-              "value": "rekkverkAluStalGlass",
-              "image": {
-                "url": "/images/rekkverk.png",
-                "alt": "Rekkverk"
-              }
-            },
-            {
               "id": "produktType.ror",
               "type": "Answer",
               "heading": "Rør og rørdeler i betong",
@@ -3124,6 +3110,16 @@
               "image": {
                 "url": "/images/sandwhichpaneler_ce.png",
                 "alt": "Sandwichelement med CE-merke"
+              }
+            },
+            {
+              "id": "produktType.laminertGlass",
+              "type": "Answer",
+              "heading": "Sikkerhetsglass",
+              "value": "laminertGlass",
+              "image": {
+                "url": "/images/laminert_glass_ce.png",
+                "alt": "Sikkerhetsglass med CE-merke"
               }
             },
             {
@@ -3154,6 +3150,16 @@
               "image": {
                 "url": "/images/takstoler_ce.png",
                 "alt": "Takstol med CE-merke"
+              }
+            },
+            {
+              "id": "produktType.prefabrikkertTrapp",
+              "type": "Answer",
+              "heading": "Trapper i stål eller tre",
+              "value": "prefabrikkertTrapp",
+              "image": {
+                "url": "/images/trapp.png",
+                "alt": "Trapp"
               }
             },
             {
@@ -3194,6 +3200,26 @@
               "image": {
                 "url": "/images/vindu_ce.png",
                 "alt": "Vindu med CE-merke"
+              }
+            },
+            {
+              "id": "produktType.element",
+              "type": "Answer",
+              "heading": "Element",
+              "value": "element",
+              "image": {
+                "url": "/images/element.jpg",
+                "alt": "Element"
+              }
+            },
+            {
+              "id": "produktType.annet",
+              "type": "Answer",
+              "heading": "Annet produkt",
+              "value": "annet",
+              "image": {
+                "url": "/images/annet.png",
+                "alt": "Annet produkt"
               }
             }
           ]
