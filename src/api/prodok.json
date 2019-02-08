@@ -72,6 +72,7 @@
   "schema": [
     {
       "id": "tingTilGjenbruk",
+      "heading": "Ting til gjenbruk",
       "type": "Page",
       "show": { "field": "neverShow", "operator": "eq", "value": 123 },
       "children": [
@@ -2695,6 +2696,7 @@
       "show": { "field": "produktType", "operator": "required" },
       "children": [
         {
+          "id": "ce.group1",
           "type": "Group",
           "simple": true,
           "show": {
@@ -2727,6 +2729,7 @@
           ]
         },
         {
+          "id": "ce.group2",
           "type": "Group",
           "simple": true,
           "show": {
