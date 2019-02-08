@@ -18,10 +18,7 @@
     },
     "iSystem1Plus": {
       "type": "or",
-      "clauses": [
-        { "field": "produktType", "operator": "eq", "value": "element" },
-        { "field": "produktType", "operator": "eq", "value": "annet" }
-      ]
+      "clauses": [{ "field": "produktType", "operator": "eq", "value": "annet" }]
     },
     "iSystem1": {
       "type": "or",
@@ -31,7 +28,6 @@
         { "field": "produktType", "operator": "eq", "value": "prefabrikkertBaderomsmodul" },
         { "field": "produktType", "operator": "eq", "value": "prefabrikkerteByggmodulerTre" },
         { "field": "produktType", "operator": "eq", "value": "prefabrikkerteByggmodulerStal" },
-        { "field": "produktType", "operator": "eq", "value": "element" },
         { "field": "produktType", "operator": "eq", "value": "annet" }
       ]
     },
@@ -57,7 +53,6 @@
         { "field": "produktType", "operator": "eq", "value": "sandwichelementer" },
         { "field": "produktType", "operator": "eq", "value": "pahengsfasader" },
         { "field": "produktType", "operator": "eq", "value": "laminertGlass" },
-        { "field": "produktType", "operator": "eq", "value": "element" },
         { "field": "produktType", "operator": "eq", "value": "radonmembran" },
         { "field": "produktType", "operator": "eq", "value": "annet" }
       ]
@@ -3628,6 +3623,7 @@
       "type": "Page",
       "heading": "Bruksanvisning",
       "lead": "De fleste produkter må ha en bruksanvisning eller monteringsanvisning. Det må også kunne legges ved sikkerhetsinformasjon dersom produktet inneholder farlige stoffer.",
+      "show": { "field": "produktType", "operator": "required" },
       "children": [
         {
           "id": "finnesProdusentensVeiledning",
