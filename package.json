@@ -13,7 +13,8 @@
     "react-scripts": "1.0.14",
     "redux": "^3.7.2",
     "redux-persist": "^4.10.1",
-    "styled-components": "^2.2.0"
+    "styled-components": "^2.2.0",
+    "zenscroll": "^4.0.2"
   },
   "scripts": {
     "start": "PORT=8080 react-scripts start",

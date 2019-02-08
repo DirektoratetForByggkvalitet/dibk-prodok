@@ -3,6 +3,8 @@ import ReactDOM from 'react-dom';
 import App from './App';
 import registerServiceWorker from './registerServiceWorker';
 
+import './helpers/scroll-on-product-selection';
+
 const root = document.querySelector('div[data-bind], #root');
 let translations = JSON.parse(root.getAttribute('data-bind') || '{}');
 
