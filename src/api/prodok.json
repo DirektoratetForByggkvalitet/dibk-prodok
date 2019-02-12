@@ -2851,34 +2851,6 @@
               "value": "nei"
             }
           ]
-        },
-        {
-          "id": "frivilligCE",
-          "property": "frivilligCE",
-          "type": "Radio",
-          "heading": "Har produktet en ETA?",
-          "text": "<p>Dette er helt frivillig. Fordelen er at produsenten fritt kan omsette sitt produkt i hele EU/EØS-området. </p><h3>Hvordan skaffer produsenten en ETA?</h3><ol><li>En produsent spør et <a href='https://www.eota.eu/en-GB/content/how-to-find-a-tab/55/' target='_blank'>teknisk bedømmelsesorgan</a> om de kan lage en europeisk teknisk bedømmelse (ETA) for produktet sitt.</li><li>En ETA utarbeides på grunnlag av et eksisterende <a href='https://www.eota.eu/en-GB/content/eads/56/' target='_blank'>europeisk bedømmelsesdokument</a> (EAD). Om en EAD ikke finnes fra før, må det tekniske bedømmelsesorganet utarbeide en ny. </li><li>Ytelseserklæring utarbeides på bakgrunn av ETA-en. </li></ol>",
-          "show": {
-            "type": "or",
-            "clauses": [
-              { "field": "dekketAvProduktStandard", "operator": "eq", "value": "nei" },
-              { "field": "$computed.ceValgfri", "operator": "eq", "value": true }
-            ]
-          },
-          "options": [
-            {
-              "id": "frivilligCE.ja",
-              "type": "Answer",
-              "heading": "Ja",
-              "value": true
-            },
-            {
-              "id": "frivilligCE.nei",
-              "type": "Answer",
-              "heading": "Nei",
-              "value": false
-            }
-          ]
         }
       ]
     },
@@ -2902,7 +2874,7 @@
               "property": "eta",
               "type": "Radio",
               "heading": "Finnes det en ETA?",
-              "text": "<p>For byggevarer som ikke er omfattet av harmoniserte produktstandarder, kan produsenten velge å CE-merke sine byggevarer ved å skaffe seg en europeisk teknisk godkjenning (ETA). Dette er helt frivillig. Fordelen er at produsenten fritt kan omsette sitt produkt i hele EU/EØS-området.</p><p><h4>Hvordan skaffer produsenten en ETA?</h4></p><ul><li>En produsent spør et teknisk bedømmelsesorgan om de kan lage en europeisk teknisk bedømmelse (ETA) for produktet sitt.</li><li>En ETA utarbeides på grunnlag av et eksisterende europeisk bedømmelsesdokument (EAD). Om en EAD ikke finnes fra før, må det tekniske bedømmelsesorganet utarbeide en ny.</li><li>Ytelseserklæring utarbeides på bakgrunn av ETA-en.</li></ul>",
+              "text": "<p>For byggevarer som ikke er omfattet av harmoniserte produktstandarder, kan produsenten velge å CE-merke sine byggevarer ved å skaffe seg en europeisk teknisk godkjenning (ETA). Dette er helt frivillig. Fordelen er at produsenten fritt kan omsette sitt produkt i hele EU/EØS-området.</p><p><h4>Hvordan skaffer produsenten en ETA?</h4></p><ol><li>En produsent spør et <a href='https://www.eota.eu/en-GB/content/how-to-find-a-tab/55/' target='_blank'>teknisk bedømmelsesorgan</a> om de kan lage en europeisk teknisk bedømmelse (ETA) for produktet sitt.</li><li>En ETA utarbeides på grunnlag av et eksisterende <a href='https://www.eota.eu/en-GB/content/eads/56/' target='_blank'>europeisk bedømmelsesdokument</a> (EAD). Om en EAD ikke finnes fra før, må det tekniske bedømmelsesorganet utarbeide en ny. </li><li>Ytelseserklæring utarbeides på bakgrunn av ETA-en. </li></ol>",
               "show": { "field": "$computed.ceValgfri", "operator": "is" },
               "options": [
                 {
