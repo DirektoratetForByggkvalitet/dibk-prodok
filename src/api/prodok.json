@@ -2341,7 +2341,7 @@
           "id": "ytelseserklaringIngress",
           "type": "Text",
           "heading": "Finnes det ytelseserklæring?",
-          "text": "<p>Det er viktig at opplysningene i ytelseserklæringen skrives på en klar og sammenhengende måte. Rekkefølge og fremstillingen av innholdet er opp til produsenten å bestemme, men følgende innhold må være med:</p><ol><li>Produkttype.</li><li>Vareidentifikasjon (type-, parti-, eller serienummer).</li><li>Tiltenkt bruk av byggevaren.</li><li>Navn og adresse til produsent.</li><li>Hvilket system for vurdering og verifikasjon av byggevarens ytelser som er valgt.</li><li>Nummer til det tekniske kontrollorgan (gjelder kun enkelte produkter).</li><li>Henvisning til den relevante harmonisierte produktstandarden/europeiske bedømmelsesdokumentet.</li><li>Byggevarens viktigste egenskaper og ytelser.</li><li>Underskrift av produsent eller en representant.</li></ol>"
+          "text": "<p>Ytelseserklæringen er et dokument som er laget og undertegnet av produsenten. Hovedformålet med dokumentet er at produsentene skal deklarere den viktigste informasjonen om sitt produkt, spesielt produktets viktigste egenskaper og ytelser.</p><p>Den kan leveres enten i papirformat sammen med produktet eller være tilgjengelig på produsentens nettside.</p><p><a href=\"https://dibk.no/globalassets/temaveiledninger/produktdokumentasjon/produktdokumentasjon_kortversjon/ytelseserklaring_generell_3-7.png\" target=\"_blank\">Mal for ytelseserklæring</a> (åpnes i nytt vindu).</p><p>Det er viktig at opplysningene i ytelseserklæringen skrives på en klar og sammenhengende måte. Rekkefølge og fremstillingen av innholdet er opp til produsenten å bestemme, men følgende innhold må være med:</p><ol><li>Produkttype</li><li>Vareidentifikasjon (type-, parti-, eller serienummer)</li><li>Tiltenkt bruk av byggevaren</li><li>Navn og adresse til produsent</li><li>Hvilket system for vurdering og verifikasjon av byggevarens ytelser som er valgt </li><li>Nummer til det tekniske kontrollorgan (gjelder kun enkelte produkter)</li><li>Henvisning til den relevante harmonisierte produktstandarden/europeiske <li>bedømmelsesdokumentet</li><li>Byggevarens viktigste egenskaper og ytelser </li><li>Underskrift av produsent eller en representant</li></ol>"
         },
         {
           "id": "egenskapProduktdokumentasjon",
@@ -2684,6 +2684,193 @@
                 "url": "/images/annet.png",
                 "alt": "Annet produkt"
               }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "byggevareOgProdukter",
+      "type": "Page",
+      "heading": "Veivalg til dokumentasjon",
+      "show": {
+        "type": "or",
+        "clauses": [
+          { "field": "produktType", "operator": "eq", "value": "annet" },
+          { "field": "$computed.ceValgfri", "operator": "eq", "value": true }
+        ]
+      },
+      "children": [
+        {
+          "id": "isProductByggevare",
+          "property": "isProductByggevare",
+          "type": "Radio",
+          "heading": "Er produktet en byggevare?",
+          "text": "<p>Byggevarer omfatter de aller fleste varer som skal bygges inn i bygninger og anlegg. Det kan være alt fra trevirke, betong, stål og isolasjonsprodukter til bjelker, dører, vinduer og VVS-produkter. Byggesett, som byggmoduler og prefabrikkerte våtrom, er også byggevarer. </p>",
+          "hide": { "field": "$computed.ceValgfri", "operator": "eq", "value": true },
+          "options": [
+            {
+              "id": "isProductByggevare.ja",
+              "type": "Answer",
+              "heading": "Ja",
+              "value": "ja"
+            },
+            {
+              "id": "isProductByggevare.nei",
+              "type": "Answer",
+              "heading": "Nei",
+              "value": "nei"
+            },
+            {
+              "id": "isProductByggevare.usikker",
+              "type": "Answer",
+              "heading": "Usikker",
+              "value": "usikker"
+            }
+          ]
+        },
+        {
+          "type": "Branch",
+          "branches": [
+            {
+              "test": { "field": "isProductByggevare", "operator": "eq", "value": "usikker" },
+              "children": [
+                {
+                  "id": "varigDelAvByggverk",
+                  "property": "varigDelAvByggverk",
+                  "type": "Radio",
+                  "heading": "Skal produktet bygges varig inn i et byggverk?",
+                  "text": "<p>De aller fleste produkter som skal bygges inn i et byggverk er byggevarer.</p>",
+                  "options": [
+                    {
+                      "id": "varigDelAvByggverk.ja",
+                      "type": "Answer",
+                      "heading": "Ja, det er en byggevare",
+                      "text": "De fleste som ting som bygges permanent inn i boligen er byggevarer. Noen byggevarer som kan skiftes ut, for eksempel vinduer og dører, regnes også som byggevarer.",
+                      "value": true
+                    },
+                    {
+                      "id": "varigDelAvByggverk.nei",
+                      "type": "Answer",
+                      "heading": "Nei, det er ikke en byggevare",
+                      "text": "Det som ikke bygges permanent inn, som listverk og kjøkkeninnredning, anses ikke som byggevarer.",
+                      "value": false
+                    }
+                  ]
+                },
+                {
+                  "id": "grunnleggendeEgenskaper",
+                  "property": "grunnleggendeEgenskaper",
+                  "type": "Radio",
+                  "heading": "Påvirker produktet byggkvaliteten?",
+                  "show": { "field": "varigDelAvByggverk", "operator": "required" },
+                  "text": "<p>Hvis produktet har en vesentlig funksjon i byggverket, er det en byggevare. Produktet er mest sannsynlig en byggevare hvis det påvirker byggets:</p><ul><li>mekaniske motstandsevne og stabilitet</li><li>brannsikkerhet</li><li>hygiene, helse og miljø</li><li>sikkerhet og tilgjengelighet ved bruk</li><li>vern mot støy</li><li>energiøkonomisering og varmeisolering </li><li>bærekraftighet</li></ul><p>Maling som ikke har brannegenskaper er for eksempel ikke regnet som en byggevare ettersom det ikke påvirker kvaliteten på byggverket.</p>",
+                  "options": [
+                    {
+                      "id": "grunnleggendeEgenskaper.ja",
+                      "type": "Answer",
+                      "heading": "Ja",
+                      "value": true
+                    },
+                    {
+                      "id": "grunnleggendeEgenskaper.nei",
+                      "type": "Answer",
+                      "heading": "Nei",
+                      "value": false
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "Branch",
+          "branches": [
+            {
+              "test": {
+                "type": "or",
+                "clauses": [
+                  {
+                    "type": "or",
+                    "clauses": [
+                      { "field": "varigDelAvByggverk", "operator": "eq", "value": false },
+                      { "field": "grunnleggendeEgenskaper", "operator": "eq", "value": false }
+                    ]
+                  },
+                  { "field": "isProductByggevare", "operator": "eq", "value": "nei" }
+                ]
+              },
+              "children": [
+                {
+                  "type": "Reference",
+                  "nodeId": "resultIkkeByggevare"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "dekketAvProduktStandard",
+          "property": "dekketAvProduktStandard",
+          "type": "Radio",
+          "heading": "Er produktet omfattet av en harmonisert produktstandard?",
+          "text": "<p>En produktstandard er en felles oppskrift på hvordan et produkt skal lages. En harmonisert produktstandard lages etter et mandat fra Europakommisjonen. Slike standarder er altså viktige for alle som ønsker å selge produktet sitt på det europeiske markedet. </p><p>For produsenter av byggevarer er det obligatorisk å følge denne hvis de omfattes av en harmonisert produktstandard. </p>",
+          "summary": "Finn riktig harmonisert produktstandard",
+          "details": "<p>Det finnes ca. 500 harmoniserte produktstandarder for byggevarer. Her finner du <a href='https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=uriserv:OJ.C_.2018.092.01.0139.01.ENG' target='_blank'>liste over alle de harmoniserte standardene</a> (pdf, åpnes i nytt vindu). Det står også når man kan starte å bruke standarden og når den må brukes.</p><h3>Bruk eller skaff deg standarden</h3><p><a href='http://www.standard.no/' target='_blank'>Du kan kjøpe en standard hos Standard Norge</a>. Se i omfanget (scope) til standarden for å vurdere om det konkrete produktet du lurer på er omfattet eller ikke. </p><p>Merk deg at Standard Norge ikke opplyser om hvilke standarder som er offisielle etter byggevareforordningen. På noen områder har ikke nye standarder blitt godkjent av Europakommisjonen. Det er da den gamle standarden som skal brukes frem til den nye standarden blir godkjent. Det er altså kun de standardene som står på EU-nettsiden som er de offisielle standardene.</p>",
+          "show": {
+            "type": "or",
+            "clauses": [
+              { "field": "isProductByggevare", "operator": "eq", "value": "ja" },
+              {
+                "type": "and",
+                "clauses": [
+                  { "field": "varigDelAvByggverk", "operator": "eq", "value": true },
+                  { "field": "grunnleggendeEgenskaper", "operator": "eq", "value": true }
+                ]
+              }
+            ]
+          },
+          "options": [
+            {
+              "id": "dekketAvProduktStandard.ja",
+              "type": "Answer",
+              "heading": "Ja",
+              "value": "ja"
+            },
+            {
+              "id": "dekketAvProduktStandard.nei",
+              "type": "Answer",
+              "heading": "Nei",
+              "value": "nei"
+            }
+          ]
+        },
+        {
+          "id": "frivilligCE",
+          "property": "frivilligCE",
+          "type": "Radio",
+          "heading": "Har produktet en ETA?",
+          "text": "<p>Dette er helt frivillig. Fordelen er at produsenten fritt kan omsette sitt produkt i hele EU/EØS-området. </p><h3>Hvordan skaffer jeg en ETA?</h3><ol><li>En produsent spør et <a href='https://www.eota.eu/en-GB/content/how-to-find-a-tab/55/' target='_blank'>teknisk bedømmelsesorgan</a> om de kan lage en europeisk teknisk bedømmelse (ETA) for produktet sitt.</li><li>En ETA utarbeides på grunnlag av et eksisterende <a href='https://www.eota.eu/en-GB/content/eads/56/' target='_blank'>europeisk bedømmelsesdokument</a> (EAD). Om en EAD ikke finnes fra før, må det tekniske bedømmelsesorganet utarbeide en ny. </li><li>Ytelseserklæring utarbeides på bakgrunn av ETA-en. </li></ol>",
+          "show": {
+            "type": "or",
+            "clauses": [
+              { "field": "dekketAvProduktStandard", "operator": "eq", "value": "nei" },
+              { "field": "$computed.ceValgfri", "operator": "eq", "value": true }
+            ]
+          },
+          "options": [
+            {
+              "id": "frivilligCE.ja",
+              "type": "Answer",
+              "heading": "Ja",
+              "value": true
+            },
+            {
+              "id": "frivilligCE.nei",
+              "type": "Answer",
+              "heading": "Nei",
+              "value": false
             }
           ]
         }
