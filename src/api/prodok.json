@@ -2459,6 +2459,12 @@
               ]
             }
           ]
+        },
+        {
+          "id": "resultIkkeByggevare",
+          "type": "Result",
+          "heading": "Produktet er ikke en byggevare",
+          "lead": "<p>Du har svart nei på et eller flere av spørsmålene i veiviseren. Svarene viser at produktet ikke er en byggevare. Dette er ofte en vanskelig vurdering. Er du usikker om produktet er en byggevare kan du <a href=\"mailto:post@dibk.no\">ta kontakt med direktoratet</a>.</p><p>Se hva du har svart under. Der kan du også endre svarene.</p><p>Takk for at du brukte veiviseren!</p>"
         }
       ]
     },
@@ -2896,7 +2902,7 @@
               "property": "eta",
               "type": "Radio",
               "heading": "Finnes det en ETA?",
-              "text": "<p>For byggevarer som ikke er omfattet av harmoniserte produktstandarder, kan produsenten velge å CE-merke sine byggevarer ved å skaffe seg en europeisk teknisk godkjenning (ETA).</p>",
+              "text": "<p>For byggevarer som ikke er omfattet av harmoniserte produktstandarder, kan produsenten velge å CE-merke sine byggevarer ved å skaffe seg en europeisk teknisk godkjenning (ETA). Dette er helt frivillig. Fordelen er at produsenten fritt kan omsette sitt produkt i hele EU/EØS-området.</p><p><h4>Hvordan skaffer produsenten en ETA?</h4></p><ul><li>En produsent spør et teknisk bedømmelsesorgan om de kan lage en europeisk teknisk bedømmelse (ETA) for produktet sitt.</li><li>En ETA utarbeides på grunnlag av et eksisterende europeisk bedømmelsesdokument (EAD). Om en EAD ikke finnes fra før, må det tekniske bedømmelsesorganet utarbeide en ny.</li><li>Ytelseserklæring utarbeides på bakgrunn av ETA-en.</li></ul>",
               "show": { "field": "$computed.ceValgfri", "operator": "is" },
               "options": [
                 {
@@ -2979,7 +2985,7 @@
               "property": "finnesDokumentasjon",
               "type": "Radio",
               "heading": "Finnes det produktdokumentasjon?",
-              "text": "<p>Dette kan for eksempel være en teknisk godkjenning fra SINTEF, P-märket fra RISE Certification eller fra et annet akkreditert testorgan. I noen tilfeller kan produsenten utarbeide dette selv.</p>",
+              "text": "<p>Dette kan for eksempel være en teknisk godkjenning fra SINTEF, P-märket fra RISE Certification eller fra et annet akkreditert testorgan. I noen tilfeller kan produsenten utarbeide dette selv. De skal undertegne produktdokumentasjonen og tar da ansvar for at produktet har egenskapene de har beskrevet.</p><p><a href=\"https://dibk.no/produkter-til-byggverk/byggevareinfo/dokumentasjon-av-byggevarer/dokumentasjonskrav-til-ikke-ce-merkede-byggevarer/\" target=\"_blank\">Mal for produktdokumentasjon</a> (åpnes i nytt vindu).</p>",
               "options": [
                 {
                   "id": "finnesDokumentasjon.ja",
@@ -3050,17 +3056,11 @@
                   "test": { "field": "dokumentasjonSpraak", "operator": "eq", "value": true },
                   "children": [
                     {
-                      "id": "dokumentasjonKrav",
-                      "property": "dokumentasjonKrav",
-                      "type": "Text",
-                      "text": "<h4>Krav til produktdokumentasjon</h4><p>Det er viktig at opplysningene i produktdokumentasjonen skrives på en klar og sammenhengende måte. Rekkefølge og presentasjon av innhold er opp til produsenten å bestemme, men følgende innhold må være med:<p><ol><li>Navn på produsent og navn på eventuell importør.</li><li>Produsentens og eventuell importør sine kontaktdetaljer.</li><li>Hvilke tekniske spesifikasjoner som er lagt til grunn (denne godkjenningen eller standarden vil som regel være fra Norge eller et annet land i Europa).</li><li>System for produktet.</li><li>Navnet på uavhengig tredjepartsorgan (gjelder kun noen produkter).</li><li>Produktets egenskaper og ytelser.</li></ol><p><a href=\"https://dibk.no/byggeregler/dok/iii/13/\" target=\"_blank\">Les mer om kravene i kapittel tre i byggevareforskriften (DOK)</a></p>.",
-                      "show": { "field": "finnesDokumentasjon", "operator": "eq", "value": true }
-                    },
-                    {
                       "id": "dokumentasjonOppfylt",
                       "property": "dokumentasjonOppfylt",
                       "type": "Radio",
                       "heading": "Er kravene til produktdokumentasjon oppfylt?",
+                      "text": "<p>Det er viktig at opplysningene i produktdokumentasjonen skrives på en klar og sammenhengende måte. Rekkefølge og presentasjon av innhold er opp til produsenten å bestemme, men følgende innhold må være med:<p><ol><li>Navn på produsent og navn på eventuell importør.</li><li>Produsentens og eventuell importør sine kontaktdetaljer.</li><li>Hvilke tekniske spesifikasjoner som er lagt til grunn (denne godkjenningen eller standarden vil som regel være fra Norge eller et annet land i Europa).</li><li>System for produktet.</li><li>Navnet på uavhengig tredjepartsorgan (gjelder kun noen produkter).</li><li>Produktets egenskaper og ytelser.</li></ol><p><a href=\"https://dibk.no/byggeregler/dok/iii/13/\" target=\"_blank\">Les mer om kravene i kapittel tre i byggevareforskriften (DOK)</a></p>",
                       "show": { "field": "finnesDokumentasjon", "operator": "eq", "value": true },
                       "options": [
                         {
@@ -3435,8 +3435,42 @@
       }
     },
     {
+      "id": "infoOmTilsynet",
+      "type": "Page",
+      "show": { "field": "produktType", "operator": "required" },
+      "heading": "Informasjon om tilsynet",
+      "lead": "Her kan du legge inn informasjon om tilsynet du har gjort. Informasjonen vil komme med i sluttrapporten din. Du fyller kun inn de feltene du ønsker å ha med i rapporten.",
+      "children": [
+        {
+          "id": "infoOmTilsynet.saksnummer",
+          "property": "infoOmTilsynet.saksnummer",
+          "type": "Input",
+          "heading": "Saksnummer"
+        },
+        {
+          "id": "infoOmTilsynet.saksbehandler",
+          "property": "infoOmTilsynet.saksbehandler",
+          "type": "Input",
+          "heading": "Navn på saksbehandler"
+        },
+        {
+          "id": "infoOmTilsynet.ansvarligForetak",
+          "property": "infoOmTilsynet.ansvarligForetak",
+          "type": "Input",
+          "heading": "Ansvarlig foretak"
+        },
+        {
+          "id": "infoOmTilsynet.ekstraInfo",
+          "property": "infoOmTilsynet.ekstraInfo",
+          "type": "Input",
+          "heading": "Ytterligere informasjon om tilsynet"
+        }
+      ]
+    },
+    {
       "id": "resultOk",
       "type": "Result",
+      "show": { "field": "produktType", "operator": "required" },
       "heading": {
         "complete": "Dokumentasjonen er i orden",
         "completeWithError": "Dokumentasjonen er ikke i orden  [DENNE VIL ALDRI VISES]",
