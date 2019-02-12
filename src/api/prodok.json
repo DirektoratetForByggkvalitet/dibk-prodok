@@ -3200,8 +3200,16 @@
       },
       "children": [
         {
-          "type": "Reference",
-          "nodeId": "ytelseserklaringTabell"
+          "id": "prosjektering.group",
+          "property": "prosjektering.group",
+          "type": "Group",
+          "heading": "",
+          "children": [
+            {
+              "type": "Reference",
+              "nodeId": "ytelseserklaringTabell"
+            }
+          ]
         },
         {
           "type": "Reference",
@@ -3344,6 +3352,39 @@
       ]
     },
     {
+      "id": "infoOmTilsynet",
+      "type": "Page",
+      "show": { "field": "produktType", "operator": "required" },
+      "heading": "Informasjon om tilsynet",
+      "lead": "Her kan du legge inn informasjon om tilsynet du har gjort. Informasjonen vil komme med i sluttrapporten din. Du fyller kun inn de feltene du ønsker å ha med i rapporten.",
+      "children": [
+        {
+          "id": "infoOmTilsynet.saksnummer",
+          "property": "infoOmTilsynet.saksnummer",
+          "type": "Input",
+          "heading": "Saksnummer"
+        },
+        {
+          "id": "infoOmTilsynet.saksbehandler",
+          "property": "infoOmTilsynet.saksbehandler",
+          "type": "Input",
+          "heading": "Navn på saksbehandler"
+        },
+        {
+          "id": "infoOmTilsynet.ansvarligForetak",
+          "property": "infoOmTilsynet.ansvarligForetak",
+          "type": "Input",
+          "heading": "Ansvarlig foretak"
+        },
+        {
+          "id": "infoOmTilsynet.ekstraInfo",
+          "property": "infoOmTilsynet.ekstraInfo",
+          "type": "Input",
+          "heading": "Ytterligere informasjon om tilsynet"
+        }
+      ]
+    },
+    {
       "id": "resultNotOk",
       "type": "Result",
       "heading": {
@@ -3405,39 +3446,6 @@
           { "field": "bruksanvisningSpraak", "operator": "eq", "value": false }
         ]
       }
-    },
-    {
-      "id": "infoOmTilsynet",
-      "type": "Page",
-      "show": { "field": "produktType", "operator": "required" },
-      "heading": "Informasjon om tilsynet",
-      "lead": "Her kan du legge inn informasjon om tilsynet du har gjort. Informasjonen vil komme med i sluttrapporten din. Du fyller kun inn de feltene du ønsker å ha med i rapporten.",
-      "children": [
-        {
-          "id": "infoOmTilsynet.saksnummer",
-          "property": "infoOmTilsynet.saksnummer",
-          "type": "Input",
-          "heading": "Saksnummer"
-        },
-        {
-          "id": "infoOmTilsynet.saksbehandler",
-          "property": "infoOmTilsynet.saksbehandler",
-          "type": "Input",
-          "heading": "Navn på saksbehandler"
-        },
-        {
-          "id": "infoOmTilsynet.ansvarligForetak",
-          "property": "infoOmTilsynet.ansvarligForetak",
-          "type": "Input",
-          "heading": "Ansvarlig foretak"
-        },
-        {
-          "id": "infoOmTilsynet.ekstraInfo",
-          "property": "infoOmTilsynet.ekstraInfo",
-          "type": "Input",
-          "heading": "Ytterligere informasjon om tilsynet"
-        }
-      ]
     },
     {
       "id": "resultOk",
