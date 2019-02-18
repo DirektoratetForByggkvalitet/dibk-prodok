@@ -3389,7 +3389,7 @@
         {
           "id": "infoOmTilsynet.ekstraInfo",
           "property": "infoOmTilsynet.ekstraInfo",
-          "type": "Input",
+          "type": "Textarea",
           "optional": "true",
           "heading": "Ytterligere informasjon om tilsynet"
         }
