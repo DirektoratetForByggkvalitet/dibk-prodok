@@ -3261,6 +3261,13 @@
       "heading": "Bruksanvisning",
       "lead": "De fleste produkter må ha en bruksanvisning eller monteringsanvisning. Det må også kunne legges ved sikkerhetsinformasjon dersom produktet inneholder farlige stoffer.",
       "show": { "field": "produktType", "operator": "required" },
+      "show": {
+        "type": "and",
+        "clauses": [
+          { "field": "produktType", "operator": "required" },
+          { "field": "produktType", "operator": "neq", "value": "styrkesortertKonstruksjonsvirke" }
+        ]
+      },      
       "children": [
         {
           "id": "finnesProdusentensVeiledning",
