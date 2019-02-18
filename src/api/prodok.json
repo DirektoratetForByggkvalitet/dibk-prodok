@@ -2933,7 +2933,7 @@
                   "type": "Text",
                   "warning": true,
                   "heading": "Produktet må ha CE-merke",
-                  "text": "Etterspør dokumentasjon som viser at produktet er CE-merket. Finnes ikke merket, må dere vurdere oppfølging basert på hvor alvorlig bruddet er.</a>"
+                  "text": "Er du produsent, må du sette CE-merke på produktet. Er du importør eller distributør, må du be CE-merke fra den du kjøpte produktet fra.</a>"
                 }
               ]
             }
