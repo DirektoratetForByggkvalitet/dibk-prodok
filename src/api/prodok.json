@@ -3362,24 +3362,28 @@
           "id": "infoOmTilsynet.saksnummer",
           "property": "infoOmTilsynet.saksnummer",
           "type": "Input",
+          "optional": "true",
           "heading": "Saksnummer"
         },
         {
           "id": "infoOmTilsynet.saksbehandler",
           "property": "infoOmTilsynet.saksbehandler",
           "type": "Input",
+          "optional": "true",
           "heading": "Navn på saksbehandler"
         },
         {
           "id": "infoOmTilsynet.ansvarligForetak",
           "property": "infoOmTilsynet.ansvarligForetak",
           "type": "Input",
+          "optional": "true",
           "heading": "Ansvarlig foretak"
         },
         {
           "id": "infoOmTilsynet.ekstraInfo",
           "property": "infoOmTilsynet.ekstraInfo",
           "type": "Input",
+          "optional": "true",
           "heading": "Ytterligere informasjon om tilsynet"
         }
       ]
