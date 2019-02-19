@@ -2963,10 +2963,22 @@
           "simple": false,
           "heading": "Produktdokumentasjon",
           "show": {
-            "type": "and",
+            "type": "or",
             "clauses": [
-              { "field": "$computed.ceValgfri", "operator": "is" },
-              { "field": "eta", "operator": "eq", "value": false }
+              {
+                "type": "and",
+                "clauses": [
+                  { "field": "$computed.ceValgfri", "operator": "is" },
+                  { "field": "eta", "operator": "eq", "value": false }
+                ]
+              },
+              {
+                "type": "and",
+                "clauses": [
+                  { "field": "produktType", "operator": "eq", "value": "annet" },
+                  { "field": "eta", "operator": "eq", "value": false }
+                ]
+              }
             ]
           },
           "children": [
