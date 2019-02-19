@@ -3091,21 +3091,27 @@
           "type": "Group",
           "simple": false,
           "show": {
-            "type": "and",
+            "type": "or",
             "clauses": [
-              { "field": "produktType", "operator": "required" },
               {
-                "type": "or",
+                "type": "and",
                 "clauses": [
-                  { "field": "$computed.ceValgfri", "operator": "eq", "value": false },
-                  { "field": "produktCeMerket", "operator": "required" }
+                  { "field": "produktType", "operator": "required" },
+                  { "field": "produktType", "operator": "neq", "value": "annet" },
+                  {
+                    "type": "or",
+                    "clauses": [
+                      { "field": "$computed.ceValgfri", "operator": "eq", "value": false },
+                      { "field": "produktCeMerket", "operator": "required" }
+                    ]
+                  }
                 ]
               },
               {
-                "type": "or",
+                "type": "and",
                 "clauses": [
-                  { "field": "produktType", "operator": "neq", "value": "annet" },
-                  { "field": "eta", "operator": "neq", "value": false }
+                  { "field": "produktType", "operator": "eq", "value": "annet" },
+                  { "field": "eta", "operator": "eq", "value": true }
                 ]
               }
             ]
