@@ -1937,18 +1937,6 @@
                     ],
                     [
                       {
-                        "id": "takstoler.cell.biologiskeAngrep",
-                        "type": "Cell",
-                        "text": "<strong>Motstand mot biologiske angrep</strong>"
-                      },
-                      {
-                        "id": "takstoler.cell.biologiskeAngrepValue",
-                        "type": "Cell",
-                        "text": "Motstand mot biologiske angrep. Dokumenteres etter NS-EN 350-2. Uttrykkes ved en klasse. <br/><em>eks. Holdbarhetsklasse 5</em>"
-                      }
-                    ],
-                    [
-                      {
                         "id": "takstoler.cell.brannpåvirkning",
                         "type": "Cell",
                         "text": "<strong>Brannpåvirkning</strong>"
@@ -2341,7 +2329,7 @@
           "id": "ytelseserklaringIngress",
           "type": "Text",
           "heading": "Finnes det ytelseserklæring?",
-          "text": "<p>Ytelseserklæringen er et dokument som er laget og undertegnet av produsenten. Hovedformålet med dokumentet er at produsentene skal deklarere den viktigste informasjonen om sitt produkt, spesielt produktets viktigste egenskaper og ytelser.</p><p>Den kan leveres enten i papirformat sammen med produktet eller være tilgjengelig på produsentens nettside.</p><p><a href=\"https://dibk.no/globalassets/temaveiledninger/produktdokumentasjon/produktdokumentasjon_kortversjon/ytelseserklaring_generell_3-7.png\" target=\"_blank\">Mal for ytelseserklæring</a> (åpnes i nytt vindu).</p><p>Det er viktig at opplysningene i ytelseserklæringen skrives på en klar og sammenhengende måte. Rekkefølge og fremstillingen av innholdet er opp til produsenten å bestemme, men følgende innhold må være med:</p><ol><li>Produkttype</li><li>Vareidentifikasjon (type-, parti-, eller serienummer)</li><li>Tiltenkt bruk av byggevaren</li><li>Navn og adresse til produsent</li><li>Hvilket system for vurdering og verifikasjon av byggevarens ytelser som er valgt </li><li>Nummer til det tekniske kontrollorgan (gjelder kun enkelte produkter)</li><li>Henvisning til den relevante harmonisierte produktstandarden/europeiske <li>bedømmelsesdokumentet</li><li>Byggevarens viktigste egenskaper og ytelser </li><li>Underskrift av produsent eller en representant</li></ol>"
+          "text": "<p>Ytelseserklæringen er et dokument som er laget og undertegnet av produsenten. Hovedformålet med dokumentet er at produsentene skal deklarere den viktigste informasjonen om sitt produkt, spesielt produktets viktigste egenskaper og ytelser.</p><p>Den kan leveres enten i papirformat sammen med produktet eller være tilgjengelig på produsentens nettside.</p><p><a href=\"https://dibk.no/globalassets/temaveiledninger/produktdokumentasjon/produktdokumentasjon_kortversjon/ytelseserklaring_generell_3-7.png\" target=\"_blank\">Eksempel på ytelseserklæring</a> (åpnes i nytt vindu).</p><p>Det er viktig at opplysningene i ytelseserklæringen skrives på en klar og sammenhengende måte. Rekkefølge og fremstillingen av innholdet er opp til produsenten å bestemme, men følgende innhold må være med:</p><ol><li>Produkttype</li><li>Vareidentifikasjon (type-, parti-, eller serienummer)</li><li>Tiltenkt bruk av byggevaren</li><li>Navn og adresse til produsent</li><li>Hvilket system for vurdering og verifikasjon av byggevarens ytelser som er valgt </li><li>Nummer til det tekniske kontrollorgan (gjelder kun enkelte produkter)</li><li>Henvisning til den relevante harmonisierte produktstandarden/europeiske <li>bedømmelsesdokumentet</li><li>Byggevarens viktigste egenskaper og ytelser </li><li>Underskrift av produsent eller en representant</li></ol>"
         },
         {
           "id": "egenskapProduktdokumentasjon",
