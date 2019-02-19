@@ -3100,6 +3100,13 @@
                   { "field": "$computed.ceValgfri", "operator": "eq", "value": false },
                   { "field": "produktCeMerket", "operator": "required" }
                 ]
+              },
+              {
+                "type": "or",
+                "clauses": [
+                  { "field": "produktType", "operator": "neq", "value": "annet" },
+                  { "field": "eta", "operator": "neq", "value": false }
+                ]
               }
             ]
           },
@@ -3221,6 +3228,7 @@
           "id": "prosjektering.group",
           "property": "prosjektering.group",
           "type": "Group",
+          "hide": { "field": "produktType", "operator": "eq", "value": "annet" },
           "heading": "",
           "children": [
             {
