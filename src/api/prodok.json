@@ -1,7 +1,9 @@
 {
   "meta": {
     "title": "Tilsyn med produkter",
-    "name": "produktdokumentasjon"
+    "name": "produktdokumentasjon",
+    "pdfServiceUrl": "https://pdf.dibk.kunde.netlife.com/pdf",
+    "localStorageKey": "reduxPersist:@WIZARD_STATE"
   },
   "computed": {
     "ceValgfri": {
