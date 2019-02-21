@@ -2915,6 +2915,13 @@
               {
                 "type": "and",
                 "clauses": [
+                  { "field": "eta", "operator": "eq", "value": true },
+                  { "field": "produktType", "operator": "eq", "value": "annet" }
+                ]
+              },
+              {
+                "type": "and",
+                "clauses": [
                   { "field": "produktType", "operator": "eq", "value": "annet" },
                   { "field": "dekketAvProduktStandard", "operator": "eq", "value": "ja" }
                 ]
@@ -3126,6 +3133,13 @@
                 "clauses": [
                   { "field": "produktType", "operator": "eq", "value": "annet" },
                   { "field": "eta", "operator": "eq", "value": true }
+                ]
+              },
+              {
+                "type": "and",
+                "clauses": [
+                  { "field": "produktType", "operator": "eq", "value": "annet" },
+                  { "field": "produktCeMerket", "operator": "eq", "value": true }
                 ]
               }
             ]
