@@ -2987,6 +2987,13 @@
                   { "field": "produktType", "operator": "eq", "value": "annet" },
                   { "field": "eta", "operator": "eq", "value": false }
                 ]
+              },
+              {
+                "type": "and",
+                "clauses": [
+                  { "field": "produktType", "operator": "eq", "value": "annet" },
+                  { "field": "produktCeMerket", "operator": "eq", "value": false }
+                ]
               }
             ]
           },
