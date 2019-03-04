@@ -2512,6 +2512,16 @@
               }
             },
             {
+              "id": "produktType.element",
+              "type": "Answer",
+              "heading": "Elementer i tre",
+              "value": "element",
+              "image": {
+                "url": "/images/element.png",
+                "alt": "Elementer i tre"
+              }
+            },
+            {
               "id": "produktType.hulldekkeelementer",
               "type": "Answer",
               "heading": "Hulldekkelementer",
@@ -2659,16 +2669,6 @@
               "image": {
                 "url": "/images/vindu_ce.png",
                 "alt": "Vindu med CE-merke"
-              }
-            },
-            {
-              "id": "produktType.element",
-              "type": "Answer",
-              "heading": "Elementer i tre",
-              "value": "element",
-              "image": {
-                "url": "/images/element.png",
-                "alt": "Elementer i tre"
               }
             },
             {
