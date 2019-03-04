@@ -3244,6 +3244,13 @@
             ]
           },
           {
+            "type": "and",
+            "clauses": [
+              { "field": "dokumentasjonOppfylt", "operator": "required" },
+              { "field": "produktType", "operator": "eq", "value": "annet" }
+            ]
+          },
+          {
             "type": "or",
             "clauses": [
               {
