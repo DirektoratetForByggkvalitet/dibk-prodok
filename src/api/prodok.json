@@ -3492,15 +3492,15 @@
       "id": "resultNotOk",
       "type": "Result",
       "heading": {
-        "complete": "Dokumentasjonen er i orden [DENNE VIL ALDRI VISES]",
+        "complete": "Dokumentasjonen er i orden",
         "completeWithError": "Dokumentasjonen er ikke i orden",
-        "incomplete": "Dokumentasjonen du har gjort tilsyn med er i orden [DENNE VIL ALDRI VISES]",
+        "incomplete": "Dokumentasjonen du har gjort tilsyn med er i orden",
         "incompleteWithError": "Dokumentasjonen er ikke i orden"
       },
       "lead": {
-        "complete": "[DENNE VIL ALDRI VISES]",
+        "complete": "",
         "completeWithError": "<p>Svarene dine viser at noe av dokumentasjonen til produktet du fører tilsyn med er mangelfull.</p><p><strong>Usikker på om du har fått all dokumentasjon?</strong><br />Ta kontakt med ansvarlig søker og be om å få det ettersendt. Husk å sette tidsfrist. Når du har fått dokumentasjonen, kan du ta veiviseren på nytt.</p><p><strong>Har du fått all dokumentasjon du har etterspurt?</strong></p><ul><li><a href=\"https://dibk.no/saksbehandling/kommunalt-tilsyn/temaveiledninger/tilsyn/del-1-gjennomforing-av-tilsyn/1.5.-nar-tilsynet-avdekker/1.5.2.-de-ulike-reaksjonsformer/\" target=\"_blank\">Se mulige reaksjoner i tilsynsveilederen.</a></li><li>Vurdér oppfølging basert på hvor alvorlig bruddet er.</li><li><a href=\"https://sgbruker.dibk.no/product_report_cases/new\" target=\"_blank\">Meld fra til oss i Direktoratet for byggkvalitet.</a></li></ul><p>Se hva du har svart under. Der kan du også endre svarene dine.</p><p>Takk for at du brukte veiviseren!</p>",
-        "incomplete": "[DENNE VIL ALDRI VISES]",
+        "incomplete": "",
         "incompleteWithError": "<p>Svarene dine viser at noe av dokumentasjonen til produktet du fører tilsyn med er mangelfull.</p><p>Siden du kun har ført tilsyn med deler av dokumentasjonen, kan det være at også andre deler er mangelfull. Du kan vurdere å føre tilsyn med andre deler av dokumentasjonen også.</p><p><strong>Usikker på om du har fått all dokumentasjon?</strong><br />Ta kontakt med ansvarlig søker og be om å få det ettersendt. Husk å sette tidsfrist. Når du har fått dokumentasjonen, kan du ta veiviseren på nytt.</p><p><strong>Har du fått all dokumentasjon du har etterspurt?</strong></p><ul><li>Vurdér oppfølging basert på hvor alvorlig bruddet er.</li><li><a href=\"https://dibk.no/saksbehandling/kommunalt-tilsyn/temaveiledninger/tilsyn/del-1-gjennomforing-av-tilsyn/1.5.-nar-tilsynet-avdekker/1.5.2.-de-ulike-reaksjonsformer/\" target=\"_blank\">Se mulige reaksjoner i tilsynsveilederen.</a></li><li><a href=\"https://sgbruker.dibk.no/product_report_cases/new\" target=\"_blank\">Meld fra til oss i Direktoratet for byggkvalitet.</a></li></ul><p>Se hva du har svart under. Der kan du også endre svarene dine.</p><p>Takk for at du brukte veiviseren!</p>"
       },
       "show": {
@@ -3557,15 +3557,15 @@
       "show": { "field": "produktType", "operator": "required" },
       "heading": {
         "complete": "Dokumentasjonen er i orden",
-        "completeWithError": "Dokumentasjonen er ikke i orden  [DENNE VIL ALDRI VISES]",
+        "completeWithError": "Dokumentasjonen er ikke i orden ",
         "incomplete": "Dokumentasjonen du har gjort tilsyn med er i orden",
-        "incompleteWithError": "Dokumentasjonen er ikke i orden [DENNE VIL ALDRI VISES]"
+        "incompleteWithError": "Dokumentasjonen er ikke i orden"
       },
       "lead": {
         "complete": "<p>Du har svart på alle spørsmål i veiviseren. Svarene viser at dokumentasjonen du har ført tilsyn med er i orden.<p></p>Du kan avslutte dette tilsynet. Du kan ta en utskrift fra veiviseren for å dokumentere tilsynet.</p><p>Mistenker du at andre deler av dokumentasjonen ikke er i orden?<br />Da kan du vurdere å gjennomføre et tilsyn med andre deler av dokumentasjonen også.</p><p>Se hva du har svart under. Der kan du også endre svarene.</p><p>Takk for at du brukte veiviseren!</p>",
-        "completeWithError": "[DENNE VIL ALDRI VISES]",
+        "completeWithError": "",
         "incomplete": "<p>Svarene viser at dokumentasjonen du har ført tilsyn med er i orden.<p></p>Du kan avslutte dette tilsynet. Du kan ta en utskrift fra veiviseren for å dokumentere tilsynet.</p><p>Mistenker du at andre deler av dokumentasjonen ikke er i orden?<br />Da kan du vurdere å gjennomføre et tilsyn med andre deler av dokumentasjonen også.</p><p>Du har kun ført tilsyn med noen deler av dokumentasjonen. Det betyr at andre deler kan være mangelfulle.</p><p>Se hva du har svart under. Der kan du også endre svarene.</p><p>Takk for at du brukte veiviseren!</p>",
-        "incompleteWithError": "[DENNE VIL ALDRI VISES]"
+        "incompleteWithError": ""
       }
     }
   ]
