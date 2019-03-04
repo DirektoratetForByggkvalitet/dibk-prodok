@@ -2953,14 +2953,42 @@
             {
               "id": "produktCeMerket.error",
               "type": "Error",
-              "show": { "field": "produktCeMerket", "operator": "eq", "value": false },
+              "show": {
+                "type": "and",
+                "clauses": [
+                  { "field": "$computed.ceValgfri", "operator": "eq", "value": false },
+                  { "field": "produktCeMerket", "operator": "eq", "value": false }
+                ]
+              },
               "children": [
                 {
                   "id": "produktCeMerket.msg",
                   "type": "Text",
                   "warning": true,
                   "heading": "Produktet må ha CE-merke",
-                  "text": "Etterspør dokumentasjon som viser at produktet er CE-merket. Finnes ikke merket, må dere vurdere oppfølging basert på hvor alvorlig bruddet er.</a>"
+                  "text": "Etterspør dokumentasjon som viser at produktet er CE-merket. Finnes ikke merket, må dere vurdere oppfølging basert på hvor alvorlig bruddet er."
+                }
+              ]
+            },
+            {
+              "id": "produktETACeMerket.error",
+              "type": "Error",
+              "show": {
+                "type": "and",
+                "clauses": [
+                  { "field": "$computed.ceValgfri", "operator": "eq", "value": true },
+                  { "field": "eta", "operator": "eq", "value": true },
+                  { "field": "produktCeMerket", "operator": "eq", "value": false }
+
+                ]
+              },
+              "children": [
+                {
+                  "id": "produktETACeMerket.msg",
+                  "type": "Text",
+                  "warning": true,
+                  "heading": "Produktet skal ha et CE-merke",
+                  "text": "Produsenten har skaffet en ETA, og bør også ha CE-merke. Etterspør dokumentasjon som viser at produktet er CE-merket. Finnes ikke merket, må dere vurdere oppfølging basert på hvor alvorlig bruddet er."
                 }
               ]
             }
@@ -2986,13 +3014,6 @@
                 "clauses": [
                   { "field": "produktType", "operator": "eq", "value": "annet" },
                   { "field": "eta", "operator": "eq", "value": false }
-                ]
-              },
-              {
-                "type": "and",
-                "clauses": [
-                  { "field": "produktType", "operator": "eq", "value": "annet" },
-                  { "field": "produktCeMerket", "operator": "eq", "value": false }
                 ]
               }
             ]
@@ -3146,7 +3167,7 @@
                 "type": "and",
                 "clauses": [
                   { "field": "produktType", "operator": "eq", "value": "annet" },
-                  { "field": "produktCeMerket", "operator": "eq", "value": true }
+                  { "field": "produktCeMerket", "operator": "required" }
                 ]
               }
             ]
