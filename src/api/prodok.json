@@ -2979,7 +2979,6 @@
                   { "field": "$computed.ceValgfri", "operator": "eq", "value": true },
                   { "field": "eta", "operator": "eq", "value": true },
                   { "field": "produktCeMerket", "operator": "eq", "value": false }
-
                 ]
               },
               "children": [
@@ -3355,7 +3354,6 @@
       "type": "Page",
       "heading": "Bruksanvisning",
       "lead": "De fleste produkter må ha en bruksanvisning eller monteringsanvisning. Det må også kunne legges ved sikkerhetsinformasjon dersom produktet inneholder farlige stoffer.",
-      "show": { "field": "produktType", "operator": "required" },
       "show": {
         "type": "and",
         "clauses": [
