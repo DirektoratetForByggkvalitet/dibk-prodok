@@ -2632,7 +2632,7 @@
               "heading": "Baderomsmodul",
               "value": "prefabrikkertBaderomsmodul",
               "image": {
-                "url": "/images/baderomsmodul.png",
+                "url": "https://dibk.no/globalassets/2.-verktoy-og-veivisere/prodok/baderomsmodul.png",
                 "alt": "Baderomsmodul"
               }
             },
@@ -2642,7 +2642,7 @@
               "heading": "Brannklassifisert fugemasse",
               "value": "brannsikkerFugemasse",
               "image": {
-                "url": "/images/brannfugemasse.png",
+                "url": "https://dibk.no/globalassets/2.-verktoy-og-veivisere/prodok/brannfugemasse.png",
                 "alt": "Brannklassifisert fugemasse"
               }
             },
@@ -2652,7 +2652,7 @@
               "heading": "Byggmoduler i stål",
               "value": "prefabrikkerteByggmodulerStal",
               "image": {
-                "url": "/images/prefabrikkert_staal.png",
+                "url": "https://dibk.no/globalassets/2.-verktoy-og-veivisere/prodok/prefabrikkert_staal.png",
                 "alt": "Byggmoduler i stål"
               }
             },
@@ -2662,7 +2662,7 @@
               "heading": "Byggmoduler i tre",
               "value": "prefabrikkerteByggmodulerTre",
               "image": {
-                "url": "/images/prefabrikkert_tre.png",
+                "url": "https://dibk.no/globalassets/2.-verktoy-og-veivisere/prodok/prefabrikkert_tre.png",
                 "alt": "Byggmoduler i tre"
               }
             },
@@ -2672,7 +2672,7 @@
               "heading": "Elementer i tre",
               "value": "element",
               "image": {
-                "url": "/images/element.png",
+                "url": "https://dibk.no/globalassets/2.-verktoy-og-veivisere/prodok/element.png",
                 "alt": "Elementer i tre"
               }
             },
@@ -2682,7 +2682,7 @@
               "heading": "Hulldekkelementer",
               "value": "hulldekkeelementer",
               "image": {
-                "url": "/images/hulldekkemodul_ce.png",
+                "url": "https://dibk.no/globalassets/2.-verktoy-og-veivisere/prodok/hulldekkemodul_ce.png",
                 "alt": "Hulldekkelement med CE-merke"
               }
             },
@@ -2692,7 +2692,7 @@
               "heading": "Prefabrikkerte stålkonstruksjoner",
               "value": "prefabrikkerteStalkonstruksjoner",
               "image": {
-                "url": "/images/prefab_staalkonstruksjon_ce.png",
+                "url": "https://dibk.no/globalassets/2.-verktoy-og-veivisere/prodok/prefab_staalkonstruksjon_ce.png",
                 "alt": "prefabrikkert stålkonstruksjon med CE-merke"
               }
             },
@@ -2702,7 +2702,7 @@
               "heading": "Påhengsfasader",
               "value": "pahengsfasader",
               "image": {
-                "url": "/images/paahengsfasade_ce.png",
+                "url": "https://dibk.no/globalassets/2.-verktoy-og-veivisere/prodok/paahengsfasade_ce.png",
                 "alt": "Påhengsfasade med CE-merke"
               }
             },
@@ -2712,7 +2712,7 @@
               "heading": "Radonmembran",
               "value": "radonmembran",
               "image": {
-                "url": "/images/radonmembran.png",
+                "url": "https://dibk.no/globalassets/2.-verktoy-og-veivisere/prodok/radonmembran.png",
                 "alt": "Radonmembran"
               }
             },
@@ -2722,7 +2722,7 @@
               "heading": "Rør og rørdeler i betong",
               "value": "ror",
               "image": {
-                "url": "/images/fibersementroer_ce.png",
+                "url": "https://dibk.no/globalassets/2.-verktoy-og-veivisere/prodok/fibersementroer_ce.png",
                 "alt": "Rør med CE-merke"
               }
             },
@@ -2732,7 +2732,7 @@
               "heading": "Sandwichelementer",
               "value": "sandwichelementer",
               "image": {
-                "url": "/images/sandwhichpaneler_ce.png",
+                "url": "https://dibk.no/globalassets/2.-verktoy-og-veivisere/prodok/sandwhichpaneler_ce.png",
                 "alt": "Sandwichelement med CE-merke"
               }
             },
@@ -2742,7 +2742,7 @@
               "heading": "Sikkerhetsglass",
               "value": "laminertGlass",
               "image": {
-                "url": "/images/laminert_glass_ce.png",
+                "url": "https://dibk.no/globalassets/2.-verktoy-og-veivisere/prodok/laminert_glass_ce.png",
                 "alt": "Sikkerhetsglass med CE-merke"
               }
             },
@@ -2752,7 +2752,7 @@
               "heading": "Styrkesortert konstruksjonsvirke",
               "value": "styrkesortertKonstruksjonsvirke",
               "image": {
-                "url": "/images/konstruksjonsvirke_ce.png",
+                "url": "https://dibk.no/globalassets/2.-verktoy-og-veivisere/prodok/konstruksjonsvirke_ce.png",
                 "alt": "Konstruksjonsvirke med CE-merke"
               }
             },
@@ -2762,7 +2762,7 @@
               "heading": "Takbelegg med asfalt",
               "value": "takbelegg",
               "image": {
-                "url": "/images/takbelegg_bitumen_ce.png",
+                "url": "https://dibk.no/globalassets/2.-verktoy-og-veivisere/prodok/takbelegg_bitumen_ce.png",
                 "alt": "Takbelegg med CE-merke"
               }
             },
@@ -2772,7 +2772,7 @@
               "heading": "Takstoler",
               "value": "takstoler",
               "image": {
-                "url": "/images/takstoler_ce.png",
+                "url": "https://dibk.no/globalassets/2.-verktoy-og-veivisere/prodok/takstoler_ce.png",
                 "alt": "Takstol med CE-merke"
               }
             },
@@ -2782,7 +2782,7 @@
               "heading": "Trapper i stål eller tre",
               "value": "prefabrikkertTrapp",
               "image": {
-                "url": "/images/trapp.png",
+                "url": "https://dibk.no/globalassets/2.-verktoy-og-veivisere/prodok/trapp.png",
                 "alt": "Trapp"
               }
             },
@@ -2792,7 +2792,7 @@
               "heading": "Utvendig fasadekledning i metall",
               "value": "fasadekledningMetall",
               "image": {
-                "url": "/images/fasadekledning_metall_ce.png",
+                "url": "https://dibk.no/globalassets/2.-verktoy-og-veivisere/prodok/fasadekledning_metall_ce.png",
                 "alt": "Fasadekledning i metall med CE-merke"
               }
             },
@@ -2802,7 +2802,7 @@
               "heading": "Veggelementer i betong",
               "value": "veggelement",
               "image": {
-                "url": "/images/veggelementer_betong_ce.png",
+                "url": "https://dibk.no/globalassets/2.-verktoy-og-veivisere/prodok/veggelementer_betong_ce.png",
                 "alt": "Veggelementer i betong med CE-merke"
               }
             },
@@ -2812,7 +2812,7 @@
               "heading": "Vindsperre på rull",
               "value": "vindsperre",
               "image": {
-                "url": "/images/vindsperre_ce.png",
+                "url": "https://dibk.no/globalassets/2.-verktoy-og-veivisere/prodok/vindsperre_ce.png",
                 "alt": "Vindsperre med CE-merke"
               }
             },
@@ -2822,7 +2822,7 @@
               "heading": "Vinduer (uten brannegenskaper)",
               "value": "vindu",
               "image": {
-                "url": "/images/vindu_ce.png",
+                "url": "https://dibk.no/globalassets/2.-verktoy-og-veivisere/prodok/vindu_ce.png",
                 "alt": "Vindu med CE-merke"
               }
             },
@@ -2832,7 +2832,7 @@
               "heading": "Annet produkt",
               "value": "annet",
               "image": {
-                "url": "/images/annet.png",
+                "url": "https://dibk.no/globalassets/2.-verktoy-og-veivisere/prodok/annet.png",
                 "alt": "Annet produkt"
               }
             }
