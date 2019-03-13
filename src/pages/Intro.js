@@ -14,7 +14,7 @@ function Intro({ close, data: { $computed, ...data } }) {
       <IntroMain>
         <Primitives.Heading.H1>Tilsyn med produktdokumentasjon</Primitives.Heading.H1>
         <Primitives.Paragraphs.Lead>
-          Denne veiviseren hjelper deg med å føre tilsyn med produktdokumentasjon. Svar på spørsmålene for å finne ut om dokumentasjonen er i orden.
+          Denne veiviseren hjelper deg i kommunen med å føre tilsyn med produktdokumentasjon. Svar på spørsmålene for å finne ut om dokumentasjonen er i orden.
         </Primitives.Paragraphs.Lead>
         <section>
           <div>
